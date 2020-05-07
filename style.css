@@ -55,11 +55,13 @@
 }
 
 <<<<<<< HEAD
-.map-container-2{
+.map-container-2 {
 overflow:hidden;
 position:relative;
 height:0;
 =======
+}
+
 .map-container-2 {
     overflow: hidden;
     padding-bottom: 56.25%;
