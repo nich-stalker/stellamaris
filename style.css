@@ -54,20 +54,11 @@
     font-size: 1em;
 }
 
-<<<<<<< HEAD
-.map-container-2 {
-overflow:hidden;
-position:relative;
-height:0;
-=======
-}
-
 .map-container-2 {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
->>>>>>> 0229c66fa45cd4eb073e9e0bb170ba748d41bb51
 }
 
 .map-container-2 iframe {
@@ -79,14 +70,8 @@ height:0;
 }
 
 .directions-title {
-<<<<<<< HEAD
-text-align: center;
-padding-top: 2em;
-padding-bottom: 1em;
-=======
     text-align: center;
     padding: 2em;
->>>>>>> 0229c66fa45cd4eb073e9e0bb170ba748d41bb51
 }
 
 .directions-info {
@@ -94,16 +79,10 @@ padding-bottom: 1em;
     background-color: #a3b7f3;
 }
 
-<<<<<<< HEAD
-.directions-info-text{
-padding-left: 15em;
-padding-bottom: 5em;
-=======
 .directions-info-text {
     padding-left: 15em;
     padding-bottom: 5em;
     font-size:
->>>>>>> 0229c66fa45cd4eb073e9e0bb170ba748d41bb51
 }
 
 .footer {
