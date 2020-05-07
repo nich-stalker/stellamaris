@@ -62,7 +62,8 @@ position:absolute;
 
 .directions-title {
 text-align: center;
-padding: 2em;
+padding-top: 2em;
+padding-bottom: 1em;
 }
 
 .directions-info{
@@ -73,7 +74,6 @@ background-color: #a3b7f3;
 .directions-info-text{
 padding-left: 15em;
 padding-bottom: 5em;
-font-size: 
 }
 
 .footer {
