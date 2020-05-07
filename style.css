@@ -23,7 +23,8 @@
 }
 
 .navigation-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway',
+        sans-serif;
     font-size: 1em;
 }
 
@@ -85,8 +86,38 @@
 }
 
 .footer {
-    background-color: #26418d;
+    background-color: #5C72B7;
     color: white;
     text-decoration: none;
     color: inherit;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+}
+
+ul#horizontal-list li {
+    display: inline;
+}
+
+a {
+    color: #ffffff
+}
+
+.footer-text {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-logo-center {
+    max-height: 70px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.facebook-logo-footer {
+    max-height: 30px;
 }
