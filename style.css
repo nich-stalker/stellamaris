@@ -1,0 +1,123 @@
+.navbar .navbar-brand {
+    max-height: 50px;
+    padding: 0px;
+}
+
+.navbar .navbar-brand > img {
+    max-height: 50px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.navbar {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    background-color: #5C72B7;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.navigation-text {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px;
+}
+
+.navbar-form {
+    width: auto;
+    padding-top: 6px;
+}
+
+.navbar-right {
+    padding-right: 20px;
+}
+
+.btn {
+    padding-right: 12px;
+    background-color: #FDDD00;
+    color: #293279;
+    font-family: 'Raleway 800',
+        sans-serif;
+    font-size: 1em;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.directions-title {
+    text-align: center;
+    padding: 2em;
+}
+
+.directions-info {
+    color: black;
+    background-color: #a3b7f3;
+}
+
+.directions-info-text {
+    padding-left: 15em;
+    padding-bottom: 5em;
+    font-size:
+}
+
+.footer {
+    background-color: #5C72B7;
+    color: white;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+}
+
+ul#horizontal-list li {
+    display: inline;
+}
+
+a {
+    color: #ffffff
+}
+
+.footer-text {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-logo-center {
+    max-height: 70px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.facebook-logo-footer {
+    max-height: 30px;
+}
