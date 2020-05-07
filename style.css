@@ -44,3 +44,41 @@
         sans-serif;
     font-size: 1em;
 }
+
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.directions-title {
+text-align: center;
+padding: 2em;
+}
+
+.directions-info{
+color: black;
+background-color: #a3b7f3;
+}
+
+.directions-info-text{
+padding-left: 15em;
+padding-bottom: 5em;
+font-size: 
+}
+
+.footer {
+background-color: #26418d;
+color: white;
+text-decoration: none;
+color: inherit;
+}
