@@ -48,6 +48,8 @@
 .herobg {
     background: url("assets/placeholder.png") no-repeat center center;
     background-size: cover;
+    height: 75vh;
+
 }
 
 .herobg h1 {
@@ -68,7 +70,7 @@
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
 }
 
 .support-us-text {
@@ -76,7 +78,7 @@
     text-align: center;
 }
 
-.seafarers-rights-text {
+.seafarers-rights-img {
     text-align: center;
 }
 
