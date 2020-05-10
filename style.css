@@ -46,24 +46,62 @@
 }
 
 .herobg {
-    background: url("assets/placeholder.png") no-repeat center center;
+    background: url("assets/herobg.png") no-repeat center center;
     background-size: cover;
     height: 75vh;
-
+    color: #ffffff;
+    padding-left: 200px;
+    padding-top: 150px;
 }
 
-.herobg h1 {
-    margin: 0px;
+.ourservices_btn {
     padding-top: 20px;
 }
 
+h1 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 800;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1em;
+}
+
 .btn {
+    border: none;
     padding-right: 12px;
     background-color: #FDDD00;
     color: #293279;
     font-family: 'Raleway 800',
         sans-serif;
     font-size: 1em;
+    font-weight: 800;
+    border-radius: 30pt;
+}
+
+.directions_text {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
 }
 
 .support-us {
@@ -76,6 +114,7 @@
 .support-us-text {
     color: #ffffff;
     text-align: center;
+    padding-top: 100px;
 }
 
 .seafarers-rights-img {
