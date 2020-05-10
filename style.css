@@ -1,3 +1,13 @@
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-sm-6 {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar .navbar-brand {
     max-height: 50px;
     padding: 0px;
@@ -16,6 +26,15 @@
     padding-bottom: 10px;
     margin: 0px;
     background-color: #5C72B7;
+    border: 0px;
+}
+
+.navbar-right {
+    margin: 0px;
+}
+
+.form-group {
+    padding-right: 25px;
 }
 
 .container-fluid {
@@ -45,13 +64,112 @@
     padding-right: 20px;
 }
 
+.herobg {
+    background: url("assets/herobg.png") no-repeat center center;
+    background-size: cover;
+    height: 75vh;
+    color: #ffffff;
+    padding-left: 200px;
+    padding-top: 170px;
+}
+
+.ourservices_btn {
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 800;
+    margin: 0px;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+p {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1em;
+}
+
 .btn {
+    border: none;
     padding-right: 12px;
     background-color: #FDDD00;
     color: #293279;
     font-family: 'Raleway 800',
         sans-serif;
     font-size: 1em;
+    font-weight: 800;
+    border-radius: 30pt;
+}
+
+.directions_text {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.support-us {
+    width: 100%;
+    background: url("assets/ocean_texture.png") no-repeat center center;
+    background-size: cover;
+    height: 75vh;
+}
+
+.support-us-section {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.icons {
+    padding: 25px;
+}
+
+.donation_text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.volunteer_text {
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.seafarers-rights-img {
+    text-align: center;
+    padding-left: 125px;
+}
+
+.rights {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rights_content {
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-left: 50px;
 }
 
 .map-container-2 {
@@ -88,11 +206,9 @@
 .footer {
     background-color: #5C72B7;
     color: white;
-    text-decoration: none;
-    color: inherit;
     padding-bottom: 20px;
     padding-top: 20px;
-    align-content: center;
+    text-align: center;
 }
 
 ul#horizontal-list li {
@@ -120,4 +236,97 @@ a {
 
 .facebook-logo-footer {
     max-height: 30px;
+}
+
+.our-services {
+    
+    width: 100%;
+    background: url("assets/ocean_texture.png") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    
+}
+
+.our-services-header {
+    color: white;
+}
+
+.our-services-title {
+padding-top: 30vh;
+}
+
+.wifi-title {
+color: white;
+}
+
+.wifi-text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.our-services-images {
+    padding: 25px;
+}
+
+.money-title {
+color: white;
+}
+
+.money-text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.food-title {
+color: white;
+}
+
+.food-text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.sim-title {
+color: white;
+}
+
+.sim-text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.our-services-section-light {
+    width: 100%;
+    background-color: royalblue no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+.our-services-section-dark {
+    width: 100%;
+    background-color: skyblue no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+.our-services-info {
+    background-color: royalblue;
+}
+
+.our-services-bottom {
+padding-bottom: 50vh;
 }
