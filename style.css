@@ -1,3 +1,13 @@
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-sm-6 {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar .navbar-brand {
     max-height: 50px;
     padding: 0px;
@@ -51,7 +61,7 @@
     height: 75vh;
     color: #ffffff;
     padding-left: 200px;
-    padding-top: 150px;
+    padding-top: 170px;
 }
 
 .ourservices_btn {
@@ -63,6 +73,7 @@ h1 {
         sans-serif;
     font-weight: 800;
     margin: 0px;
+    font-size: 3em;
 }
 
 h2 {
@@ -78,6 +89,7 @@ h3 {
     font-family: 'Raleway',
         sans-serif;
     font-weight: 700;
+    font-size: 2.5em;
 }
 
 p {
@@ -111,14 +123,37 @@ p {
     height: 75vh;
 }
 
-.support-us-text {
+.support-us-section {
     color: #ffffff;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+.icons {
+    padding: 25px;
+}
+
+.donation_text {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.volunteer_text {
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: left;
 }
 
 .seafarers-rights-img {
     text-align: center;
+}
+
+.rights {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .map-container-2 {
