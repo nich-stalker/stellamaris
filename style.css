@@ -349,12 +349,14 @@ padding-bottom: 50vh;
     padding-left: 200px;
     padding-right: 100px;
     padding-top: 100px;
+    color:black;
 }
 
 .contact-right_text {
     padding-left: 100px;
     padding-right: 200px;
     padding-top: 100px;
+    color:black;
 }
 
 .contact-section {
@@ -365,12 +367,29 @@ padding-bottom: 50vh;
 .contact {
     width: 100%;
     background-size: cover;
-    height: 75vh;
+    height: 60vh;
 }
 
-.feedback{
+.feedback {
     width: 100%;
-    background-color:#a3b7f3;
+    background-color: #a3b7f3;
     background-size: cover;
     height: 75vh;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-right: 100px;
+}
+.feedback_content{
+
+}
+
+.feedback-text{
+
+}
+
+.feedback-input{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px
+    font-family: 'Raleway', sans-serif;
 }
