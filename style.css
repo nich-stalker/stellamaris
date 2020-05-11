@@ -130,13 +130,13 @@ p {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
 }
 
 .support-us-section {
     color: #ffffff;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 50px;
 }
 
 .icons {
