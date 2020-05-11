@@ -122,20 +122,20 @@ p {
 .directions_text {
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .support-us {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 75vh;
+    height: 90vh;
 }
 
 .support-us-section {
     color: #ffffff;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .icons {
@@ -239,14 +239,14 @@ a {
 }
 
 .our-services {
-    
+
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
     height: 50vh;
     text-align: center;
     color: white;
-    
+
 }
 
 .our-services-header {
@@ -254,11 +254,11 @@ a {
 }
 
 .our-services-title {
-padding-top: 30vh;
+    padding-top: 30vh;
 }
 
 .wifi-title {
-color: white;
+    color: white;
 }
 
 .wifi-text {
@@ -273,7 +273,7 @@ color: white;
 }
 
 .money-title {
-color: white;
+    color: white;
 }
 
 .money-text {
@@ -284,7 +284,7 @@ color: white;
 }
 
 .food-title {
-color: white;
+    color: white;
 }
 
 .food-text {
@@ -295,7 +295,7 @@ color: white;
 }
 
 .sim-title {
-color: white;
+    color: white;
 }
 
 .sim-text {
@@ -328,7 +328,7 @@ color: white;
 }
 
 .our-services-bottom {
-padding-bottom: 50vh;
+    padding-bottom: 50vh;
 }
 
 .secondary-banner {
@@ -349,14 +349,14 @@ padding-bottom: 50vh;
     padding-left: 200px;
     padding-right: 100px;
     padding-top: 100px;
-    color:black;
+    color: black;
 }
 
 .contact-right_text {
     padding-left: 100px;
     padding-right: 200px;
     padding-top: 100px;
-    color:black;
+    color: black;
 }
 
 .contact-section {
@@ -379,17 +379,13 @@ padding-bottom: 50vh;
     padding-top: 70px;
     padding-right: 100px;
 }
-.feedback_content{
 
-}
+.feedback_content {}
 
-.feedback-text{
+.feedback-text {}
 
-}
-
-.feedback-input{
+.feedback-input {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px
-    font-family: 'Raleway', sans-serif;
+    padding-top: 10px font-family: 'Raleway', sans-serif;
 }
