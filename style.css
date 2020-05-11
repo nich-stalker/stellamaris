@@ -330,3 +330,47 @@ color: white;
 .our-services-bottom {
 padding-bottom: 50vh;
 }
+
+.secondary-banner {
+    background: url("assets/placeholder.png") no-repeat center center;
+    background-size: cover;
+    height: 30vh;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.contact-header {
+    color: black;
+    text-align: center;
+}
+
+.contact-left_text {
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.contact-right_text {
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.contact-section {
+    color: black;
+    padding-top: 50px;
+}
+
+.contact {
+    width: 100%;
+    background-size: cover;
+    height: 75vh;
+}
+
+.feedback{
+    width: 100%;
+    background-color:#a3b7f3;
+    background-size: cover;
+    height: 75vh;
+}
