@@ -1,0 +1,12 @@
+@media(max-width:1238px) {
+
+    .navbar-nav > li > a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .navbar-right {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
