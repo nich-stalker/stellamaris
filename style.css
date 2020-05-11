@@ -250,12 +250,33 @@ a {
 
 }
 
-.our-services-header {
+.our-services-more {
+
+    width: 100%;
+    background: url("assets/placeholder.png") no-repeat center center;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
     color: white;
+
+}
+
+.our-services-more-text {
+    padding-top: 5vh;
+}
+
+.lightblue {
+    
+    background-color: lightskyblue;
+}
+
+.darkblue {
+    background-color: royalblue;
 }
 
 .our-services-title {
     padding-top: 30vh;
+    color: white;
 }
 
 .wifi-title {
@@ -306,9 +327,8 @@ a {
     text-align: left;
 }
 
-.our-services-section-light {
+.our-services-section {
     width: 100%;
-    background-color: royalblue no-repeat center center;
     background-size: cover;
     height: 50vh;
     text-align: center;
@@ -325,7 +345,7 @@ a {
 }
 
 .our-services-info {
-    background-color: royalblue;
+
 }
 
 .our-services-bottom {
@@ -389,4 +409,44 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px font-family: 'Raleway', sans-serif;
+}
+
+.rights-section {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.rights-header {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+.rights-header {
+    color: black;
+    text-align: center;
+}
+
+.rights-contact {
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    height: 50vh;
+    padding-top: 4%;
+    
+}
+
+.rights-link {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+.rights-title {
+    padding-top: 3%;
+}
+
+.rights-intro {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 3%;
 }
