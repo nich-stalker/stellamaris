@@ -130,7 +130,7 @@ p {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 85vh;
+    height: 95vh;
 }
 
 .support-us-section {
@@ -266,7 +266,7 @@ a {
 }
 
 .lightblue {
-    
+
     background-color: lightskyblue;
 }
 
@@ -344,9 +344,7 @@ a {
     color: white;
 }
 
-.our-services-info {
-
-}
+.our-services-info {}
 
 .our-services-bottom {
     padding-bottom: 50vh;
@@ -433,7 +431,7 @@ a {
     text-align: center;
     height: 50vh;
     padding-top: 4%;
-    
+
 }
 
 .rights-link {
