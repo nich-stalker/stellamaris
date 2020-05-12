@@ -8,7 +8,7 @@
     padding: 0px;
 }
 
-/*-----------------------------------------------------NAVBAR-----------------------------------------------------------------*/
+/*-----------------------------------------------------NAVBAR START-----------------------------------------------------------------*/
 .navbar .navbar-brand {
     max-height: 50px;
     padding: 0px;
@@ -64,6 +64,8 @@
 .navbar-right {
     padding-right: 20px;
 }
+
+/*-----------------------------------------------------NAVBAR END-----------------------------------------------------------------*/
 
 .herobg {
     background: url("assets/herobg.png") no-repeat center center;
@@ -130,7 +132,7 @@ p {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 95vh;
+    height: 80vh;
 }
 
 .support-us-section {
