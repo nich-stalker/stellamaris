@@ -484,7 +484,7 @@ a {
 }
 
 .volunteer {
-    padding-left: 200px;
+    padding-left: 175px;
     padding-top: 70px;
     padding-bottom: 70px;
     padding-right: 200px;
@@ -492,6 +492,13 @@ a {
 
 .volunteer-title {
     padding-bottom: 10px;
+}
+
+.volunteer-img {
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 100px;
 }
 
 .donate {
