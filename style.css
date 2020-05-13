@@ -511,3 +511,14 @@ a {
 .donate-title {
     padding-bottom: 10px;
 }
+
+.about-us-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.about-us-title {
+    padding-bottom: 10px;
+}
