@@ -1,12 +1,34 @@
+/***********************************************************************************CHANGES AT 1238px*/
+
 @media(max-width:1238px) {
 
     .navbar-nav > li > a {
-        padding-left: 8px;
-        padding-right: 8px;
+        font-size: 0.9em;
     }
 
     .navbar-right {
         padding-left: 8px;
         padding-right: 8px;
     }
+
+    .btn.btn-default.header {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .form-group.search-bar {}
+}
+
+/***********************************************************************************CHANGES AT 1165x*/
+
+
+@media(max-width:1165px) {
+
+    .navbar-nav > li > a {
+        font-size: 0.9em;
+    }
+
 }
