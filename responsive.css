@@ -1,6 +1,6 @@
-/***********************************************************************************CHANGES AT 1238px*/
+/***********************************************************************************CHANGES AT 1254px*/
 
-@media(max-width:1238px) {
+@media(max-width:1254px) {
 
     .navbar-nav > li > a {
         font-size: 0.9em;
@@ -19,16 +19,246 @@
         padding-bottom: 8px;
     }
 
-    .form-group.search-bar {}
+    .btn.btn-default.footer {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .search-bar {
+        max-width: 175px;
+    }
+
+    .footer-text {
+        font-size: 0.9em;
+    }
+
+
 }
 
-/***********************************************************************************CHANGES AT 1165x*/
+/***********************************************************************************CHANGES AT 1182x*/
 
+@media(max-width:1182px) {
 
-@media(max-width:1165px) {
+    .navbar-nav > li > a {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .btn.btn-default.footer {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .search-bar {
+        max-width: 165px;
+        max-height: 26px;
+    }
+
+    .form-group {
+        padding-right: 15px;
+    }
+
+    .nav.navbar-nav.navbar-right {
+        padding-top: 3px;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 976x*/
+
+@media(max-width:977px) {
+
+    .navbar-nav > li > a {
+        font-size: 0.75em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.header {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .search-bar {
+        max-width: 150px;
+    }
+
+    .footer-text {
+        font-size: 0.75em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 899x*/
+
+@media(max-width:899px) {
+
+    .navbar-nav > li > a {
+        font-size: 0.7em;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.7em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.footer {
+        font-size: 0.7em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .navbar-right {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .form-group {
+        padding-right: 8px;
+    }
+
+    .footer-text {
+        font-size: 0.7em;
+    }
+}
+
+/***********************************************************************************CHANGES AT 841*/
+
+@media(max-width:841px) {
+
+    .navbar-nav > li > a {
+        font-size: 0.6em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .footer-text {
+        font-size: 0.6em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 767*/
+
+@media(max-width:767px) {
+
+    .container-fluid.navbar {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .navbar-toggle {
+        border-color: #ffffff;
+    }
 
     .navbar-nav > li > a {
         font-size: 0.9em;
+    }
+
+    .navbar-right {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .form-group {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 738*/
+
+@media(max-width:738px) {
+
+    .footer-list {
+        padding-right: 40px;
+        padding-left: 0px;
+
+    }
+
+    .footer-text.left {
+        display: none;
+    }
+
+    .btn.btn-default.footer {
+        display: none;
+    }
+
+    .footer-text {
+        font-size: 0.9em;
+    }
+}
+
+
+/***********************************************************************************CHANGES AT 475*/
+
+@media(max-width:475px) {
+
+    .footer-text {
+        font-size: 0.7em;
+    }
+
+    .footer-logo-center {
+        max-height: 50px;
+    }
+
+    .footer-list {
+        padding-right: 25px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 390*/
+
+@media(max-width:390px) {
+
+    .footer-text {
+        font-size: 0.5em;
+    }
+
+    .footer-logo-center {
+        max-height: 30px;
+    }
+
+    .facebook-logo-footer {
+        max-height: 20px;
     }
 
 }
