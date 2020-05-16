@@ -156,7 +156,7 @@ p {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
     background-size: cover;
-    height: 85vh;
+    height: 75vh;
 }
 
 .support-us-section {
@@ -186,6 +186,12 @@ p {
 .seafarers-rights-img {
     text-align: center;
     padding-left: 200px;
+}
+
+.col-sm-6.supportus-img {
+    background: url("assets/support_us.jpg") no-repeat center center;
+    background-size: cover;
+    height: 350px;
 }
 
 .rights {
