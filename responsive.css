@@ -37,7 +37,13 @@
         font-size: 0.9em;
     }
 
+    /**************************** SUPPORT US PAGE*/
 
+    .support-seafarers {
+        padding-left: 200px;
+        padding-right: 75px;
+        padding-top: 115px;
+    }
 
 }
 
@@ -125,6 +131,19 @@
         padding-left: 80px;
         padding-right: 50px;
     }
+
+    /**************************** SUPPORT US PAGE*/
+
+    img.supportus-img {
+        height: 275px;
+    }
+
+    .support-seafarers {
+        padding-left: 130px;
+        padding-right: 120px;
+        padding-top: 85px;
+    }
+
 
 }
 
