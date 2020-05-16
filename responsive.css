@@ -88,6 +88,30 @@
         padding-right: 10px;
     }
 
+    /**************************** INDEX PAGE*/
+
+    .directions_text {
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+
+    img.minimal-map-freo {
+        max-height: 340px;
+        padding-right: 100px;
+    }
+
+    .herobg {
+        padding-left: 120px;
+    }
+
+    .seafarers-rights-img {
+        padding-left: 100px;
+    }
+
+    .rights_content {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 
 }
 
@@ -121,6 +145,13 @@
         font-size: 0.75em;
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .herobg {
+        max-height: 50vh;
+        padding-top: 75px;
     }
 
 
