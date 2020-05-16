@@ -112,6 +112,20 @@
         padding-left: 50px;
     }
 
+    .support-us-section {
+        padding-top: 25px;
+    }
+
+    .donation_text {
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    .volunteer_text {
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -167,13 +181,35 @@
 
     .directions_text {
         padding-right: 50px;
+    }
 
+    img.minimal-map-freo {
+        max-height: 300px;
     }
 
     .col-sm-5.map {
         padding-right: 100px;
     }
 
+    img.donation-white {
+        max-height: 120px;
+    }
+
+    img.volunteer-white {
+        max-height: 120px;
+    }
+
+    .support-us {
+        height: 75vh;
+    }
+
+    img.seafarers-rights {
+        height: 200px;
+    }
+
+    .rights_content {
+        padding-top: 20px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 899x*/
