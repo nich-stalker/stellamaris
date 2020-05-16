@@ -40,9 +40,13 @@
     /**************************** SUPPORT US PAGE*/
 
     .support-seafarers {
-        padding-left: 200px;
+        padding-left: 100px;
         padding-right: 75px;
         padding-top: 115px;
+    }
+
+    .support-us {
+        height: 70vh;
     }
 
 }
@@ -132,17 +136,6 @@
         padding-right: 50px;
     }
 
-    /**************************** SUPPORT US PAGE*/
-
-    img.supportus-img {
-        height: 275px;
-    }
-
-    .support-seafarers {
-        padding-left: 130px;
-        padding-right: 120px;
-        padding-top: 85px;
-    }
 
 
 }
@@ -229,6 +222,29 @@
     .rights_content {
         padding-top: 10px;
     }
+
+    /**************************** SUPPORT US PAGE*/
+
+    .col-sm-6.supportus-img {
+        height: 25vh;
+    }
+
+    .support-seafarers {
+        padding-top: 65px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .support-us {
+        height: 65vh;
+    }
+
+    .biography {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 899x*/
@@ -313,6 +329,12 @@
     .seafarers-rights-img {
         padding-left: 90px;
         padding-top: 15px;
+    }
+
+    /**************************** SUPPORT US PAGE*/
+
+    img.supportus-img {
+        height: 200px;
     }
 }
 
@@ -407,6 +429,20 @@
     .support-us {
         height: 110vh;
     }
+
+    /**************************** SUPPORT US PAGE*/
+
+    .support-seafarers {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .biography {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 738*/
@@ -480,6 +516,10 @@
         font-size: 0.9em;
     }
 
+    .support-us {
+        height: 90vh;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 475*/
@@ -504,6 +544,15 @@
 
     img.minimal-map-freo {
         max-height: 150px;
+    }
+
+    .support-us {
+        height: 95vh;
+    }
+
+    .biography {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
 
@@ -555,6 +604,15 @@
         font-size: 0.8em;
     }
 
+    .support-us {
+        height: 85vh;
+    }
+
+    .biography {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 350*/
@@ -565,5 +623,9 @@
 
     .support-us {
         height: 120vh;
+    }
+
+    .support-us {
+        height: 85vh;
     }
 }
