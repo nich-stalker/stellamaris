@@ -2,7 +2,7 @@
 
 @media(max-width:1254px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
         font-size: 0.9em;
@@ -37,7 +37,6 @@
         font-size: 0.9em;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
 
 
 }
@@ -46,7 +45,7 @@
 
 @media(max-width:1182px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
         font-size: 0.8em;
@@ -89,14 +88,14 @@
         padding-right: 10px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 }
 
 /***********************************************************************************CHANGES AT 976x*/
 
 @media(max-width:977px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
         font-size: 0.75em;
@@ -124,14 +123,14 @@
         padding-right: 8px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 }
 
 /***********************************************************************************CHANGES AT 899x*/
 
 @media(max-width:899px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
         font-size: 0.7em;
@@ -162,14 +161,14 @@
         font-size: 0.7em;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 }
 
 /***********************************************************************************CHANGES AT 841*/
 
 @media(max-width:841px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
         font-size: 0.6em;
@@ -183,14 +182,14 @@
         padding-right: 6px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 }
 
 /***********************************************************************************CHANGES AT 767*/
 
 @media(max-width:767px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .container-fluid.navbar {
         padding-right: 50px;
@@ -223,7 +222,7 @@
         padding-top: 10px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 
 }
 
@@ -231,7 +230,7 @@
 
 @media(max-width:738px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .footer-list {
         padding-right: 40px;
@@ -251,7 +250,7 @@
         font-size: 0.9em;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
+
 }
 
 
@@ -259,7 +258,7 @@
 
 @media(max-width:475px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .footer-text {
         font-size: 0.7em;
@@ -273,7 +272,6 @@
         padding-right: 25px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
 
 }
 
@@ -281,7 +279,7 @@
 
 @media(max-width:390px) {
 
-    /****************************START OF NAVBAR AND FOOTER*/
+    /**************************** NAVBAR AND FOOTER*/
 
     .footer-text {
         font-size: 0.5em;
@@ -295,6 +293,5 @@
         max-height: 20px;
     }
 
-    /****************************END OF NAVBAR AND FOOTER*/
 
 }
