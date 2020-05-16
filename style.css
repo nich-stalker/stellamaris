@@ -144,6 +144,14 @@ p {
     padding-top: 75px;
 }
 
+.col-sm-5.map {
+    float: right;
+}
+
+.col-sm-7.directions_bodycopy {
+    float: left;
+}
+
 .support-us {
     width: 100%;
     background: url("assets/ocean_texture.png") no-repeat center center;
