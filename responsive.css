@@ -180,7 +180,7 @@
     }
 
     .directions_text {
-        padding-right: 50px;
+        padding-right: 25px;
     }
 
     img.minimal-map-freo {
@@ -247,6 +247,23 @@
         font-size: 0.7em;
     }
 
+    /**************************** INDEX PAGE*/
+
+    img.minimal-map-freo {
+        max-height: 250px;
+    }
+
+    .directions_text {
+        padding-top: 15px;
+    }
+
+    .rights_content {
+        padding-top: 0px;
+    }
+
+    .rights {
+        padding-top: 25px;
+    }
 
 }
 
@@ -268,7 +285,16 @@
         padding-right: 6px;
     }
 
+    /**************************** INDEX PAGE*/
 
+    img.seafarers-rights {
+        height: 175px;
+    }
+
+    .seafarers-rights-img {
+        padding-left: 90px;
+        padding-top: 15px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 767*/
