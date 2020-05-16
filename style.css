@@ -124,6 +124,9 @@ p {
 .btn.btn-default.footer {
     border: none;
     padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: #FDDD00;
     color: #293279;
     font-family: 'Raleway 800',
