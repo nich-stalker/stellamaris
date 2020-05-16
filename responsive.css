@@ -334,8 +334,51 @@
         padding-top: 10px;
     }
 
+    /**************************** INDEX PAGE*/
 
+    .herobg {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
+    .container-fluid.directions {
+        text-align: center;
+    }
+
+    .col-sm-5.map {
+        float: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .col-sm-7.directions_bodycopy {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .directions_text {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+    }
+
+    .rights {
+        padding-bottom: 20px;
+    }
+
+    .donation_text {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .volunteer_text {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 738*/
@@ -362,7 +405,18 @@
         font-size: 0.9em;
     }
 
+    .support-us {
+        height: 110vh;
+    }
 
+    .seafarers-rights-img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rights_content {
+        text-align: center;
+    }
 }
 
 
