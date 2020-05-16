@@ -338,8 +338,8 @@
 
     .herobg {
         text-align: center;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .container-fluid.directions {
@@ -348,8 +348,8 @@
 
     .col-sm-5.map {
         float: none;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .col-sm-7.directions_bodycopy {
@@ -359,8 +359,8 @@
     }
 
     .directions_text {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
         padding-top: 5px;
     }
 
@@ -368,16 +368,25 @@
         padding-bottom: 20px;
     }
 
+    .support-us-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .donation_text {
         text-align: center;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .volunteer_text {
         text-align: center;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .support-us {
+        height: 110vh;
     }
 }
 
@@ -405,9 +414,7 @@
         font-size: 0.9em;
     }
 
-    .support-us {
-        height: 110vh;
-    }
+    /**************************** INDEX PAGE*/
 
     .seafarers-rights-img {
         padding-left: 0px;
@@ -419,6 +426,42 @@
     }
 }
 
+
+/***********************************************************************************CHANGES AT 575*/
+
+@media(max-width:575px) {
+
+    /**************************** INDEX PAGE*/
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    img.donation-white {
+        max-height: 100px;
+    }
+
+    img.volunteer-white {
+        max-height: 100px;
+    }
+
+    .btm {
+        font-size: 0.9em;
+    }
+
+}
 
 /***********************************************************************************CHANGES AT 475*/
 
@@ -438,7 +481,11 @@
         padding-right: 25px;
     }
 
+    /**************************** INDEX PAGE*/
 
+    img.minimal-map-freo {
+        max-height: 150px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 390*/
@@ -459,5 +506,45 @@
         max-height: 20px;
     }
 
+    /**************************** INDEX PAGE*/
 
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    img.donation-white {
+        max-height: 75px;
+    }
+
+    img.volunteer-white {
+        max-height: 75px;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 350*/
+
+@media(max-width:350px) {
+
+    /**************************** INDEX PAGE*/
+
+    .support-us {
+        height: 120vh;
+    }
 }
