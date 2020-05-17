@@ -1,12 +1,631 @@
-@media(max-width:1238px) {
+/***********************************************************************************CHANGES AT 1254px*/
+
+@media(max-width:1254px) {
+
+    /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        padding-left: 8px;
-        padding-right: 8px;
+        font-size: 0.9em;
     }
 
     .navbar-right {
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .btn.btn-default.footer {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .search-bar {
+        max-width: 175px;
+    }
+
+    .footer-text {
+        font-size: 0.9em;
+    }
+
+    /**************************** SUPPORT US PAGE*/
+
+    .support-seafarers {
+        padding-left: 100px;
+        padding-right: 75px;
+        padding-top: 115px;
+    }
+
+    .support-us {
+        height: 70vh;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 1182x*/
+
+@media(max-width:1182px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .navbar-nav > li > a {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .btn.btn-default.footer {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .search-bar {
+        max-width: 165px;
+        max-height: 26px;
+    }
+
+    .form-group {
+        padding-right: 15px;
+    }
+
+    .nav.navbar-nav.navbar-right {
+        padding-top: 3px;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .directions_text {
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+
+    img.minimal-map-freo {
+        max-height: 340px;
+    }
+
+    .herobg {
+        padding-left: 120px;
+    }
+
+    .seafarers-rights-img {
+        padding-left: 100px;
+    }
+
+    .rights_content {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .support-us-section {
+        padding-top: 25px;
+    }
+
+    .donation_text {
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    .volunteer_text {
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+
+
+
+}
+
+/***********************************************************************************CHANGES AT 976x*/
+
+@media(max-width:977px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .navbar-nav > li > a {
+        font-size: 0.75em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.header {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .search-bar {
+        max-width: 150px;
+    }
+
+    .footer-text {
+        font-size: 0.75em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .herobg {
+        max-height: 50vh;
+        padding-top: 75px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .directions_text {
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    .directions_text {
+        padding-right: 25px;
+    }
+
+    img.minimal-map-freo {
+        max-height: 300px;
+    }
+
+    .col-sm-5.map {
+        padding-right: 100px;
+    }
+
+    img.donation-white {
+        max-height: 120px;
+    }
+
+    img.volunteer-white {
+        max-height: 120px;
+    }
+
+    .support-us {
+        height: 75vh;
+    }
+
+    img.seafarers-rights {
+        height: 200px;
+    }
+
+    .rights_content {
+        padding-top: 10px;
+    }
+
+    /**************************** SUPPORT US PAGE*/
+
+    .col-sm-6.supportus-img {
+        height: 25vh;
+    }
+
+    .support-seafarers {
+        padding-top: 65px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .support-us {
+        height: 65vh;
+    }
+
+    .biography {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 899x*/
+
+@media(max-width:899px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .navbar-nav > li > a {
+        font-size: 0.7em;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.7em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.footer {
+        font-size: 0.7em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .navbar-right {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .form-group {
+        padding-right: 8px;
+    }
+
+    .footer-text {
+        font-size: 0.7em;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    img.minimal-map-freo {
+        max-height: 250px;
+    }
+
+    .directions_text {
+        padding-top: 15px;
+    }
+
+    .rights_content {
+        padding-top: 0px;
+    }
+
+    .rights {
+        padding-top: 25px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 841*/
+
+@media(max-width:841px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .navbar-nav > li > a {
+        font-size: 0.6em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .footer-text {
+        font-size: 0.6em;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    img.seafarers-rights {
+        height: 175px;
+    }
+
+    .seafarers-rights-img {
+        padding-left: 90px;
+        padding-top: 15px;
+    }
+
+    /**************************** SUPPORT US PAGE*/
+
+    img.supportus-img {
+        height: 200px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 767*/
+
+@media(max-width:767px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .container-fluid.navbar {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .navbar-toggle {
+        border-color: #ffffff;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 0.9em;
+    }
+
+    .navbar-right {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn.btn-default.header {
+        font-size: 0.9em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .form-group {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .herobg {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .container-fluid.directions {
+        text-align: center;
+    }
+
+    .col-sm-5.map {
+        float: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .col-sm-7.directions_bodycopy {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .directions_text {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+    }
+
+    .rights {
+        padding-bottom: 20px;
+    }
+
+    .support-us-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .donation_text {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .volunteer_text {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .support-us {
+        height: 110vh;
+    }
+
+    /**************************** SUPPORT US PAGE*/
+
+    .support-seafarers {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .biography {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 738*/
+
+@media(max-width:738px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .footer-list {
+        padding-right: 40px;
+        padding-left: 0px;
+
+    }
+
+    .footer-text.left {
+        display: none;
+    }
+
+    .btn.btn-default.footer {
+        display: none;
+    }
+
+    .footer-text {
+        font-size: 0.9em;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .seafarers-rights-img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rights_content {
+        text-align: center;
+    }
+}
+
+
+/***********************************************************************************CHANGES AT 575*/
+
+@media(max-width:575px) {
+
+    /**************************** INDEX PAGE*/
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    img.donation-white {
+        max-height: 100px;
+    }
+
+    img.volunteer-white {
+        max-height: 100px;
+    }
+
+    .btm {
+        font-size: 0.9em;
+    }
+
+    .support-us {
+        height: 90vh;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 475*/
+
+@media(max-width:475px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .footer-text {
+        font-size: 0.7em;
+    }
+
+    .footer-logo-center {
+        max-height: 50px;
+    }
+
+    .footer-list {
+        padding-right: 25px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    img.minimal-map-freo {
+        max-height: 150px;
+    }
+
+    .support-us {
+        height: 95vh;
+    }
+
+    .biography {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+/***********************************************************************************CHANGES AT 390*/
+
+@media(max-width:390px) {
+
+    /**************************** NAVBAR AND FOOTER*/
+
+    .footer-text {
+        font-size: 0.5em;
+    }
+
+    .footer-logo-center {
+        max-height: 30px;
+    }
+
+    .facebook-logo-footer {
+        max-height: 20px;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    img.donation-white {
+        max-height: 75px;
+    }
+
+    img.volunteer-white {
+        max-height: 75px;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+    .support-us {
+        height: 85vh;
+    }
+
+    .biography {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 350*/
+
+@media(max-width:350px) {
+
+    /**************************** INDEX PAGE*/
+
+    .support-us {
+        height: 120vh;
+    }
+
+    .support-us {
+        height: 85vh;
     }
 }
