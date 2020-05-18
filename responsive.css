@@ -135,9 +135,52 @@
         padding-left: 80px;
         padding-right: 50px;
     }
+    
+    
+/***********************************************************************************CHANGES AT 991x*/
+    
 
 
+@media(max-width:991px) {    
+    
+    .directions-attractions {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-left: 0%;
+    }
+    
 
+    
+    .minimal-map-freo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto;
+        padding: none;
+    }
+    
+    .directions-info-text {
+        padding-left: 0em;
+    
+    }
+    
+    .directions-title-2 {
+    text-align: center;
+}
+
+    .btn-tour {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+/***********CHANGES OF RELIGIOUS RESOURCES*/
+    .religious-top {
+        text-align: center;
+    }
+
+    .prayer-mary-title {
+        padding-top: 9%;
+    }
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -244,6 +287,7 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    
 
 }
 
@@ -443,7 +487,23 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    
+      /**************************** DIRECTIONS PAGE*/
+    
+    .directions-info span {
+        display: none;
+        text-align: center;
+    }
+    
+    /***********CHANGES OF RELIGIOUS RESOURCES*/
+    
+    .prayer-mary-title {
+    padding-bottom: 2%;
+    }
+    
 }
+    
+    
 
 /***********************************************************************************CHANGES AT 738*/
 
