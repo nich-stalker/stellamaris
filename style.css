@@ -639,7 +639,7 @@ font-size: 0.9em;
 .health-links{
     width: 100%;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -648,19 +648,19 @@ font-size: 0.9em;
 .health-linkbox{
     padding: 20px;
     background-size:cover;
-    height:30vh;
-    position:;<<<<<<<<<<<
+    height:45vh;
 }
 
 .health-btn{
-    padding-left: 40%;
-    padding-right: 40%;
+    text-align: center;
 }
 
 .health-link-img{
     display: block;
-    padding-left: 40%;
-    padding-right: 40%;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:10px;
+ /* Aim for < 494x255px. Eg. 200x150px */
 }
 
 .health-links-text h2{
@@ -684,11 +684,10 @@ font-size: 0.9em;
     background: url("assets/seafarers2.png") no-repeat center center;
     background-size: cover;
     height: 30vh;
-    color: #ffffff;
+    color: #ffffff; /*for title*/
     padding-left: 100px;
     padding-top: 70px;
 }
-
 
 
 
