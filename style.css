@@ -614,7 +614,15 @@ padding-bottom: 3em;
     height: 30vh;
 }
 
+.health-links-text{
+    
+}
 
+.health-links{
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+}
 
 
 
