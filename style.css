@@ -592,7 +592,27 @@ padding-top: 2em;
 padding-bottom: 3em;
 }
 
+.health-text {
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    height: 20vh;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 100px;
+}
 
+.health-header {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.health {
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+}
 
 
 
