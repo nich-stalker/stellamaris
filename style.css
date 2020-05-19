@@ -441,25 +441,30 @@ ul#horizontal-list li {
     padding-top: 70px;
 }
 
-
 .contact-header {
     color: black;
     text-align: center;
 }
 
-.contact-left_text {
-    padding-left: 400px;
-    padding-right: 20px;
-    padding-top: 50px;
+.contact-left-text {
+    padding-left: 30%;
     color: black;
     font-weight: 800;
 }
 
-.contact-right_text {
-    padding-left: 20px;
-    padding-right: 200px;
-    padding-top: 50px;
+.contact-right-text {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
     color: black;
+}
+
+.contact-content{
+    padding:40px 100px 40px 100px;
+}
+
+.contact-row{
+    padding-top: 10px;
 }
 
 .contact {
@@ -467,7 +472,7 @@ ul#horizontal-list li {
     background-size: cover;
     color: black;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 .feedback {
@@ -476,7 +481,7 @@ ul#horizontal-list li {
     background-size: cover;
     height: 75vh;
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-right: 100px;
 }
 
@@ -484,9 +489,14 @@ ul#horizontal-list li {
 
 .feedback-text {}
 
+.feedback-header{
+    padding-bottom:10px;
+}
+
 .feedback-input {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 20px;
     padding-top: 10px font-family: 'Raleway', sans-serif;
 }
 
