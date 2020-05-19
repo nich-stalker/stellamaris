@@ -382,6 +382,25 @@
     .health{
         height:30vh;
     }
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .contact-left-text{
+        padding-left:0%;
+        text-align:center;
+    }
+    
+    .contact-content{
+        padding:40px 100px 40px 110px;
+    }
+    
+    .contact-row{
+        padding-top:20px;
+    }
+    
+    .contact-right-text{
+        text-align:center;
+    }
 }    
     
 /***********************************************************************************CHANGES AT 899x*/
@@ -605,6 +624,20 @@
     }
     
 }
+
+/***********************************************************************************CHANGES AT 750px*/
+@media(max-width:750px) {
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback{
+        height:70vh;
+    }
+    
+    .contact-content{
+        padding:40px 100px 20px 110px;
+    }
+}       
     
 /***********************************************************************************CHANGES AT 748px*/
 @media(max-width:748px) {
@@ -674,6 +707,17 @@
     }
 }
 
+/***********************************************************************************CHANGES AT 700px*/
+@media(max-width:700px) {
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback-input{
+        padding-left:20px;
+        padding-right:20px;
+    }
+}       
+    
 /***********************************************************************************CHANGES AT 696px*/
 @media(max-width:696px) {
     
@@ -682,7 +726,18 @@
     .linkbox-green{
         padding-top:20px;
     }
-}
+}    
+
+/***********************************************************************************CHANGES AT 660px*/
+@media(max-width:660px) {
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback{
+        padding-left:70px;
+        padding-right:70px;
+    }
+}       
     
 /***********************************************************************************CHANGES AT 621px*/
 @media(max-width:621px) {
@@ -747,6 +802,7 @@
         height:30vh;
     }
 }    
+
     
 /***********************************************************************************CHANGES AT 498px*/
 @media(max-width:498px) {
@@ -755,6 +811,14 @@
     
     .linkbox-slim{
         padding-top:30px;
+    }
+     
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback{
+        height:68vh;
+        padding-left:50px;
+        padding-right:50px;
     }
 }
     
@@ -863,6 +927,29 @@
         height:147vh;
     }
 }    
+
+/***********************************************************************************CHANGES AT 438px*/
+@media(max-width:438px) {
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback{
+        padding-top:30px;
+    }
+    
+    feedback-input{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    
+    contact-content{
+        padding:20px 80px 20px 80px;
+    }
+    
+    contact-left-text{
+        padding-right:0px;
+    }
+}       
     
 /***********************************************************************************CHANGES AT 422px*/
 @media(max-width:422px) {
@@ -965,6 +1052,25 @@
     }
 }  
 
+/***********************************************************************************CHANGES AT 384px*/
+@media(max-width:384px) {
+    
+    /**************************** CONTACT PAGE*/
+    
+    .feedback{
+        height:70vh;
+    }
+    
+    .contact{
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+    
+    .contact-content{
+        padding:20px 50px 20px 50px;
+    }
+} 
+    
 /***********************************************************************************CHANGES AT 378px*/
 @media(max-width:378px) {
     
@@ -1027,6 +1133,12 @@
     
     .linkbox-slim{
         padding-top:25px;
+    }
+    
+    /**************************** CONTACT-US PAGE*/
+    
+    .feedback{
+        height:66vh;
     }
 }    
     
