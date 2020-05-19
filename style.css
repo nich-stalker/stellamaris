@@ -644,20 +644,20 @@ ul#horizontal-list li {
     background-size: cover;
     height: 15vh;
     padding-left: 10%;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-right: 10%;
 }
 
 .health-header {
     color: black;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .health {
     width: 100%;
     background-size: cover;
-    height: 32vh;
+    height: 28vh;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -674,7 +674,7 @@ ul#horizontal-list li {
 .health-links {
     width: 100%;
     background-size: cover;
-    height: 132vh;
+    height: 86vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -683,7 +683,7 @@ ul#horizontal-list li {
 .health-linkbox {
     padding: 20px;
     background-size: cover;
-    height: 42vh;
+    height: 40vh;
 }
 
 .health-btn {
@@ -703,17 +703,17 @@ ul#horizontal-list li {
 }
 
 .health-links-text p {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .linkbox-green {
     background-color: #87c543;
-    padding-top:20px;
 }
 
 .linkbox-darkgreen {
-    background-color: #87c543;
+    background-color: #5da554;
+    padding-top:20px;
 }
 
 .health-banner {
@@ -727,10 +727,13 @@ ul#horizontal-list li {
 }
 
 .linkbox-slim{
-    padding-top: 35px;
-    background-color: #5da554;
+    padding-top: 40px;
 }
 
+.health-img-responsive{
+    width:auto;
+    height: auto;
+}
 
 
 
