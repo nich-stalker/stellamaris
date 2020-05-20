@@ -357,7 +357,7 @@
     }
 
     .prayer-mary-title {
-        padding-top: 9%;
+        padding-top: 4%;
     }
 
     /**************************** ABOUT US*/
@@ -392,6 +392,20 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    
+    /***********CHANGES OF RELIGIOUS RESOURCES*/
+    .religious-top {
+        text-align: center;
+    }
+
+    .prayer-mary-title {
+        padding-top:
+    }
+    
+    .mary-body {
+        padding-left: 
+    }
+}
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -824,6 +838,10 @@
         display: none;
         text-align: center;
     }
+    
+    .directions-left {
+        text-align: center;
+    }
 
     /***********CHANGES OF RELIGIOUS RESOURCES*/
 
@@ -856,6 +874,17 @@
         padding-top: 50px;
         padding-bottom: 0px;
     }
+
+    /**************************** RELIGIOUS PAGE*/
+    
+        .prayer-mary-2 {
+text-align: center;
+padding-top: 0%;
+}
+    .prayer-mary-title {
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
 }
 
 /***********************************************************************************CHANGES AT 750px*/
@@ -1053,6 +1082,13 @@
     .seafarers_flag {
         height: 200px;
     }
+    
+    /**************************** RELIGIOUS PAGE*/
+    
+        .go-to {
+        padding-bottom: 3em;
+        font-size: 0.8em;
+}
 
 }
 
@@ -1165,6 +1201,17 @@
     /**************************** DONATION PAGE*/
     .wooly_hats {
         height: 150px;
+    }
+    
+    /**************************** RELIGIOUS PAGE*/
+}
+    
+    .our-lady-2 {
+        font-size: 0.9em;
+    }
+    
+    .our-lady {
+        padding: 1.3em;
     }
 
 }
@@ -1347,6 +1394,22 @@
     .jesus_seafarer {
         height: 250px;
     }
+        
+        .rights-link {
+        font-size: 1em;
+    }
+
+        /**************************** RELIGIOUS PAGE*/
+    
+    .jesus_seafarer_2 {
+    height: 15em;
+}
+    
+/**************************** DIRECTIONS PAGE*/
+    
+    .directions-tourist {
+        padding-bottom: 6%;
+    }
 
 }
 
@@ -1454,6 +1517,7 @@
     .seafarers_flag {
         height: 100px;
     }
+        /**************************** RIGHTS PAGE*/
 }
 
 /***********************************************************************************CHANGES AT 371px*/
@@ -1478,6 +1542,11 @@
     }
 }
 
+    /**************************** RELIGIOUS PAGE*/
+           .go-to {
+        padding-bottom: 2.5em;
+        font-size: 0.7em;
+
 /***********************************************************************************CHANGES AT 363px*/
 @media(max-width:363px) {
 
@@ -1501,4 +1570,9 @@
     .support-us {
         height: 85vh;
     }
+    
+    .jesus_seafarer_2 {
+        height: 13em;
+}
+}
 }
