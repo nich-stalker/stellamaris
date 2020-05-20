@@ -1014,6 +1014,10 @@ padding-top: 0%;
         padding-left: 70px;
         padding-right: 70px;
     }
+    
+    .mySlides {
+    height: 0%;
+}
 }
 
 /***********************************************************************************CHANGES AT 621px*/
