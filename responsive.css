@@ -181,6 +181,10 @@
     .prayer-mary-title {
         padding-top: 9%;
     }
+    
+    .mary-body {
+        padding-left: 
+    }
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -497,11 +501,17 @@
     
     /***********CHANGES OF RELIGIOUS RESOURCES*/
     
+    
+    .prayer-mary-2 {
+text-align: center;
+padding-top: 0%;
+}
     .prayer-mary-title {
     padding-bottom: 2%;
-    }
-    
+    padding-top: 3%;
 }
+    
+    
     
     
 
@@ -579,6 +589,11 @@
     .support-us {
         height: 90vh;
     }
+    
+    .go-to {
+        padding-bottom: 3em;
+        font-size: 0.8em;
+}
 
 }
 
@@ -614,6 +629,16 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    
+    .jesus_seafarer_2 {
+        height: 20em;
+}
+    
+    .go-to {
+        padding-bottom: 2.5em;
+        font-size: 0.7em;
+}
+    
 }
 
 /***********************************************************************************CHANGES AT 390*/
@@ -672,6 +697,17 @@
         padding-top: 0px;
         padding-bottom: 15px;
     }
+    
+/**************************** RELIGIOUS PAGE*/
+    
+    .rights-link {
+        font-size: 1em;
+    }
+    
+    .jesus_seafarer_2 {
+    height: 15em;
+}
+  
 
 }
 
@@ -688,4 +724,8 @@
     .support-us {
         height: 85vh;
     }
+    
+            .jesus_seafarer_2 {
+    height: 13em;
+}
 }
