@@ -176,6 +176,32 @@ p {
     text-align: left;
 }
 
+.donation_image {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 200px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.donation_content {
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+
+.support_subpage {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.container-fluid.support-us.subpage {
+    height: 50vh;
+}
+
 .volunteer_text {
     padding-top: 25px;
     padding-left: 120px;
@@ -186,6 +212,10 @@ p {
 .seafarers-rights-img {
     text-align: center;
     padding-left: 200px;
+}
+
+.container-fluid.directions.subpage {
+    background: #E6E7E8;
 }
 
 .col-sm-6.supportus-img {
@@ -238,7 +268,7 @@ p {
 .directions-tourist {
     color: black;
     background-color: white;
-    padding-top:4%;
+    padding-top: 4%;
     padding-bottom: 3%;
 }
 
@@ -411,33 +441,38 @@ ul#horizontal-list li {
     padding-top: 70px;
 }
 
-
 .contact-header {
     color: black;
     text-align: center;
 }
 
-.contact-left_text {
-    padding-left: 400px;
-    padding-right: 20px;
-    padding-top: 50px;
+.contact-left-text {
+    padding-left: 30%;
     color: black;
     font-weight: 800;
 }
 
-.contact-right_text {
-    padding-left: 20px;
-    padding-right: 200px;
-    padding-top: 50px;
+.contact-right-text {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
     color: black;
+}
+
+.contact-content{
+    padding:40px 100px 40px 100px;
+}
+
+.contact-row{
+    padding-top: 10px;
 }
 
 .contact {
     width: 100%;
     background-size: cover;
     color: black;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .feedback {
@@ -446,7 +481,7 @@ ul#horizontal-list li {
     background-size: cover;
     height: 75vh;
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-right: 100px;
 }
 
@@ -454,9 +489,14 @@ ul#horizontal-list li {
 
 .feedback-text {}
 
+.feedback-header{
+    padding-bottom:10px;
+}
+
 .feedback-input {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 20px;
     padding-top: 10px font-family: 'Raleway', sans-serif;
 }
 
@@ -470,7 +510,6 @@ ul#horizontal-list li {
     padding-bottom: 4%;
 }
 
-
 .rights-header {
     color: black;
     text-align: center;
@@ -480,28 +519,23 @@ ul#horizontal-list li {
     color: white;
     background-color: royalblue;
     text-align: center;
+    height: 50vh;
     padding-top: 4%;
-    padding-bottom: 4%;
+
 }
 
 .rights-link {
     color: yellow;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .rights-title {
     padding-top: 3%;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
-.rights-free {
-    margin-left: 4%;
-    margin-right: 4%;
 }
 
 .rights-intro {
     text-align: center;
+    font-size: 1.1em;
     padding: 3%;
 }
 
@@ -545,12 +579,7 @@ ul#horizontal-list li {
     padding-right: 100px;
 }
 
-.donate {
-    padding-left: 200px;
-    padding-top: 25px;
-    padding-bottom: 70px;
-    padding-right: 200px;
-}
+
 
 .donate-title {
     padding-bottom: 10px;
@@ -572,134 +601,119 @@ ul#horizontal-list li {
     padding-left: 150px;
 }
 
-.jesus_seafarer_2 {
-   height: 25em;
-}
-
-.prayer-body {
-    margin-left: 6%;
-    margin-right: 6%;
-}
-
 .religious-top {
-padding-bottom:2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .prayer-mary-title {
-padding-bottom: 5%;
-text-align: center;
-}
-
-.prayer-mary-2 {
-text-align: center;
-padding-top: 4%;
-}
-
-.prayer-bottom {
-    
+    padding-bottom: 5%;
 }
 
 .directions-times-left {
-padding-left: 80%;
+    padding-left: 80%;
 }
 
 .pickup {
-padding-right: 8%;   
-padding-left: 8%;
-padding-bottom: 4%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 4%;
 }
 
 .our-lady {
-background-color: #293279;;
-color: white;
-font-size: 1em;
-padding: 2em;
+    background-color: #293279;
+    ;
+    color: white;
+    font-size: 1em;
+    padding: 2em;
 }
 
 .our-lady-2 {
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .go-to {
-padding-bottom: 3em;
-font-size: 0.9em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    font-size: 0.9em;
 }
 
 .health-text {
     width: 100%;
     background-color: white;
     background-size: cover;
-    height: 20vh;
-    padding-left: 100px;
-    padding-top: 25px;
-    padding-right: 100px;
+    height: 15vh;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-right: 10%;
 }
 
 .health-header {
     color: black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .health {
     width: 100%;
     background-size: cover;
-    height: 30vh;
+    height: 28vh;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.health-links-text{
+.health-links-text {
     text-align: center;
     font-size: 1.1em;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-    color:white;
+    color: white;
 }
 
-.health-links{
+.health-links {
     width: 100%;
     background-size: cover;
-    height: 70vh;
+    height: 86vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
 }
 
-.health-linkbox{
+.health-linkbox {
     padding: 20px;
-    background-size:cover;
-    height:30vh;
-    position:;<<<<<<<<<<<
+    background-size: cover;
+    height: 40vh;
 }
 
-.health-btn{
-    padding-left: 40%;
-    padding-right: 40%;
+.health-btn {
+    text-align: center;
 }
 
-.health-link-img{
+.health-link-img {
     display: block;
-    padding-left: 40%;
-    padding-right: 40%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* Aim for < 494x255px. Eg. 200x150px */
 }
 
-.health-links-text h2{
-    padding-bottom:10px;
+.health-links-text h2 {
+    padding-bottom: 10px;
 }
 
-.health-links-text p{
-    padding-right: 40px;
-    padding-left: 40px;
+.health-links-text p {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.linkbox-green{
+.linkbox-green {
     background-color: #87c543;
 }
 
-.linkbox-darkgreen{
+.linkbox-darkgreen {
     background-color: #5da554;
+    padding-top:20px;
 }
 
 .health-banner {
@@ -707,137 +721,146 @@ font-size: 0.9em;
     background-size: cover;
     height: 30vh;
     color: #ffffff;
+    /*for title*/
     padding-left: 100px;
     padding-top: 70px;
 }
 
+.linkbox-slim{
+    padding-top: 40px;
+}
 
+.health-img-responsive{
+    width:auto;
+    height: auto;
+}
 
 
 
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  position: relative;
+    position: relative;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* Container for image text */
 .caption-container {
-  text-align: center;
-  background-color: white;
-  padding: 2px 16px;
-padding-top: 1%;
-  color: black;
+    text-align: center;
+    background-color: white;
+    padding: 2px 16px;
+    padding-top: 1%;
+    color: black;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Six columns side by side */
 .column {
-  float: left;
-  width: 16.66%;
+    float: left;
+    width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .mySlides {
-  text-align: center;
-  height: 400px;
+    text-align: center;
+    height: 400px;
 }
+
 .mySlides img {
-  width: 100%;
-  max-height:100%;
-  object-fit: contain;
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .tourist_slide {
-padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 .rights-bottom {
-padding-top: 3%;
-padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .directions-left {
-text-align: left;
-padding-left: 1%;
+    text-align: left;
+    padding-left: 1%;
 }
 
 .directions-right {
-text-align: right;
-padding-right: 1%;
+    text-align: right;
+    padding-right: 1%;
 }
 
 .directions-attractions {
-padding-top: 3%;
-margin-left: 5%;
+    padding-top: 3%;
+    margin-left: 5%;
 }
 
 .cf {
-font-size: 0.7em;
+    font-size: 0.7em;
 }
