@@ -436,8 +436,8 @@ ul#horizontal-list li {
     width: 100%;
     background-size: cover;
     color: black;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .feedback {
@@ -480,23 +480,28 @@ ul#horizontal-list li {
     color: white;
     background-color: royalblue;
     text-align: center;
-    height: 50vh;
     padding-top: 4%;
-
+    padding-bottom: 4%;
 }
 
 .rights-link {
     color: yellow;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .rights-title {
     padding-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.rights-free {
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .rights-intro {
     text-align: center;
-    font-size: 1.1em;
     padding: 3%;
 }
 
@@ -567,13 +572,31 @@ ul#horizontal-list li {
     padding-left: 150px;
 }
 
+.jesus_seafarer_2 {
+   height: 25em;
+}
+
+.prayer-body {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
 .religious-top {
-padding-top: 2% ;
 padding-bottom:2%;
 }
 
 .prayer-mary-title {
 padding-bottom: 5%;
+text-align: center;
+}
+
+.prayer-mary-2 {
+text-align: center;
+padding-top: 4%;
+}
+
+.prayer-bottom {
+    
 }
 
 .directions-times-left {
@@ -598,7 +621,6 @@ font-size: 1.2em;
 }
 
 .go-to {
-padding-top: 2em;
 padding-bottom: 3em;
 font-size: 0.9em;
 }
