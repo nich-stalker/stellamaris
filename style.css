@@ -122,6 +122,7 @@ p {
     border-radius: 30pt;
 }
 
+
 .btn.btn-default.footer {
     border: none;
     padding-right: 12px;
@@ -519,9 +520,14 @@ ul#horizontal-list li {
     color: white;
     background-color: royalblue;
     text-align: center;
-    height: 50vh;
     padding-top: 4%;
+    padding-bottom: 4%;
 
+}
+
+.rights-margin {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .rights-link {
@@ -535,7 +541,6 @@ ul#horizontal-list li {
 
 .rights-intro {
     text-align: center;
-    font-size: 1.1em;
     padding: 3%;
 }
 
@@ -607,7 +612,7 @@ ul#horizontal-list li {
 }
 
 .prayer-mary-title {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .directions-times-left {
