@@ -373,8 +373,8 @@ ul#horizontal-list li {
 
 .wifi-text {
     padding-top: 25px;
-    padding-left: 200px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 5%;
     text-align: left;
 }
 
@@ -388,8 +388,8 @@ ul#horizontal-list li {
 
 .money-text {
     padding-top: 25px;
-    padding-left: 200px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 5%;
     text-align: left;
 }
 
@@ -399,8 +399,8 @@ ul#horizontal-list li {
 
 .food-text {
     padding-top: 25px;
-    padding-left: 200px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 5%;
     text-align: left;
 }
 
@@ -410,10 +410,11 @@ ul#horizontal-list li {
 
 .sim-text {
     padding-top: 25px;
-    padding-left: 200px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 5%;
     text-align: left;
 }
+
 
 .our-services-section {
     width: 100%;
