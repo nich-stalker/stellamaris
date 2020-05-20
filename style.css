@@ -844,6 +844,12 @@ ul#horizontal-list li {
 
 .tourist_slide {
     padding-bottom: 5%;
+    
+}
+
+.tourist-crop {
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .rights-bottom {
@@ -869,3 +875,5 @@ ul#horizontal-list li {
 .cf {
     font-size: 0.7em;
 }
+
+.
