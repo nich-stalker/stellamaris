@@ -433,6 +433,14 @@ ul#horizontal-list li {
     color: white;
 }
 
+.services-left {
+    float: left;
+}
+
+.services-right {
+    float: right;
+}
+
 /* No longer using this? Keeping just in case til Thurs 21 */
 .secondary-banner {
     background: url("assets/placeholder.png") no-repeat center center;
