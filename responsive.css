@@ -192,7 +192,7 @@
     }
 
     .form-group {
-        padding-right: 15px;
+        padding-right: 0px;
     }
 
     .nav.navbar-nav.navbar-right {
@@ -203,6 +203,10 @@
         font-size: 0.8em;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .btn.btn-default.header {
+        margin-right: 10px;
     }
 
     /**************************** INDEX PAGE*/
@@ -589,7 +593,7 @@
 
 }
 
-/***********************************************************************************CHANGES AT 899x*/
+/***********************************************************************************CHANGES AT 922x*/
 
 @media(max-width:922px) {
 
@@ -644,7 +648,9 @@
     }
 
     .directions_text {
-        padding-top: 15px;
+        padding-top: 20px;
+        padding-left: 50px;
+        margin-right: -50px;
     }
 
     .rights_content {
@@ -675,6 +681,11 @@
         padding-left: 6px;
         padding-right: 6px;
     }
+
+    .btn.btn-default.header {
+        margin-right: 0px;
+    }
+
 
     /**************************** INDEX PAGE*/
 
@@ -808,6 +819,7 @@
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 5px;
+        margin: 0px;
     }
 
     .rights {
