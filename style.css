@@ -419,7 +419,6 @@ ul#horizontal-list li {
 .our-services-section {
     width: 100%;
     background-size: cover;
-    height: 40vh;
     text-align: center;
     color: white;
 }
@@ -428,7 +427,6 @@ ul#horizontal-list li {
     width: 100%;
     background-color: skyblue no-repeat center center;
     background-size: cover;
-    height: 50vh;
     text-align: center;
     color: white;
 }
