@@ -221,7 +221,7 @@
     }
 
     .seafarers-rights-img {
-        padding-left: 100px;
+        padding-left: 50px;
     }
 
     .rights_content {
@@ -313,6 +313,13 @@
         padding-right: 260px;
     }
 
+    /**************************** INDEX PAGE*/
+
+    .herobg {
+        height: 50vh;
+        padding-top: 100px;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 991x*/
@@ -392,7 +399,7 @@
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+
     /***********CHANGES OF RELIGIOUS RESOURCES*/
     .religious-top {
         text-align: center;
@@ -401,9 +408,9 @@
     .prayer-mary-title {
         padding-top:
     }
-    
+
     .mary-body {
-        padding-left: 
+        padding-left:
     }
 }
 }
@@ -431,7 +438,7 @@
     }
 
     .search-bar {
-        max-width: 150px;
+        max-width: 140px;
     }
 
     .footer-text {
@@ -481,14 +488,6 @@
 
     .support-us {
         height: 75vh;
-    }
-
-    img.seafarers-rights {
-        height: 200px;
-    }
-
-    .rights_content {
-        padding-top: 10px;
     }
 
     /**************************** SUPPORT US PAGE*/
@@ -579,9 +578,26 @@
     }
 
     .container-fluid.support-us.subpage {
-        height: 45vh;
+        height: 55vh;
     }
 
+    /**************************** NAVBAR*/
+
+    .navbar-nav > li > a {
+        font-size: 0.7em;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 899x*/
+
+@media(max-width:922px) {
+
+    /**************************** NAVBAR*/
+
+    .navbar-nav > li > a {
+        font-size: 0.65em;
+    }
 }
 
 /***********************************************************************************CHANGES AT 899x*/
@@ -591,7 +607,9 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        font-size: 0.7em;
+        font-size: 0.6em;
+        padding-left: 6px;
+        padding-right: 6px;
     }
 
     .btn.btn-default.header {
@@ -652,12 +670,6 @@
 
     /**************************** NAVBAR AND FOOTER*/
 
-    .navbar-nav > li > a {
-        font-size: 0.6em;
-        padding-left: 6px;
-        padding-right: 6px;
-    }
-
     .footer-text {
         font-size: 0.6em;
         padding-left: 6px;
@@ -691,11 +703,11 @@
     .wooly_hats {
         padding-right: 70px;
     }
-    
+
     /**************************** SERVICES PAGE*/
-        .sim-text {
-    font-size: 0.9em;
-}
+    .sim-text {
+        font-size: 0.9em;
+    }
 }
 
 /***********************************************************************************CHANGES AT 769px*/
@@ -823,6 +835,15 @@
         height: 110vh;
     }
 
+    .seafarers-rights-img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rights_content {
+        text-align: center;
+    }
+
     /**************************** SUPPORT US PAGE*/
 
     .support-seafarers {
@@ -837,13 +858,17 @@
         padding-right: 50px;
     }
 
+    .col-sm-6.supportus-img {
+        height: 200px;
+    }
+
     /**************************** DIRECTIONS PAGE*/
 
     .directions-info span {
         display: none;
         text-align: center;
     }
-    
+
     .directions-left {
         text-align: center;
     }
@@ -881,42 +906,44 @@
     }
 
     /**************************** RELIGIOUS PAGE*/
-    
-        .prayer-mary-2 {
-text-align: center;
-padding-top: 0%;
-}
-    .prayer-mary-title {
-    padding-bottom: 2%;
-    padding-top: 3%;
-}
-    
-/**************************** SERVICES PAGE*/
-        .sim-text {
-    text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-    
-    .our-services-section {
-    height: 0%;
+
+    .prayer-mary-2 {
+        text-align: center;
+        padding-top: 0%;
     }
-    
+
+    .prayer-mary-title {
+        padding-bottom: 2%;
+        padding-top: 3%;
+    }
+
+    /**************************** SERVICES PAGE*/
+    .sim-text {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .our-services-section {
+        height: 0%;
+    }
+
     .services-left {
-    float: none;
-}
+        float: none;
+    }
 
     .services-right {
-    float: none;
-}
-    
-    .our-services-section-dark {
-    height: 0%;
-}
+        float: none;
+    }
 
-.our-services {
-    height: 0%;
-}
+    .our-services-section-dark {
+        height: 0%;
+    }
+
+    .our-services {
+        height: 0%;
+    }
+
     .free-clothing {
         padding-bottom: 5%;
         margin-left: 4%;
@@ -995,16 +1022,6 @@ padding-top: 0%;
         font-size: 0.9em;
     }
 
-    /**************************** INDEX PAGE*/
-
-    .seafarers-rights-img {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .rights_content {
-        text-align: center;
-    }
 
     /**************************** VOLUNTEER PAGE*/
     .volunteer-title {
@@ -1052,10 +1069,10 @@ padding-top: 0%;
         padding-left: 70px;
         padding-right: 70px;
     }
-    
+
     .mySlides {
-    height: 0%;
-}
+        height: 0%;
+    }
 }
 
 /***********************************************************************************CHANGES AT 621px*/
@@ -1124,13 +1141,13 @@ padding-top: 0%;
     .seafarers_flag {
         height: 200px;
     }
-    
+
     /**************************** RELIGIOUS PAGE*/
-    
-        .go-to {
+
+    .go-to {
         padding-bottom: 3em;
         font-size: 0.8em;
-}
+    }
 
 }
 
@@ -1176,6 +1193,14 @@ padding-top: 0%;
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    /**************************** INDEX PAGE*/
+
+    .support-us {
+        height: 100vh;
+    }
+
+}
 }
 
 /***********************************************************************************CHANGES AT 496px*/
@@ -1221,10 +1246,6 @@ padding-top: 0%;
         max-height: 150px;
     }
 
-    .support-us {
-        height: 95vh;
-    }
-
     .biography {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -1244,17 +1265,17 @@ padding-top: 0%;
     .wooly_hats {
         height: 150px;
     }
-    
+
     /**************************** RELIGIOUS PAGE*/
 }
-    
-    .our-lady-2 {
-        font-size: 0.9em;
-    }
-    
-    .our-lady {
-        padding: 1.3em;
-    }
+
+.our-lady-2 {
+    font-size: 0.9em;
+}
+
+.our-lady {
+    padding: 1.3em;
+}
 
 }
 
@@ -1423,7 +1444,7 @@ padding-top: 0%;
     }
 
     .support-us {
-        height: 85vh;
+        height: 90vh;
     }
 
     .biography {
@@ -1436,19 +1457,19 @@ padding-top: 0%;
     .jesus_seafarer {
         height: 250px;
     }
-        
-        .rights-link {
+
+    .rights-link {
         font-size: 1em;
     }
 
-        /**************************** RELIGIOUS PAGE*/
-    
+    /**************************** RELIGIOUS PAGE*/
+
     .jesus_seafarer_2 {
-    height: 15em;
-}
-    
-/**************************** DIRECTIONS PAGE*/
-    
+        height: 15em;
+    }
+
+    /**************************** DIRECTIONS PAGE*/
+
     .directions-tourist {
         padding-bottom: 6%;
     }
@@ -1559,7 +1580,8 @@ padding-top: 0%;
     .seafarers_flag {
         height: 100px;
     }
-        /**************************** RIGHTS PAGE*/
+
+    /**************************** RIGHTS PAGE*/
 }
 
 /***********************************************************************************CHANGES AT 371px*/
@@ -1582,12 +1604,23 @@ padding-top: 0%;
     .linkbox-slim {
         padding-top: 40px;
     }
-}
 
     /**************************** RELIGIOUS PAGE*/
-           .go-to {
+    .go-to {
         padding-bottom: 2.5em;
         font-size: 0.7em;
+    }
+
+    /**************************** INDEX PAGE*/
+
+    .support-us-section {
+        padding-top: 10px;
+    }
+
+    .support-us {
+        height: 90vh;
+    }
+}
 
 /***********************************************************************************CHANGES AT 363px*/
 @media(max-width:363px) {
@@ -1605,16 +1638,7 @@ padding-top: 0%;
 
     /**************************** INDEX PAGE*/
 
-    .support-us {
-        height: 120vh;
-    }
-
-    .support-us {
-        height: 85vh;
-    }
-    
     .jesus_seafarer_2 {
         height: 13em;
-}
-}
+    }
 }
