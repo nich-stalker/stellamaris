@@ -62,6 +62,10 @@
     padding-top: 6px;
 }
 
+.btn.btn-default.header {
+    margin-right: 20px;
+}
+
 
 
 /*-----------------------------------------------------NAVBAR END-----------------------------------------------------------------*/
@@ -149,6 +153,10 @@ p {
     float: right;
 }
 
+.minimal-map-freo {
+    height: 390px;
+}
+
 .col-sm-7.directions_bodycopy {
     float: left;
 }
@@ -197,6 +205,30 @@ p {
     padding-top: 50px;
     padding-left: 300px;
     padding-right: 300px;
+}
+
+.volunteer-white {
+    height: 160px;
+}
+
+.donation-white {
+    height: 160px;
+}
+
+.seafarers-rights {
+    height: 250px;
+}
+
+.wooly_hats {
+    height: 300px;
+}
+
+.seafarers_flag {
+    height: 365px;
+}
+
+.jesus_seafarer {
+    height: 450px;
 }
 
 .container-fluid.support-us.subpage {
@@ -472,11 +504,11 @@ ul#horizontal-list li {
     color: black;
 }
 
-.contact-content{
-    padding:40px 100px 40px 100px;
+.contact-content {
+    padding: 40px 100px 40px 100px;
 }
 
-.contact-row{
+.contact-row {
     padding-top: 10px;
 }
 
@@ -502,8 +534,8 @@ ul#horizontal-list li {
 
 .feedback-text {}
 
-.feedback-header{
-    padding-bottom:10px;
+.feedback-header {
+    padding-bottom: 10px;
 }
 
 .feedback-input {
@@ -730,7 +762,7 @@ ul#horizontal-list li {
 
 .linkbox-darkgreen {
     background-color: #5da554;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .health-banner {
@@ -743,12 +775,12 @@ ul#horizontal-list li {
     padding-top: 70px;
 }
 
-.linkbox-slim{
+.linkbox-slim {
     padding-top: 40px;
 }
 
-.health-img-responsive{
-    width:auto;
+.health-img-responsive {
+    width: auto;
     height: auto;
 }
 
@@ -856,7 +888,7 @@ ul#horizontal-list li {
 
 .tourist_slide {
     padding-bottom: 5%;
-    
+
 }
 
 .tourist-crop {
