@@ -897,6 +897,31 @@ padding-top: 0%;
     padding-left: 0px;
     padding-right: 0px;
 }
+    
+    .our-services-section {
+    height: 0%;
+    }
+    
+    .services-left {
+    float: none;
+}
+
+    .services-right {
+    float: none;
+}
+    
+    .our-services-section-dark {
+    height: 0%;
+}
+
+.our-services {
+    height: 0%;
+}
+    .free-clothing {
+        padding-bottom: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 
 }
 
