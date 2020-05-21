@@ -423,6 +423,11 @@ ul#horizontal-list li {
     color: white;
 }
 
+.p-padded {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .our-services-section-dark {
     width: 100%;
     background-color: skyblue no-repeat center center;
