@@ -29,9 +29,9 @@
         height: 30vh;
     }
 
-    .health-links {
+    /*.health-links {
         height: 90vh;
-    }
+    }*/
 
     /**************************** DONATION_PAGE*/
 
@@ -156,6 +156,17 @@
     .seafarers_flag {
         height: 280px;
     }
+}
+
+/***********************************************************************************CHANGES AT 1225px*/
+@media(max-width:1225px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .linkbox{
+        height: 42vh;
+    }
+
 }
 
 /***********************************************************************************CHANGES AT 1182x*/
@@ -416,7 +427,43 @@
     .mary-body {
         padding-left:
     }
-}
+    
+    /**************************** HEALTH PAGE*/
+    .health-linkbox {
+        width:100%;
+    }
+
+    .linkbox-green {
+        width:100%
+    }
+
+    .linkbox-darkgreen {
+        width:100%
+    }
+    
+    .health-links{
+        height:132vh;
+    }
+    
+    /**************************** CONTACT PAGE*/
+    
+    .contact-left-text {
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .contact-content {
+        padding: 40px 100px 40px 110px;
+    }
+
+    .contact-row {
+        padding-top: 20px;
+    }
+
+    .contact-right-text {
+        text-align: center;
+    }
+    
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -524,19 +571,28 @@
     /**************************** HEALTH PAGE*/
 
     .health-links {
-        height: 126vh;
+        height: 132vh;
     }
 
-    .linkbox-slim {
+    /*.linkbox-slim {
         background-color: #5da554;
     }
 
     .linkbox-darkgreen {
         background-color: #87c543;
-    }
+    }*/
 
     .health-linkbox {
         height: 40vh;
+        width:100%;
+    }
+    
+    .linkbox-darkgreen{
+        width:100%;
+    }
+    
+    .linkbox-green{
+        width:100%;
     }
 
     .health-header {
@@ -546,7 +602,7 @@
     .health {
         height: 30vh;
     }
-
+    
     /**************************** CONTACT-US PAGE*/
 
     .contact-left-text {
@@ -593,6 +649,32 @@
 
 }
 
+/***********************************************************************************CHANGES AT 958x*/
+
+@media(max-width:958px) {
+
+    /**************************** HEALTH*/
+
+    .health-linkbox{
+        width:100%;
+    }
+    
+    .linkbox-darkgreen{
+        width:100%;
+    }
+    
+    .linkbox-green{
+        width:100%;
+    }
+    
+    /**************************** CONTACT PAGE*/
+    
+    .contact{
+        padding-top:40px;
+        padding-bottom:10px;
+    }
+}
+
 /***********************************************************************************CHANGES AT 922x*/
 
 @media(max-width:922px) {
@@ -601,6 +683,13 @@
 
     .navbar-nav > li > a {
         font-size: 0.65em;
+    }
+    
+    /**************************** CONTACT PAGE*/
+    
+    .contact-content{
+        padding-top:0px;
+        padding-bottom:40px;
     }
 }
 
@@ -669,6 +758,20 @@
     }
 
 }
+
+/***********************************************************************************CHANGES AT 874*/
+
+@media(max-width:874px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health-linkbox{
+        width:100%;
+    }
+    
+    .health-links{
+        height:132vh;
+    }
 
 /***********************************************************************************CHANGES AT 841*/
 
@@ -970,11 +1073,16 @@
     /**************************** CONTACT-US PAGE*/
 
     .feedback {
-        height: 70vh;
+        height: 80vh;
+        padding-top:40px;
     }
 
     .contact-content {
-        padding: 40px 100px 20px 110px;
+        padding: 10px 50px 40px 60px;
+    }
+    
+    .contact{
+        padding-top:30px;
     }
 }
 
@@ -1201,9 +1309,17 @@
     /**************************** CONTACT-US PAGE*/
 
     .feedback {
-        height: 68vh;
+        height: 80vh;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    
+    .contact-content{
+        padding-bottom:30px;
+    }
+    
+    .feedback{
+        padding-top:20px;
     }
 
     /**************************** INDEX PAGE*/
@@ -1485,7 +1601,49 @@
     .directions-tourist {
         padding-bottom: 6%;
     }
+    
+    /**************************** HEALTH PAGE*/
 
+    .health {
+        height:30vh;
+    }
+    
+    .health-linkbox{
+        height:44vh;
+    }
+    
+    .health-links{
+        height:139vh;
+    }
+    
+    .linkbox-darkgreen{
+        padding-top:20px;
+    }
+    
+    /**************************** CONTACT PAGE*/
+    
+    .contact{
+        padding-top:10px;
+        padding-bottom:0px;
+    }
+    
+    .feedback{
+        padding-top:20px;
+    }
+    
+    .contact-content{
+        padding-top:0px;
+        padding-left:50px;
+    }
+    
+    .contact-row{
+        padding-top:10px;
+    }
+    
+    .contact-left-text{
+        padding-right:0px;
+    }
+    
 }
 
 /***********************************************************************************CHANGES AT 387px*/
@@ -1494,7 +1652,7 @@
     /**************************** HEALTH PAGE*/
 
     .health {
-        height: 34vh;
+        height: 30vh;
     }
 }
 
@@ -1504,16 +1662,7 @@
     /**************************** CONTACT PAGE*/
 
     .feedback {
-        height: 70vh;
-    }
-
-    .contact {
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-
-    .contact-content {
-        padding: 20px 50px 20px 50px;
+        height: 78vh;
     }
 }
 
@@ -1523,7 +1672,7 @@
     /**************************** HEALTH PAGE*/
 
     .health-linkbox {
-        height: 50vh;
+        height: 44vh;
     }
 
     .linkbox-slim {
@@ -1531,11 +1680,11 @@
     }
 
     .linkbox-green {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .health-links {
-        height: 156vh;
+        height: 138vh;
     }
 }
 
@@ -1545,7 +1694,7 @@
     /**************************** HEALTH PAGE*/
 
     .health {
-        height: 27vh;
+        height: 30vh;
     }
 
     .health-text {
@@ -1562,11 +1711,11 @@
     }
 
     .health-linkbox {
-        height: 35vh;
+        height: 40vh;
     }
 
     .health-links {
-        height: 111vh;
+        height: 126vh;
     }
 
     .linkbox-darkgreen {
@@ -1584,7 +1733,7 @@
     /**************************** CONTACT-US PAGE*/
 
     .feedback {
-        height: 66vh;
+        height: 78vh;
     }
 
     /**************************** VOLUNTEER PAGE*/
@@ -1606,11 +1755,15 @@
     }
 
     .health-linkbox {
-        height: 38vh;
+        height: 42vh;
+    }
+    
+    .linkbox-darkgreen{
+        padding-top:20px;
     }
 
     .health-links {
-        height: 120vh;
+        height: 133vh;
     }
 
     .linkbox-slim {
@@ -1634,6 +1787,7 @@
     }
 }
 
+
 /***********************************************************************************CHANGES AT 363px*/
 @media(max-width:363px) {
 
@@ -1652,5 +1806,55 @@
 
     .jesus_seafarer_2 {
         height: 13em;
+    }
+}
+
+/***********************************************************************************CHANGES AT 349*/
+
+@media(max-width:349px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health {
+        height: 18em;
+    }
+}
+
+/***********************************************************************************CHANGES AT 330*/
+
+@media(max-width:330px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .linkbox-green {
+        padding-top:30px;
+    }
+    
+    .linkbox-slim{
+        padding-top:45px;
+    }
+
+}
+
+/***********************************************************************************CHANGES AT 324*/
+
+@media(max-width:324px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health-linkbox{
+        height:40vh;
+    }
+    
+    .linkbox-green {
+        padding-top:20px;
+    }
+    
+    .linkbox-slim{
+        padding-top:30px;
+    }
+    
+    .health-links{
+        height:127vh;
     }
 }
