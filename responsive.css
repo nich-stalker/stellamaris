@@ -1286,6 +1286,12 @@
         padding-bottom: 3em;
         font-size: 0.8em;
     }
+    
+    /**************************** DIRECTIONS PAGE*/
+    
+    .prayer-body {
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
@@ -1623,6 +1629,10 @@
 
     .jesus_seafarer_2 {
         height: 15em;
+    }
+    
+    .prayer-mary-title {
+    padding-top: 5%;
     }
 
     /**************************** DIRECTIONS PAGE*/
