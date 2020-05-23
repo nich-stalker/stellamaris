@@ -344,8 +344,8 @@
 @media(max-width:991px) {
 
     .directions-attractions {
-        padding-left: 15%;
-        padding-right: 15%;
+    padding-left: 50px;
+    padding-right: 50px;
         margin-left: 0%;
     }
 
@@ -462,6 +462,18 @@
 
     .contact-right-text {
         text-align: center;
+    }
+    
+    /**************************** DIRECTIONS PAGE*/
+    
+    .ourservices-btn {
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .directions-attractions {
+        padding-left: 15%;
+        padding-right: 15%;
     }
     
 }
@@ -986,6 +998,12 @@
 
     .directions-left {
         text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+       .contact-content-directions{
+        padding-top:0%;
     }
 
     /***********CHANGES OF RELIGIOUS RESOURCES*/
@@ -1403,6 +1421,17 @@
 
 .our-lady {
     padding: 1.3em;
+}
+
+    /**************************** DIRECTIONS PAGE*/
+    
+    .directions-attractions {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .directions-info-text {
+    padding-bottom: 0px;
 }
 
 }
