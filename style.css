@@ -84,6 +84,10 @@
     padding-top: 20px;
 }
 
+.tourist-btn {
+    padding-top: 20px;
+}
+
 .getdirections-btn {
     padding-top: 20px;
 }
@@ -297,14 +301,14 @@ p {
 }
 
 .directions-info {
-    color: black;
-    background-color: #a3b7f3;
+    color: #ffffff;
+    background-color: #3a54a5;
     padding-bottom: 1%;
 }
 
 .directions-tourist {
     color: black;
-    background-color: white;
+    background-color: #ffffff;
     padding-top: 4%;
     padding-bottom: 3%;
 }
@@ -317,7 +321,7 @@ p {
 
 .footer {
     background-color: #5C72B7;
-    color: white;
+    color: #ffffff;
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
@@ -366,7 +370,7 @@ ul#horizontal-list li {
     background-size: cover;
     height: 30vh;
     text-align: center;
-    color: white;
+    color: #ffffff;
 
 }
 
@@ -377,12 +381,14 @@ ul#horizontal-list li {
     background-size: cover;
     height: 10vh;
     text-align: center;
-    color: white;
+    color: #ffffff;
 
 }
 
 .our-services-top {
-    padding: 3%;
+    padding: 2.5%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .our-services-more-text {
@@ -391,20 +397,22 @@ ul#horizontal-list li {
 
 .lightblue {
 
-    background-color: lightskyblue;
+    background-color: #5d72b7;
 }
 
 .darkblue {
-    background-color: royalblue;
+    background-color: #3a54a5;
 }
 
 .our-services-title {
     padding-top: 4%;
-    color: white;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .wifi-title {
-    color: white;
+    color: #ffffff;
 }
 
 .wifi-text {
@@ -419,7 +427,7 @@ ul#horizontal-list li {
 }
 
 .money-title {
-    color: white;
+    color: #ffffff;
 }
 
 .money-text {
@@ -430,7 +438,7 @@ ul#horizontal-list li {
 }
 
 .food-title {
-    color: white;
+    color: #ffffff;
 }
 
 .food-text {
@@ -441,7 +449,7 @@ ul#horizontal-list li {
 }
 
 .sim-title {
-    color: white;
+    color: #ffffff;
 }
 
 .sim-text {
@@ -456,7 +464,7 @@ ul#horizontal-list li {
     width: 100%;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 
 .p-padded {
@@ -469,7 +477,7 @@ ul#horizontal-list li {
     background-color: skyblue no-repeat center center;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 
 .services-left {
@@ -512,6 +520,10 @@ ul#horizontal-list li {
     padding: 40px 100px 40px 100px;
 }
 
+.contact-content-directions {
+    padding: 20px;
+}
+
 .contact-row {
     padding-top: 10px;
 }
@@ -523,6 +535,14 @@ ul#horizontal-list li {
     padding-top: 50px;
     padding-bottom: 40px;
 }
+
+.contact-directions {
+    width: 100%;
+    background-size: cover;
+  /*color: black;*/
+    padding-top: 2%;
+}
+
 
 .feedback {
     width: 100%;
@@ -565,8 +585,8 @@ ul#horizontal-list li {
 }
 
 .rights-contact {
-    color: white;
-    background-color: royalblue;
+    color: #ffffff;
+    background-color: #3a54a5;
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -580,11 +600,11 @@ ul#horizontal-list li {
 
 .rights-link {
     color: yellow;
-    font-size: 1.5em;
 }
 
 .rights-title {
-    padding-top: 3%;
+    padding-top: 1%;
+    font-weight: 700;
 }
 
 .rights-intro {
@@ -663,20 +683,25 @@ ul#horizontal-list li {
     padding-bottom: 3%;
 }
 
+.prayer-body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .directions-times-left {
     padding-left: 80%;
 }
 
 .pickup {
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 4%;
 }
 
 .our-lady {
-    background-color: #293279;
+    background-color: #293278;
     ;
-    color: white;
+    color: #ffffff;
     font-size: 1em;
     padding: 2em;
 }
@@ -686,7 +711,6 @@ ul#horizontal-list li {
 }
 
 .go-to {
-    padding-top: 2em;
     padding-bottom: 3em;
     font-size: 0.9em;
 }
@@ -828,7 +852,7 @@ ul#horizontal-list li {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -860,7 +884,7 @@ ul#horizontal-list li {
 /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: white;
+    background-color: #ffffff;
     padding: 2px 16px;
     padding-top: 1%;
     color: black;
@@ -926,7 +950,7 @@ ul#horizontal-list li {
 
 .directions-attractions {
     padding-top: 3%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 .cf {
