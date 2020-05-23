@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>StellaMaris</title>
+    <title>Religious Resources</title>
     <!-- BOOTSTRAP 3 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,11 +21,12 @@
 <body>
 
     <!-----------------------------------------------------------------NAVIGATION BAR---------------------------------------------------------->
+    <!--NAVIGATION BAR-->
     <header class="container-fluid">
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
+            <div class="container-fluid navbar">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
@@ -41,20 +42,23 @@
                         <li><a class="navigation-text" href="our-services.html">Our Services</a></li>
                         <li><a class="navigation-text" href="directions.html">Directions</a></li>
                         <li><a class="navigation-text" href="rights.html">Rights</a></li>
-                        <li><a class="navigation-text" href="#">Health</a></li>
-                        <li><a class="navigation-text" href="#">Religious Resources</a></li>
+                        <li><a class="navigation-text" href="health.html">Health</a></li>
+                        <li><a class="navigation-text" href="religious-resources.html">Religious Resources</a></li>
                         <li><a class="navigation-text" href="about-us.html">About Us</a></li>
                         <li><a class="navigation-text" href="contact-us.html">Contact</a></li>
 
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <form class="navbar-form navbar-left" action="/action_page.php">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <a type="supportus-btn" class="btn btn-default" href="support-us.html">Support Us</a>
-                        </form>
+                        <li>
+                            <form class="navbar-form navbar-left" action="/action_page.php">
+                                <a class="btn btn-default header" href="support-us.html">Support Us</a>
+                                <div class="form-group">
+                                    <input type="text" class="form-control search-bar" placeholder="Search">
+                                </div>
+
+                            </form>
+                        </li>
                     </ul>
                     <!--NAVBAR-->
                 </div>
@@ -161,16 +165,16 @@
 
     <footer class="container-fluid">
         <div class="footer">
-            <ul id="horizontal-list">
-                <li><a class="footer-text" href="index.html">Stella Maris</a></li>
-                <li><a class="footer-text" href="our-services.html">Our Services</a></li>
-                <li><a class="footer-text" href="directions.html">Directions</a></li>
-                <li><a class="footer-text" href="rights.html">Rights</a></li>
-                <li><a class="footer-text" href="#">Health</a></li>
-                <li><a class="footer-logo" href="Index.html"> <img class="footer-logo-center" src="assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a></li>
+            <ul class="footer-list" id="horizontal-list">
+                <li><a class="footer-text left" href="index.html">Stella Maris</a></li>
+                <li><a class="footer-text left" href="our-services.html">Our Services</a></li>
+                <li><a class="footer-text left" href="directions.html">Directions</a></li>
+                <li><a class="footer-text left" href="rights.html">Rights</a></li>
+                <li><a class="footer-text left" href="health.html">Health</a></li>
+                <li><a class="footer-text footer-logo" href="Index.html"> <img class="footer-logo-center" src="assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a></li>
                 <li><a class="footer-text" href="directions.html">16 Queen Victoria Street, Fremantle WA 6160</a></li>
-                <li><a class="facebook-logo" href="https://www.facebook.com/stellamarisfremantle"> <img class="facebook-logo-footer" src="assets/facebook_logo.png" alt="Facebook Logo"> </a></li>
-                <li><a class="footer-btn"><a type="supportus-btn" class="btn btn-default" href="support-us.html">Support Us</a></a></li>
+                <li><a class="footer-text facebook-logo" href="https://www.facebook.com/stellamarisfremantle"> <img class="facebook-logo-footer" src="assets/facebook_logo.png" alt="Facebook Logo"> </a></li>
+                <li><a class="btn btn-default footer supportus-btn" href="support-us.html">Support Us</a></li>
             </ul>
         </div>
         <!--footer-->
