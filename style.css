@@ -599,7 +599,7 @@ ul#horizontal-list li {
 }
 
 .rights-link {
-    color: yellow;
+    color: #fddd00;
 }
 
 .rights-title {
@@ -684,8 +684,8 @@ ul#horizontal-list li {
 }
 
 .prayer-body {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .directions-times-left {
@@ -772,7 +772,7 @@ ul#horizontal-list li {
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
-    /* Aim for < 494x255px. Eg. 200x150px */
+    /* Aim for <494x255px. Eg. 200x150px */
 }
 
 .health-links-text h2 {
