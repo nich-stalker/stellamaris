@@ -526,7 +526,7 @@ ul#horizontal-list li {
 
 .feedback {
     width: 100%;
-    background-color: #a3b7f3;
+    background-color: #5d72b7;
     background-size: cover;
     height: 75vh;
     padding-left: 100px;
@@ -534,7 +534,9 @@ ul#horizontal-list li {
     padding-right: 100px;
 }
 
-.feedback-content {}
+.feedback-content {
+    color:#ffffff;
+}
 
 .feedback-text {}
 
@@ -761,11 +763,11 @@ ul#horizontal-list li {
 }
 
 .linkbox-green {
-    background-color: #87c543;
+    background-color: #6ac74e; /*CHANGED HERE*/
 }
 
 .linkbox-darkgreen {
-    background-color: #5da554;
+    background-color: #60bb57; /*CHANGED HERE*/
     padding-top: 20px;
 }
 
