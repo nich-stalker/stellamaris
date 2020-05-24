@@ -1063,7 +1063,7 @@
             height: 0%;
         }
 
-<<<<<<< HEAD
+
     .directions-left {
         text-align: center;
         padding-left: 50px;
@@ -1073,17 +1073,22 @@
        .contact-content-directions{
         padding-top:0%;
     }
-=======
+
         .our-services {
             height: 0%;
         }
->>>>>>> 335e31ba139c05bdc69227ac0e25a0f426ee784b
+
 
         .free-clothing {
             padding-bottom: 5%;
             margin-left: 4%;
             margin-right: 4%;
         }
+        
+        .footer-text.copyright {
+    text-align: center;
+    padding-left: 0px;
+}
 
     }
 
