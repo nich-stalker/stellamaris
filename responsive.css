@@ -163,7 +163,7 @@
 
     /**************************** HEALTH PAGE*/
 
-    .linkbox{
+    .linkbox {
         height: 42vh;
     }
 
@@ -356,7 +356,7 @@
         margin-left: auto;
         margin-right: auto;
         width: auto;
-        padding: none;
+        padding: 0px;
     }
 
     .directions-info-text {
@@ -420,33 +420,25 @@
         text-align: center;
     }
 
-    .prayer-mary-title {
-        padding-top:
-    }
-
-    .mary-body {
-        padding-left:
-    }
-    
     /**************************** HEALTH PAGE*/
     .health-linkbox {
-        width:100%;
+        width: 100%;
     }
 
     .linkbox-green {
-        width:100%
+        width: 100%
     }
 
     .linkbox-darkgreen {
-        width:100%
+        width: 100%
     }
-    
-    .health-links{
-        height:132vh;
+
+    .health-links {
+        height: 132vh;
     }
-    
+
     /**************************** CONTACT PAGE*/
-    
+
     .contact-left-text {
         padding-left: 0%;
         text-align: center;
@@ -463,7 +455,7 @@
     .contact-right-text {
         text-align: center;
     }
-    
+
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -584,15 +576,15 @@
 
     .health-linkbox {
         height: 40vh;
-        width:100%;
+        width: 100%;
     }
-    
-    .linkbox-darkgreen{
-        width:100%;
+
+    .linkbox-darkgreen {
+        width: 100%;
     }
-    
-    .linkbox-green{
-        width:100%;
+
+    .linkbox-green {
+        width: 100%;
     }
 
     .health-header {
@@ -602,7 +594,7 @@
     .health {
         height: 30vh;
     }
-    
+
     /**************************** CONTACT-US PAGE*/
 
     .contact-left-text {
@@ -655,23 +647,23 @@
 
     /**************************** HEALTH*/
 
-    .health-linkbox{
-        width:100%;
+    .health-linkbox {
+        width: 100%;
     }
-    
-    .linkbox-darkgreen{
-        width:100%;
+
+    .linkbox-darkgreen {
+        width: 100%;
     }
-    
-    .linkbox-green{
-        width:100%;
+
+    .linkbox-green {
+        width: 100%;
     }
-    
+
     /**************************** CONTACT PAGE*/
-    
-    .contact{
-        padding-top:40px;
-        padding-bottom:10px;
+
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 10px;
     }
 }
 
@@ -684,12 +676,12 @@
     .navbar-nav > li > a {
         font-size: 0.65em;
     }
-    
+
     /**************************** CONTACT PAGE*/
-    
-    .contact-content{
-        padding-top:0px;
-        padding-bottom:40px;
+
+    .contact-content {
+        padding-top: 0px;
+        padding-bottom: 40px;
     }
 }
 
@@ -765,570 +757,570 @@
 
     /**************************** HEALTH PAGE*/
 
-    .health-linkbox{
-        width:100%;
-    }
-    
-    .health-links{
-        height:132vh;
-    }
-
-/***********************************************************************************CHANGES AT 841*/
-
-@media(max-width:841px) {
-
-    /**************************** NAVBAR AND FOOTER*/
-
-    .footer-text {
-        font-size: 0.6em;
-        padding-left: 6px;
-        padding-right: 6px;
-    }
-
-    .btn.btn-default.header {
-        margin-right: 0px;
-    }
-
-
-    /**************************** INDEX PAGE*/
-
-    img.seafarers-rights {
-        height: 175px;
-    }
-
-    .seafarers-rights-img {
-        padding-left: 90px;
-        padding-top: 15px;
-    }
-
-    /**************************** SUPPORT US PAGE*/
-
-    img.supportus-img {
-        height: 200px;
-    }
-
-    /**************************** DONATION_PAGE*/
-
-    .support_subpage {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .wooly_hats {
-        padding-right: 70px;
-    }
-
-    /**************************** SERVICES PAGE*/
-    .sim-text {
-        font-size: 0.9em;
-    }
-}
-
-/***********************************************************************************CHANGES AT 769px*/
-@media(max-width:769px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .linkbox-slim {
-        padding-top: 30px;
-    }
-}
-
-/***********************************************************************************CHANGES AT 767*/
-
-@media(max-width:767px) {
-
-    /**************************** NAVBAR AND FOOTER*/
-
-    .container-fluid.navbar {
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-
-    .navbar-toggle {
-        border-color: #ffffff;
-    }
-
-    .navbar-nav > li > a {
-        font-size: 0.9em;
-    }
-
-    .navbar-right {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    .btn.btn-default.header {
-        font-size: 0.9em;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
-    .form-group {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-    /**************************** ABOUT US*/
-
-    .container-fluid.about-us {
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .about-us-content {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 25px;
-    }
-
-    .jesus_seafarer {
-        text-align: center;
-        padding-top: 0px;
-        height: 500px;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 50px;
-    }
-
-    /**************************** INDEX PAGE*/
-
-    .herobg {
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .container-fluid.directions {
-        text-align: center;
-    }
-
-    .col-sm-5.map {
-        float: none;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .col-sm-7.directions_bodycopy {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 30px;
-    }
-
-    .directions_text {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 5px;
-        margin: 0px;
-    }
-
-    .rights {
-        padding-bottom: 20px;
-    }
-
-    .support-us-header {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .donation_text {
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .volunteer_text {
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .support-us {
-        height: 110vh;
-    }
-
-    .seafarers-rights-img {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .rights_content {
-        text-align: center;
-    }
-
-    /**************************** SUPPORT US PAGE*/
-
-    .support-seafarers {
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .biography {
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .col-sm-6.supportus-img {
-        height: 200px;
-    }
-
-    /**************************** DIRECTIONS PAGE*/
-
-    .directions-info span {
-        display: none;
-        text-align: center;
-    }
-
-    .directions-left {
-        text-align: center;
-    }
-
-    /***********CHANGES OF RELIGIOUS RESOURCES*/
-
-    .prayer-mary-title {
-        padding-bottom: 2%;
-    }
-
-    /**************************** DONATION_PAGE*/
-
-    .container-fluid.donate {
-        text-align: center;
-    }
-
-    .donation_content {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .wooly_hats {
-        height: 200px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .donation_image {
-        padding-top: 25px;
-    }
-
-    .donation_content {
-        padding-top: 50px;
-        padding-bottom: 0px;
-    }
-
-    /**************************** RELIGIOUS PAGE*/
-
-    .prayer-mary-2 {
-        text-align: center;
-        padding-top: 0%;
-    }
-
-    .prayer-mary-title {
-        padding-bottom: 2%;
-        padding-top: 3%;
-    }
-
-    /**************************** SERVICES PAGE*/
-    .sim-text {
-        text-align: center;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .our-services-section {
-        height: 0%;
-    }
-
-    .services-left {
-        float: none;
-    }
-
-    .services-right {
-        float: none;
-    }
-
-    .our-services-section-dark {
-        height: 0%;
-    }
-
-    .our-services {
-        height: 0%;
-    }
-
-    .free-clothing {
-        padding-bottom: 5%;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-
-}
-
-/***********************************************************************************CHANGES AT 750px*/
-@media(max-width:750px) {
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        height: 80vh;
-        padding-top:40px;
-    }
-
-    .contact-content {
-        padding: 10px 50px 40px 60px;
-    }
-    
-    .contact{
-        padding-top:30px;
-    }
-}
-
-/***********************************************************************************CHANGES AT 748px*/
-@media(max-width:748px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .health {
-        height: 32vh;
-    }
-}
-
-/***********************************************************************************CHANGES AT 742px*/
-@media(max-width:742px) {
-
-    /**************************** HEALTH PAGE*/
-
     .health-linkbox {
-        height: 42vh;
-    }
-
-    .linkbox-green {
-        padding-top: 30px;
-    }
-
-    .linkbox-slim {
-        padding-top: 35px;
+        width: 100%;
     }
 
     .health-links {
         height: 132vh;
     }
-}
 
-/***********************************************************************************CHANGES AT 738*/
+    /***********************************************************************************CHANGES AT 841*/
 
-@media(max-width:738px) {
+    @media(max-width:841px) {
 
-    /**************************** NAVBAR AND FOOTER*/
+        /**************************** NAVBAR AND FOOTER*/
 
-    .footer-list {
-        padding-right: 40px;
-        padding-left: 0px;
+        .footer-text {
+            font-size: 0.6em;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+
+        .btn.btn-default.header {
+            margin-right: 0px;
+        }
+
+
+        /**************************** INDEX PAGE*/
+
+        img.seafarers-rights {
+            height: 175px;
+        }
+
+        .seafarers-rights-img {
+            padding-left: 90px;
+            padding-top: 15px;
+        }
+
+        /**************************** SUPPORT US PAGE*/
+
+        img.supportus-img {
+            height: 200px;
+        }
+
+        /**************************** DONATION_PAGE*/
+
+        .support_subpage {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .wooly_hats {
+            padding-right: 70px;
+        }
+
+        /**************************** SERVICES PAGE*/
+        .sim-text {
+            font-size: 0.9em;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 769px*/
+    @media(max-width:769px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .linkbox-slim {
+            padding-top: 30px;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 767*/
+
+    @media(max-width:767px) {
+
+        /**************************** NAVBAR AND FOOTER*/
+
+        .container-fluid.navbar {
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .navbar-toggle {
+            border-color: #ffffff;
+        }
+
+        .navbar-nav > li > a {
+            font-size: 0.9em;
+        }
+
+        .navbar-right {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        .btn.btn-default.header {
+            font-size: 0.9em;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .form-group {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        /**************************** ABOUT US*/
+
+        .container-fluid.about-us {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .about-us-content {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 25px;
+        }
+
+        .jesus_seafarer {
+            text-align: center;
+            padding-top: 0px;
+            height: 500px;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-bottom: 50px;
+        }
+
+        /**************************** INDEX PAGE*/
+
+        .herobg {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .container-fluid.directions {
+            text-align: center;
+        }
+
+        .col-sm-5.map {
+            float: none;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .col-sm-7.directions_bodycopy {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 30px;
+        }
+
+        .directions_text {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 5px;
+            margin: 0px;
+        }
+
+        .rights {
+            padding-bottom: 20px;
+        }
+
+        .support-us-header {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .donation_text {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .volunteer_text {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .support-us {
+            height: 110vh;
+        }
+
+        .seafarers-rights-img {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .rights_content {
+            text-align: center;
+        }
+
+        /**************************** SUPPORT US PAGE*/
+
+        .support-seafarers {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .biography {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .col-sm-6.supportus-img {
+            height: 200px;
+        }
+
+        /**************************** DIRECTIONS PAGE*/
+
+        .directions-info span {
+            display: none;
+            text-align: center;
+        }
+
+        .directions-left {
+            text-align: center;
+        }
+
+        /***********CHANGES OF RELIGIOUS RESOURCES*/
+
+        .prayer-mary-title {
+            padding-bottom: 2%;
+        }
+
+        /**************************** DONATION_PAGE*/
+
+        .container-fluid.donate {
+            text-align: center;
+        }
+
+        .donation_content {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .wooly_hats {
+            height: 200px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .donation_image {
+            padding-top: 25px;
+        }
+
+        .donation_content {
+            padding-top: 50px;
+            padding-bottom: 0px;
+        }
+
+        /**************************** RELIGIOUS PAGE*/
+
+        .prayer-mary-2 {
+            text-align: center;
+            padding-top: 0%;
+        }
+
+        .prayer-mary-title {
+            padding-bottom: 2%;
+            padding-top: 3%;
+        }
+
+        /**************************** SERVICES PAGE*/
+        .sim-text {
+            text-align: center;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .our-services-section {
+            height: 0%;
+        }
+
+        .services-left {
+            float: none;
+        }
+
+        .services-right {
+            float: none;
+        }
+
+        .our-services-section-dark {
+            height: 0%;
+        }
+
+        .our-services {
+            height: 0%;
+        }
+
+        .free-clothing {
+            padding-bottom: 5%;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
 
     }
 
-    .footer-text.left {
-        display: none;
+    /***********************************************************************************CHANGES AT 750px*/
+    @media(max-width:750px) {
+
+        /**************************** CONTACT-US PAGE*/
+
+        .feedback {
+            height: 80vh;
+            padding-top: 40px;
+        }
+
+        .contact-content {
+            padding: 10px 50px 40px 60px;
+        }
+
+        .contact {
+            padding-top: 30px;
+        }
     }
 
-    .btn.btn-default.footer {
-        display: none;
+    /***********************************************************************************CHANGES AT 748px*/
+    @media(max-width:748px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .health {
+            height: 32vh;
+        }
     }
 
-    .footer-text {
-        font-size: 0.9em;
+    /***********************************************************************************CHANGES AT 742px*/
+    @media(max-width:742px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .health-linkbox {
+            height: 42vh;
+        }
+
+        .linkbox-green {
+            padding-top: 30px;
+        }
+
+        .linkbox-slim {
+            padding-top: 35px;
+        }
+
+        .health-links {
+            height: 132vh;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 738*/
+
+    @media(max-width:738px) {
+
+        /**************************** NAVBAR AND FOOTER*/
+
+        .footer-list {
+            padding-right: 40px;
+            padding-left: 0px;
+
+        }
+
+        .footer-text.left {
+            display: none;
+        }
+
+        .btn.btn-default.footer {
+            display: none;
+        }
+
+        .footer-text {
+            font-size: 0.9em;
+        }
+
+
+        /**************************** VOLUNTEER PAGE*/
+        .volunteer-title {
+            margin: 0px;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 700px*/
+    @media(max-width:700px) {
+
+        /**************************** CONTACT-US PAGE*/
+
+        .feedback-input {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 696px*/
+    @media(max-width:696px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .linkbox-green {
+            padding-top: 20px;
+        }
+
+        /**************************** VOLUNTEER PAGE*/
+        .seafarers_flag {
+            height: 250px;
+        }
+
+        .container-fluid.volunteer {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 660px*/
+    @media(max-width:660px) {
+
+        /**************************** CONTACT-US PAGE*/
+
+        .feedback {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+
+        .mySlides {
+            height: 0%;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 621px*/
+    @media(max-width:621px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .health {
+            height: 34vh;
+        }
+    }
+
+    /***********************************************************************************CHANGES AT 575*/
+
+    @media(max-width:575px) {
+
+        /**************************** INDEX PAGE*/
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+
+        img.donation-white {
+            max-height: 100px;
+        }
+
+        img.volunteer-white {
+            max-height: 100px;
+        }
+
+        .btm {
+            font-size: 0.9em;
+        }
+
+        .support-us {
+            height: 90vh;
+        }
+
+        /**************************** ABOUT US*/
+        .about-us-content {
+            padding-top: 25px;
+        }
+
+        .jesus_seafarer {
+            height: 450px;
+        }
+
+        /**************************** DONATION PAGE*/
+        .donation_content {
+            padding-top: 25px;
+        }
+
+        /**************************** VOLUNTEER PAGE*/
+        .seafarers_flag {
+            height: 200px;
+        }
+
+        /**************************** RELIGIOUS PAGE*/
+
+        .go-to {
+            padding-bottom: 3em;
+            font-size: 0.8em;
+        }
+
+    }
+
+    /***********************************************************************************CHANGES AT 558px*/
+    @media(max-width:558px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .health-header {
+            padding-top: 20px;
+        }
+
+        .health {
+            height: 30vh;
+        }
+
+        /**************************** DONATION_PAGE*/
+
+        .support_subpage {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .container-fluid.support-us.subpage {
+            height: 40vh;
+        }
     }
 
 
-    /**************************** VOLUNTEER PAGE*/
-    .volunteer-title {
-        margin: 0px;
+    /***********************************************************************************CHANGES AT 498px*/
+    @media(max-width:498px) {
+
+        /**************************** HEALTH PAGE*/
+
+        .linkbox-slim {
+            padding-top: 30px;
+        }
+
+        /**************************** CONTACT-US PAGE*/
+
+        .feedback {
+            height: 80vh;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .contact-content {
+            padding-bottom: 30px;
+        }
+
+        .feedback {
+            padding-top: 20px;
+        }
+
+        /**************************** INDEX PAGE*/
+
+        .support-us {
+            height: 100vh;
+        }
+
     }
-}
-
-/***********************************************************************************CHANGES AT 700px*/
-@media(max-width:700px) {
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback-input {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-/***********************************************************************************CHANGES AT 696px*/
-@media(max-width:696px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .linkbox-green {
-        padding-top: 20px;
-    }
-
-    /**************************** VOLUNTEER PAGE*/
-    .seafarers_flag {
-        height: 250px;
-    }
-
-    .container-fluid.volunteer {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-
-/***********************************************************************************CHANGES AT 660px*/
-@media(max-width:660px) {
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-
-    .mySlides {
-        height: 0%;
-    }
-}
-
-/***********************************************************************************CHANGES AT 621px*/
-@media(max-width:621px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .health {
-        height: 34vh;
-    }
-}
-
-/***********************************************************************************CHANGES AT 575*/
-
-@media(max-width:575px) {
-
-    /**************************** INDEX PAGE*/
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 0.9em;
-    }
-
-    img.donation-white {
-        max-height: 100px;
-    }
-
-    img.volunteer-white {
-        max-height: 100px;
-    }
-
-    .btm {
-        font-size: 0.9em;
-    }
-
-    .support-us {
-        height: 90vh;
-    }
-
-    /**************************** ABOUT US*/
-    .about-us-content {
-        padding-top: 25px;
-    }
-
-    .jesus_seafarer {
-        height: 450px;
-    }
-
-    /**************************** DONATION PAGE*/
-    .donation_content {
-        padding-top: 25px;
-    }
-
-    /**************************** VOLUNTEER PAGE*/
-    .seafarers_flag {
-        height: 200px;
-    }
-
-    /**************************** RELIGIOUS PAGE*/
-
-    .go-to {
-        padding-bottom: 3em;
-        font-size: 0.8em;
-    }
-
-}
-
-/***********************************************************************************CHANGES AT 558px*/
-@media(max-width:558px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .health-header {
-        padding-top: 20px;
-    }
-
-    .health {
-        height: 30vh;
-    }
-
-    /**************************** DONATION_PAGE*/
-
-    .support_subpage {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .container-fluid.support-us.subpage {
-        height: 40vh;
-    }
-}
-
-
-/***********************************************************************************CHANGES AT 498px*/
-@media(max-width:498px) {
-
-    /**************************** HEALTH PAGE*/
-
-    .linkbox-slim {
-        padding-top: 30px;
-    }
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        height: 80vh;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    
-    .contact-content{
-        padding-bottom:30px;
-    }
-    
-    .feedback{
-        padding-top:20px;
-    }
-
-    /**************************** INDEX PAGE*/
-
-    .support-us {
-        height: 100vh;
-    }
-
-}
 }
 
 /***********************************************************************************CHANGES AT 496px*/
@@ -1405,7 +1397,6 @@
     padding: 1.3em;
 }
 
-}
 
 /***********************************************************************************CHANGES AT 472px*/
 @media(max-width:472px) {
@@ -1601,49 +1592,49 @@
     .directions-tourist {
         padding-bottom: 6%;
     }
-    
+
     /**************************** HEALTH PAGE*/
 
     .health {
-        height:30vh;
+        height: 30vh;
     }
-    
-    .health-linkbox{
-        height:44vh;
+
+    .health-linkbox {
+        height: 44vh;
     }
-    
-    .health-links{
-        height:139vh;
+
+    .health-links {
+        height: 139vh;
     }
-    
-    .linkbox-darkgreen{
-        padding-top:20px;
+
+    .linkbox-darkgreen {
+        padding-top: 20px;
     }
-    
+
     /**************************** CONTACT PAGE*/
-    
-    .contact{
-        padding-top:10px;
-        padding-bottom:0px;
+
+    .contact {
+        padding-top: 10px;
+        padding-bottom: 0px;
     }
-    
-    .feedback{
-        padding-top:20px;
+
+    .feedback {
+        padding-top: 20px;
     }
-    
-    .contact-content{
-        padding-top:0px;
-        padding-left:50px;
+
+    .contact-content {
+        padding-top: 0px;
+        padding-left: 50px;
     }
-    
-    .contact-row{
-        padding-top:10px;
+
+    .contact-row {
+        padding-top: 10px;
     }
-    
-    .contact-left-text{
-        padding-right:0px;
+
+    .contact-left-text {
+        padding-right: 0px;
     }
-    
+
 }
 
 /***********************************************************************************CHANGES AT 387px*/
@@ -1757,9 +1748,9 @@
     .health-linkbox {
         height: 42vh;
     }
-    
-    .linkbox-darkgreen{
-        padding-top:20px;
+
+    .linkbox-darkgreen {
+        padding-top: 20px;
     }
 
     .health-links {
@@ -1827,11 +1818,11 @@
     /**************************** HEALTH PAGE*/
 
     .linkbox-green {
-        padding-top:30px;
+        padding-top: 30px;
     }
-    
-    .linkbox-slim{
-        padding-top:45px;
+
+    .linkbox-slim {
+        padding-top: 45px;
     }
 
 }
@@ -1842,19 +1833,19 @@
 
     /**************************** HEALTH PAGE*/
 
-    .health-linkbox{
-        height:40vh;
+    .health-linkbox {
+        height: 40vh;
     }
-    
+
     .linkbox-green {
-        padding-top:20px;
+        padding-top: 20px;
     }
-    
-    .linkbox-slim{
-        padding-top:30px;
+
+    .linkbox-slim {
+        padding-top: 30px;
     }
-    
-    .health-links{
-        height:127vh;
+
+    .health-links {
+        height: 127vh;
     }
 }
