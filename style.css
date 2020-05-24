@@ -316,7 +316,6 @@ p {
 .directions-info-text {
     padding-left: 15em;
     padding-bottom: 1em;
-    font-size:
 }
 
 .footer {
@@ -474,7 +473,7 @@ ul#horizontal-list li {
 
 .our-services-section-dark {
     width: 100%;
-    background-color: skyblue no-repeat center center;
+    background-color: skyblue;
     background-size: cover;
     text-align: center;
     color: #ffffff;
@@ -499,13 +498,13 @@ ul#horizontal-list li {
 }
 
 .contact-header {
-  /*color: black;*/
+    /*color: black;*/
     text-align: center;
 }
 
 .contact-left-text {
     padding-left: 30%;
-  /*color: black;*/
+    /*color: black;*/
     font-weight: 800;
 }
 
@@ -513,7 +512,7 @@ ul#horizontal-list li {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
-  /*color: black;*/
+    /*color: black;*/
 }
 
 .contact-content {
@@ -531,7 +530,7 @@ ul#horizontal-list li {
 .contact {
     width: 100%;
     background-size: cover;
-  /*color: black;*/
+    /*color: black;*/
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -546,7 +545,7 @@ ul#horizontal-list li {
 
 .feedback {
     width: 100%;
-    background-color: #a3b7f3;
+    background-color: #5d72b7;
     background-size: cover;
     height: 75vh;
     padding-left: 100px;
@@ -554,7 +553,9 @@ ul#horizontal-list li {
     padding-right: 100px;
 }
 
-.feedback-content {}
+.feedback-content {
+    color: #ffffff;
+}
 
 .feedback-text {}
 
@@ -566,7 +567,8 @@ ul#horizontal-list li {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
-    padding-top: 10px font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .rights-section {
@@ -726,7 +728,7 @@ ul#horizontal-list li {
 }
 
 .health-header {
-  /*color: black;*/
+    /*color: black;*/
     text-align: center;
     padding-top: 40px;
 }
@@ -785,11 +787,13 @@ ul#horizontal-list li {
 }
 
 .linkbox-green {
-    background-color: #87c543;
+    background-color: #6ac74e;
+    /*CHANGED HERE*/
 }
 
 .linkbox-darkgreen {
-    background-color: #5da554;
+    background-color: #60bb57;
+    /*CHANGED HERE*/
     padding-top: 20px;
 }
 
@@ -797,12 +801,12 @@ ul#horizontal-list li {
     padding-top: 40px;
 }
 
-.linkbox-fl{
-    float:left;
+.linkbox-fl {
+    float: left;
 }
 
-.linkbox-fr{
-    float:right;
+.linkbox-fr {
+    float: right;
 }
 
 .health-banner {
@@ -857,7 +861,6 @@ ul#horizontal-list li {
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -956,5 +959,3 @@ ul#horizontal-list li {
 .cf {
     font-size: 0.7em;
 }
-
-.
