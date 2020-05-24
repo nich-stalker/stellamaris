@@ -18,7 +18,7 @@
     <section class="container-fluid directions">
         <div class="row">
             <div class="col-sm-5 map">
-                <img class="minimal-map-freo" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stella_maris_fremantle/assets/minimal_map_freo.png" alt="Map of Fremantle">
+                <img class="minimal-map-freo" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/minimal_map_freo.png" alt="Map of Fremantle">
             </div>
             <!--COL-SM-6-->
             <div class="col-sm-7 directions_bodycopy">
@@ -54,7 +54,7 @@
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="donation-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stella_maris_fremantle/assets/donation_white.png" alt="An icon of donation">
+                        <img class="donation-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/donation_white.png" alt="An icon of donation">
                     </div>
                     <!--ICONs-->
                     <div class="donation_btn">
@@ -70,7 +70,7 @@
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="volunteer-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stella_maris_fremantle/assets/volunteer_white.png" alt="An icon of volunteering">
+                        <img class="volunteer-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/volunteer_white.png" alt="An icon of volunteering">
                     </div>
                     <!--ICONS-->
                     <div Class="volunteer_btn">
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="seafarers-rights-img">
-                        <img class="seafarers-rights" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stella_maris_fremantle/assets/seafarers_rights.jpg" alt="Smiling seafarer">
+                        <img class="seafarers-rights" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/seafarers_rights.jpg" alt="Smiling seafarer">
                     </div>
                     <!--SEAFARERS-RIGHTS-IMG-->
                 </div>
