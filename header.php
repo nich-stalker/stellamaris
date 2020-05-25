@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
+<meta charset="<?php bloginfo('charset'); ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 
     <title><?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -51,7 +51,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Index.html"> <img src="assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
+                    <a class="navbar-brand" href="Index.html"> <img src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
                 </div>
                 <!--NAVBAR-HEADER-->
                 <div class="collapse navbar-collapse" id="myNavbar">
