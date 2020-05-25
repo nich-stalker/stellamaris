@@ -11,7 +11,6 @@ if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
 ?>
             <div><p class="our-services-home"><?php the_content() ?></p>
-            <?php echo '<a class="btn btn-default ourservices_btn" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?></div>
 <?php
 endwhile;
 endif;
@@ -101,14 +100,18 @@ wp_reset_query();?>
                         <img class="volunteer-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/volunteer_white.png" alt="An icon of volunteering">
                     </div>
                     <!--ICONS-->
-                    <div Class="volunteer_btn">
-                        <a class="btn btn-default volunteer_btn" href="volunteer.html">Volunteer Now</a>
-                    </div>
-                    <!--VOLUNTEER_BTN-->
-                    <div class="volunteer_text">
-                        <p>Stella Maris provides a number of services to fully assist seafarers during their stay in Fremantle. Volunteers with a friendly attitude and smile are always needed to make this possible.</p>
-                    </div>
-                    <!--VOLUNTEER_TEXT-->
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=11');//look for posts that have the category of 11
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+            <div><p class="volunteer-home"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
                 </div>
                 <!--COL-SM-6-->
             </div>
@@ -135,12 +138,18 @@ wp_reset_query();?>
                 <div class="col-sm-7">
                     <div class="rights_content">
                         <div class="seafarers-rights-text">
-                            <h3>Seafarer Rights</h3>
-                            <p> It is important for seafarers to be aware of their rights whilst at sea and also when they are in port. We have provided the basic information needed and links to other important sources.</p>
-                            <div class="seafarers-rights_btn">
-                                <a class="btn btn-default seafarers-rights_btn" href="rights.html">View Rights</a>
-                            </div>
-                            <!--SEAFARERS-RIGHTS-TEXT-->
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=12');//look for posts that have the category of 12
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+            <div><p class="seafarer-rights-home"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
                         </div>
                         <!--SEAFARERS-RIGHTS_BTN-->
                     </div>
