@@ -159,6 +159,10 @@ p {
     border-radius: 30pt;
 }
 
+.aboutusbutton{
+    padding-top: 10px;
+}
+
 .footer-list> li > a {
     color: #ffffff;
     padding-left: 5px;
