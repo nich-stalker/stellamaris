@@ -135,6 +135,11 @@ p {
     font-family: 'Raleway',
         sans-serif;
     font-size: 1em;
+    margin: 0px;
+}
+
+.seafarers-rights-home {
+    padding-bottom: 20px;
 }
 
 .footer-text.copyright {
@@ -678,6 +683,10 @@ ul#horizontal-list li {
 
 .donate-title {
     padding-bottom: 10px;
+}
+
+.donate-home {
+    margin: 0px;
 }
 
 .about-us-content {
