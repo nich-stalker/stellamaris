@@ -57,7 +57,7 @@ Template Name: Support Us
 
     <section class="image-title">
         <div class="row">
-            <div class="col-sm-6 supportus-img"<?php if ( get_field('imageforseafarersupport') ) { echo 'style="background: url(' . get_field('imageforseafarersupport') . ')"'; } ?>>
+            <div class="col-sm-6 supportus-img img-responsive"<?php if ( get_field('imageforseafarersupport') ) { echo 'style="background: url(' . get_field('imageforseafarersupport') . ')"'; } ?>>
 
             </div>
             <!--COL-SM-6-->
