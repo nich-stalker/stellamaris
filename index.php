@@ -1,24 +1,22 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
+   
+
 <section class="container-fluid banner">
         <div class="herobg">
 <?php
 global $more;//define a global variable
 $more = 0;// the global varibale is now equal to 0
-query_posts('cat=5');//look for posts that have the category of 5
+query_posts('cat=8');//look for posts that have the category of 8
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
 ?>
-<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
-            <div><p class="home-page"><?php the_content() ?></p></div>
+            <div><p class="our-services-home"><?php the_content() ?></p></div>
 <?php
 endwhile;
 endif;
-wp_reset_query();?>
+wp_reset_query();?> 
 
-            </div>
-            <!--OURSERVICES_BTN-->
-        </div>
-        <!--HEROBG-->
+</div>
     </section>
 
 
@@ -33,12 +31,18 @@ wp_reset_query();?>
             <!--COL-SM-6-->
             <div class="col-sm-7 directions_bodycopy">
                 <div class="directions_text">
-                    <h3> Where are we located?</h3>
-                    <p> Stella Maris is based at 16 Queen Victoria Street in Frematnle. Click get directions to find out exactly where we are or see all the useful things seafarers may need around us.</p>
-                    <div class="getdirections-btn">
-                        <a class="btn btn-default ourservices_btn" href="directions.html">Get Directions</a>
-                    </div>
-                    <!--GETDIRECTIONS-BTN-->
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=9');//look for posts that have the category of 9
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+            <div><p class="directions"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
                 </div>
                 <!--DIRECTIONS_TEXT-->
             </div>
