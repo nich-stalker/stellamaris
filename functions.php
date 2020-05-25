@@ -17,3 +17,8 @@ add_theme_support( 'post-thumbnails');
 		echo 'style="background: url(' . get_field('imageforourservices') . ')"';
 	}
 ?>
+<?php
+	if ( get_field('backgroundimageforsupportus') ) {
+		echo 'style="background: url(' . get_field('backgroundimageforsupportus') . ')"';
+	}
+?>
