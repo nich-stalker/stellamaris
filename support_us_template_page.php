@@ -4,66 +4,49 @@ Template Name: Support Us
 */
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-<section class="container-fluid support-us">
+<section class="container-fluid support-us"<?php if ( get_field('backgroundimageforsupportus') ) { echo 'style="background: url(' . get_field('backgroundimageforsupportus') . ')"'; } ?>>
         <div class="support-us-section">
             <div class="support-us-header">
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=13');//look for posts that have the category of 13
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-                <div><p class="support-us-support-us"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?> 
-            </div>
+<h3><?php the_field('titleforsupportus'); ?></h3>
+                <p><?php the_field('backgroundimageforsupportus'); ?></p>
+                <p><?php the_field('textforsupportus'); ?></p>
             <!--SUPPORT-US-HEADER-->
             <div class="row">
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="donation-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/donation_white.png" alt="An icon of donation">
+                        <img class="donation-white" alt="An icon of donation" src="<?php the_field('imagefordonation'); ?>">
                     </div>
                     <!--ICONs-->
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=15');//look for posts that have the category of 15
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-            <div><p class="donate-support-us"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+                    <div class="donation_btn">
+                    <a class="btn btn-default donation_btn" href="donate.html"><?php the_field('buttonfordonation'); ?></a>
+                    </div>
+                    <!--DONATION_BTN-->
+                    <div class="donation_text">
+                    <p><?php the_field('textfordonation'); ?></p>
+                    </div>
+                    <!--DONATION_TEXT-->
                 </div>
                 <!--COL-SM-6-->
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="volunteer-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/volunteer_white.png" alt="An icon of volunteering">
+                        <img class="volunteer-white" alt="An icon of volunteering" src="<?php the_field('imageforvolunteer'); ?>">
                     </div>
                     <!--ICONS-->
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=14');//look for posts that have the category of 14
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-            <div><p class="volunteer-support-us"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+                    <div Class="volunteer_btn">
+                    <a class="btn btn-default volunteer_btn" href="volunteer.html"><?php the_field('buttonforvolunteer'); ?></a>
+                    </div>
+                    <!--VOLUNTEER_BTN-->
+                    <div class="volunteer_text">
+                    <p><?php the_field('textforvolunteer'); ?></p>
+                    </div>
+                    <!--VOLUNTEER_TEXT-->
                 </div>
                 <!--COL-SM-6-->
             </div>
             <!--ROW-->
+            </div>
         </div>
         <!--SUPPORT-US-SECTION-->
     </section>
@@ -74,24 +57,13 @@ wp_reset_query();?>
 
     <section class="image-title">
         <div class="row">
-            <div class="col-sm-6 supportus-img">
+            <div class="col-sm-6 supportus-img"<?php if ( get_field('imageforseafarersupport') ) { echo 'style="background: url(' . get_field('imageforseafarersupport') . ')"'; } ?>>
 
             </div>
             <!--COL-SM-6-->
             <div class="col-sm-6">
                 <div class="support-seafarers">
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=16');//look for posts that have the category of 16
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-            <div><p class="help-out-support-us"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+                    <h1><?php the_field('titleforseafarersupport'); ?></h1>
                 </div>
                 <!--SUPPORT-SEAFARERS-->
             </div>
@@ -104,18 +76,14 @@ wp_reset_query();?>
     <!--BIOGRAPHY-->
 
     <section class="biography">
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=17');//look for posts that have the category of 17
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-            <div><p class="why-help-support-us"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+<div class="biography-title">
+            <h3><?php the_field('titleforwhyhelp'); ?></h3>
+        </div>
+        <!--BIOGRAPHY-TITLE-->
+        <div class="biography-bodycopy">
+            <p><?php the_field('textforwhyhelp'); ?></p>
+        </div>
+        <!--BIOGRAPHY-BODYCOPY-->
     </section>
 
 <?php get_footer(); ?>
