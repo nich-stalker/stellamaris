@@ -4,8 +4,6 @@ Template Name: Home Page
 */
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-   
-
 <section class="container-fluid banner">
         <div class="herobg"<?php if ( get_field('imageforourservices') ) { echo 'style="background: url(' . get_field('imageforourservices') . ')"'; } ?>>
    <h1><?php the_field('titleforourservices'); ?></h1>
