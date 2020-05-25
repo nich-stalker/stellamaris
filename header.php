@@ -56,14 +56,16 @@
                 <!--NAVBAR-HEADER-->
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a class="navigation-text" href="index.html">Stella Maris</a></li>
-                        <li><a class="navigation-text" href="our-services.html">Our Services</a></li>
-                        <li><a class="navigation-text" href="directions.html">Directions</a></li>
-                        <li><a class="navigation-text" href="rights.html">Rights</a></li>
-                        <li><a class="navigation-text" href="health.html">Health</a></li>
-                        <li><a class="navigation-text" href="religious-resources.html">Religious Resources</a></li>
-                        <li><a class="navigation-text" href="about-us.html">About Us</a></li>
-                        <li><a class="navigation-text" href="contact-us.html">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right">
+<?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
+
 
                     </ul>
 
