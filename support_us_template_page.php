@@ -4,7 +4,6 @@ Template Name: Support Us
 */
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-   
 <section class="container-fluid support-us">
         <div class="support-us-section">
             <div class="support-us-header">
