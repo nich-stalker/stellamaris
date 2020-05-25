@@ -7,7 +7,7 @@ Template Name: Home Page
    
 
 <section class="container-fluid banner">
-        <div class="herobg"<?php if ( get_field('imageforourservices ') ) { echo 'style="background: url(' . get_field(' imageforourservices ') . ')"'; } ?>>
+        <div class="herobg"<?php if ( get_field('imageforourservices') ) { echo 'style="background: url(' . get_field('imageforourservices') . ')"'; } ?>>
    <h1><?php the_field('titleforourservices'); ?></h1>
              <h2 class="herobg-subhead"><?php the_field('subheadingforourservices'); ?></h2>
             <div class="ourservices-btn">
@@ -50,7 +50,7 @@ Template Name: Home Page
 
     <!--SUPPORT US-->
 
-    <section class="container-fluid support-us">
+    <section class="container-fluid support-us"<?php if ( get_field('backgroundimageforsupportus') ) { echo 'style="background: url(' . get_field('backgroundimageforsupportus') . ')"'; } ?>>
         <div class="support-us-section">
             <div class="support-us-header">
                 <h3><?php the_field('titleforsupportus'); ?></h3>
