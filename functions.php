@@ -32,3 +32,8 @@ add_theme_support( 'post-thumbnails');
 		echo 'style="background: url(' . get_field('backgroundimagefordonate') . ')"';
 	}
 ?>
+<?php
+	if ( get_field('backgroundimageforvolunteer') ) {
+		echo 'style="background: url(' . get_field('backgroundimageforvolunteer') . ')"';
+	}
+?>
