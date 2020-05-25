@@ -6,7 +6,7 @@ Template Name: Home page
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <section class="container-fluid banner">
         <div class="herobg">
- 
+ <h3><?php the_field('titleforourservices'); ?></h3><!--  custom field for the aboutme content-->
 
 </div>
     </section>
