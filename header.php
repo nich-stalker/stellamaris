@@ -72,7 +72,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <form class="navbar-form navbar-left" action="/action_page.php">
-                                <a class="btn btn-default header" href="support-us.html">Support Us</a>
+                                <a class="btn btn-default header" href="http://206.189.45.97/~mesh21/sub/?page_id=158">Support Us</a>
                                 <div class="form-group">
                                     <input type="text" class="form-control search-bar" placeholder="Search">
                                 </div>
