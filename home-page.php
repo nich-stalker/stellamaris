@@ -7,7 +7,7 @@ Template Name: Home Page
    
 
 <section class="container-fluid banner">
-        <div class="herobg">
+        <div class="herobg"<?php if ( get_field('imageforourservices ') ) { echo 'style="background: url(' . get_field(' imageforourservices ') . ')"'; } ?>>
    <h1><?php the_field('titleforourservices'); ?></h1>
              <h2 class="herobg-subhead"><?php the_field('subheadingforourservices'); ?></h2>
             <div class="ourservices-btn">
@@ -24,7 +24,7 @@ Template Name: Home Page
     <section class="container-fluid directions">
         <div class="row">
             <div class="col-sm-5 map">
-                <img class="minimal-map-freo" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/minimal_map_freo.png" alt="Map of Fremantle">
+                <img class="minimal-map-freo" alt=“map of fremantle” src="<?php the_field('imagefordirections'); ?>">
             </div>
             <!--COL-SM-6-->
             <div class="col-sm-7 directions_bodycopy">
@@ -61,19 +61,31 @@ Template Name: Home Page
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="donation-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/donation_white.png" alt="An icon of donation">
+                        <img class="donation-white" alt=“donation-icon” src="<?php the_field('imagefordonations'); ?>">
                     </div>
                     <!--ICONs-->
-<!--Placeholder Donation-->
+                    <div class="donation_btn">
+                        <a class="btn btn-default donation_btn" href="donate.html"><?php the_field('buttonfordonation'); ?></a>
+                    </div>
+                    <!--DONATION_BTN-->
+                    <div class="donation_text">
+                        <p><?php the_field('textfordonation'); ?></p>
+                    </div>
                 </div>
                 <!--COL-SM-6-->
 
                 <div class="col-sm-6">
                     <div class="icons">
-                        <img class="volunteer-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/volunteer_white.png" alt="An icon of volunteering">
+                        <img class="volunteer-white" alt=“volunteering icon” src="<?php the_field('imageforvolunteer'); ?>">
                     </div>
                     <!--ICONS-->
-<!--place holdervolunteer-->
+                    <div Class="volunteer_btn">
+                        <a class="btn btn-default volunteer_btn" href="volunteer.html"><?php the_field('buttonforvolunteer'); ?></a>
+                    </div>
+                    <!--VOLUNTEER_BTN-->
+                    <div class="volunteer_text">
+                        <p><?php the_field('textforvolunteer'); ?></p>
+                    </div>
                 </div>
                 <!--COL-SM-6-->
             </div>
@@ -92,7 +104,7 @@ Template Name: Home Page
             <div class="row">
                 <div class="col-sm-5">
                     <div class="seafarers-rights-img">
-                        <img class="seafarers-rights" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/seafarers_rights.jpg" alt="Smiling seafarer">
+                        <img class="seafarers-rights" alt=“smiling seafarer” src="<?php the_field('imageforseafarersrights'); ?>">
                     </div>
                     <!--SEAFARERS-RIGHTS-IMG-->
                 </div>
@@ -100,9 +112,13 @@ Template Name: Home Page
                 <div class="col-sm-7">
                     <div class="rights_content">
                         <div class="seafarers-rights-text">
-<!--Placeholder Seafarers rights-->
+       <h3><?php the_field('titleforseafarerrights'); ?></h3>
+                            <p class="seafarers-rights-home"><?php the_field('textforseafarersrights'); ?></p>
+                            <div class="seafarers-rights_btn">
+                                <a class="btn btn-default seafarers-rights_btn" href="rights.html"><?php the_field('buttonforseafarersrights'); ?></a>
+                            </div>
                         </div>
-                        <!--SEAFARERS-RIGHTS_BTN-->
+                       
                     </div>
                     <!--RIGHTS_CONTENT-->
                 </div>
