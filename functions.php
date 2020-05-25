@@ -22,3 +22,8 @@ add_theme_support( 'post-thumbnails');
 		echo 'style="background: url(' . get_field('backgroundimageforsupportus') . ')"';
 	}
 ?>
+<?php
+	if ( get_field('imageforseafarersupport') ) {
+		echo 'style="background: url(' . get_field('imageforseafarersupport') . ')"';
+	}
+?>
