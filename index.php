@@ -10,7 +10,8 @@ query_posts('cat=8');//look for posts that have the category of 8
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
 ?>
-            <div><p class="our-services-home"><?php the_content() ?></p></div>
+            <div><p class="our-services-home"><?php the_content() ?></p>
+            <?php echo '<a class="btn btn-default ourservices_btn" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?></div>
 <?php
 endwhile;
 endif;
@@ -38,7 +39,7 @@ query_posts('cat=9');//look for posts that have the category of 9
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
 ?>
-            <div><p class="directions"><?php the_content() ?></p></div>
+            <div><p class="directions-home"><?php the_content() ?></p></div>
 <?php
 endwhile;
 endif;
@@ -59,9 +60,18 @@ wp_reset_query();?>
     <section class="container-fluid support-us">
         <div class="support-us-section">
             <div class="support-us-header">
-                <h3>Support us today</h3>
-                <p>Stella Maris is a “not-for-profit" organisation staffed chiefly by volunteers.</p>
-                <p> We need your prayers, your support and your time to help us to continue offering support to seafarers.</p>
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=7');//look for posts that have the category of 7
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+            <div><p class="support-us-home"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
             </div>
             <!--SUPPORT-US-HEADER-->
             <div class="row">
@@ -71,14 +81,18 @@ wp_reset_query();?>
                         <img class="donation-white" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/donation_white.png" alt="An icon of donation">
                     </div>
                     <!--ICONs-->
-                    <div class="donation_btn">
-                        <a class="btn btn-default donation_btn" href="donate.html">Donate Now</a>
-                    </div>
-                    <!--DONATION_BTN-->
-                    <div class="donation_text">
-                        <p>Seafarers spend most of their life at sea and are unable to access stores easily. Any donations are welcome, from clothing to magazines, to games or any lose change.</p>
-                    </div>
-                    <!--DONATION_TEXT-->
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=10');//look for posts that have the category of 10
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+            <div><p class="donate-home"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
                 </div>
                 <!--COL-SM-6-->
 
