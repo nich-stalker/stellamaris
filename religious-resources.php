@@ -48,8 +48,8 @@ Template Name: Religious Resources
             <div class="col-md-3"> </div>
             <div class="col-md-3">
                 <div class="prayer-mary">
-                    <h2 class="prayer-bottom prayer-mary-title"> Spiritual Communion <br> <div class="cf"> (cf. St Alphonsus Liguori) </div></h2>
-                    <p class="prayer-body">  My Jesus, <br> I believe that you are present in this Holy Sacrament of the altar.<br> I love you above all things<br>and I passionately desire to receive you into my soul.<br>Since I cannot now receive you sacramentally,<br>come spiritually into my soul<br>so that I may unite myself wholly to you now and forever. Amen. </p>
+                    <h2 class="prayer-bottom prayer-mary-title"><?php the_field('titleforsecondprayer'); ?><div class="cf"><?php the_field('subheadingforsecondprayer'); ?></div></h2>
+                    <p class="prayer-body"><?php the_field('textforsecondprayer'); ?></p>
                     
                 </div>
             </div>
@@ -57,8 +57,8 @@ Template Name: Religious Resources
             <div class="col-md-1"> </div>
             <div class="col-md-3">
                 <div class="prayer-mary">
-                    <h2 class="prayer-bottom prayer-mary-title">General Prayers for Health </h2>
-                    <p class="prayer-body"> Lord Jesus, you came that we might have life in all its fullness.<br>In this time of sickness and the fear of sickness,<br>give me the health of mind – that I might seek out wise guidance and act upon it;<br>the health of body – that will enable me to serve you and those around me;<br>the health of spirit – that my soul rests in the secure knowledge<br>that there is nothing that can separate me from the Father’s love.<br>Give me the grace to share your peace – that peace the world cannot give. </p>
+                    <h2 class="prayer-bottom prayer-mary-title"><?php the_field('titleforsecondprayer'); ?></h2>
+                    <p class="prayer-body"><?php the_field('textforthirdprayer'); ?></p>
                     
                 </div>
             </div>
@@ -71,7 +71,7 @@ Template Name: Religious Resources
 
     
 <div class="text-center go-to">
-    <h4 class="text-center our-lady-2 prayer-body">  Go to facebook.com/StellaMarisOrg for more inspiration and prayer </h4>
+    <h4 class="text-center our-lady-2 prayer-body"><?php the_field('textgotofacebook'); ?></h4>
    
 </div>
 </body>
