@@ -54,7 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Index.html"> <img src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
+                    <a class="navbar-brand" href="http://206.189.45.97/~mesh21/sub/?page_id=234"> <img src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
                 </div>
                 <!--NAVBAR-HEADER-->
                 <div class="collapse navbar-collapse" id="myNavbar">
