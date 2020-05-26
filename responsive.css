@@ -1613,7 +1613,7 @@
     }
 
     .support-us {
-        height: 95vh;
+        height: 100vh;
     }
 
     .biography {
@@ -1824,8 +1824,9 @@
     /**************************** INDEX PAGE*/
 
     .support-us-section {
-        padding-top: 10px;
+        padding-top: 0px;
     }
+
 }
 
 
