@@ -10,6 +10,7 @@ Template Name: Support Us
 <h3><?php the_field('titleforsupportus'); ?></h3>
                 <p><?php the_field('textforsupportus'); ?></p>
             <!--SUPPORT-US-HEADER-->
+                </div>
             <div class="row">
 
                 <div class="col-sm-6">
@@ -45,7 +46,7 @@ Template Name: Support Us
                 <!--COL-SM-6-->
             </div>
             <!--ROW-->
-            </div>
+            
         </div>
         <!--SUPPORT-US-SECTION-->
     </section>
@@ -56,7 +57,7 @@ Template Name: Support Us
 
     <section class="image-title">
         <div class="row">
-            <div class="col-sm-6 supportus-img img-responsive"<?php if ( get_field('imageforseafarersupport') ) { echo 'style="background: url(' . get_field('imageforseafarersupport') . ')"'; } ?>>
+            <div class="col-sm-6 supportus-img img-responsive"<?php if ( get_field('imageforseafarersupport') ) { echo 'style="background: url no-repeat center center(' . get_field('imageforseafarersupport') . ')"'; } ?>>
 
             </div>
             <!--COL-SM-6-->
