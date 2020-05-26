@@ -8,7 +8,6 @@ Template Name: Support Us
         <div class="support-us-section">
             <div class="support-us-header">
 <h3><?php the_field('titleforsupportus'); ?></h3>
-                <p><?php the_field('backgroundimageforsupportus'); ?></p>
                 <p><?php the_field('textforsupportus'); ?></p>
             <!--SUPPORT-US-HEADER-->
             <div class="row">
@@ -19,7 +18,7 @@ Template Name: Support Us
                     </div>
                     <!--ICONs-->
                     <div class="donation_btn">
-                    <a class="btn btn-default donation_btn" href="donate.html"><?php the_field('buttonfordonation'); ?></a>
+                    <a class="btn btn-default donation_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=371"><?php the_field('buttonfordonation'); ?></a>
                     </div>
                     <!--DONATION_BTN-->
                     <div class="donation_text">
@@ -35,7 +34,7 @@ Template Name: Support Us
                     </div>
                     <!--ICONS-->
                     <div Class="volunteer_btn">
-                    <a class="btn btn-default volunteer_btn" href="volunteer.html"><?php the_field('buttonforvolunteer'); ?></a>
+                    <a class="btn btn-default volunteer_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=350"><?php the_field('buttonforvolunteer'); ?></a>
                     </div>
                     <!--VOLUNTEER_BTN-->
                     <div class="volunteer_text">
