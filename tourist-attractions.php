@@ -5,64 +5,14 @@ Template Name: Tourist Attractions
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <body>
-
-    <!--NAVIGATION BAR-->
-    <header class="container-fluid">
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid navbar">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="Index.html"> <img src="assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
-                </div>
-                <!--NAVBAR-HEADER-->
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a class="navigation-text" href="index.html">Stella Maris</a></li>
-                        <li><a class="navigation-text" href="our-services.html">Our Services</a></li>
-                        <li><a class="navigation-text" href="directions.html">Directions</a></li>
-                        <li><a class="navigation-text" href="rights.html">Rights</a></li>
-                        <li><a class="navigation-text" href="health.html">Health</a></li>
-                        <li><a class="navigation-text" href="religious-resources.html">Religious Resources</a></li>
-                        <li><a class="navigation-text" href="about-us.html">About Us</a></li>
-                        <li><a class="navigation-text" href="contact-us.html">Contact</a></li>
-
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <form class="navbar-form navbar-left" action="/action_page.php">
-                                <a class="btn btn-default header" href="support-us.html">Support Us</a>
-                                <div class="form-group">
-                                    <input type="text" class="form-control search-bar" placeholder="Search">
-                                </div>
-
-                            </form>
-                        </li>
-                    </ul>
-                    <!--NAVBAR-->
-                </div>
-                <!--COLLAPSE NAVBAR-COLLAPSE-->
-            </div>
-            <!--CONTAINER FLUID-->
-        </nav><!-- NAVBAR -->
-    </header><!-- HEADER -->
-    
-    
-        <section class="container-fluid">
+<section class="container-fluid">
         <div class="directions">
-            <h3 class="directions-title"> Tourist Attractions </h3>
+            <h3 class="directions-title"><?php the_field('titlefortourist'); ?></h3>
 
         </div>
     </section>.
     
-    <p class="text-center tourist-crop p-padded"> There’s lots to do and see in Fremantle.  You can visit:
- </p>
+    <p class="text-center tourist-crop p-padded"><?php the_field('introtextfortourist'); ?></p>
     
     
 
@@ -73,32 +23,32 @@ Template Name: Tourist Attractions
   <!-- Full-width images with number text -->
   <div class="mySlides tourist-crop">
     <div class="numbertext">1 / 6</div>
-      <img src="assets/boat_harbour2.jpg" style="width:100%" alt="Boat Harbour">
+      <img src="<?php the_field('slideshowimageone'); ?>" style="width:100%" alt="Boat Harbour">
   </div>
 
   <div class="mySlides tourist-crop">
     <div class="numbertext">2 / 6</div>
-     <img src="assets/maritime_museum.jpg" style="width:100%" alt="Maritime Museum">
+     <img src="<?php the_field('slideshowimagetwo'); ?>" style="width:100%" alt="Maritime Museum">
   </div>
 
   <div class="mySlides tourist-crop">
     <div class="numbertext">3 / 6</div>
-      <img src="assets/shipwreck_museum.jpg" style="width:100%" alt="Shipwreck Museum">
+      <img src="<?php the_field('slideshowimagethree'); ?>" style="width:100%" alt="Shipwreck Museum">
   </div>
 
   <div class="mySlides tourist-crop">
     <div class="numbertext">4 / 6</div>
-      <img src="assets/fremantle_prison.jpg" style="width:100%" alt="Fremantle Prison">
+      <img src="<?php the_field('slideshowimagefour'); ?>" style="width:100%" alt="Fremantle Prison">
   </div>
     
   <div class="mySlides tourist-crop">
     <div class="numbertext">5 / 6</div>
-      <img src="assets/roundhouse.jpg" style="width:100%" alt="Roundhouse">
+      <img src="<?php the_field('slideshowimagefive'); ?>" style="width:100%" alt="Roundhouse">
   </div>
     
   <div class="mySlides tourist-crop">
     <div class="numbertext">6 / 6</div>
-      <img src="assets/arts_centre.jpg" style="width:100%" alt="Arts Center">
+      <img src="<?php the_field('slideshowimagesix'); ?>" style="width:100%" alt="Arts Center">
   </div>
 
 
@@ -114,22 +64,22 @@ Template Name: Tourist Attractions
   <!-- Thumbnail images -->
   <div class="row tourist-crop">
     <div class="column">
-      <img class="demo cursor" src="assets/boat_harbour2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Fremantle Fishing Boat Harbour - And enjoy traditional fish and chips.">
+      <img class="demo cursor" src="<?php the_field('slideshowiconone'); ?>" style="width:100%" onclick="currentSlide(1)" alt="<?php the_field('slideshowcaptionone'); ?>">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/maritime_museum.jpg" style="width:100%" onclick="currentSlide(2)" alt="WA Maritime Museum – A premier attraction. Open every day.">
+      <img class="demo cursor" src="<?php the_field('slideshowicontwo'); ?>" style="width:100%" onclick="currentSlide(2)" alt="<?php the_field('slideshowcaptiontwo'); ?>">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/shipwreck_museum.jpg" style="width:100%" onclick="currentSlide(3)" alt="WA Shipwrecks Museum – Explore our maritime history. Open every day.">
+      <img class="demo cursor" src="<?php the_field('slideshowiconthree'); ?>" style="width:100%" onclick="currentSlide(3)" alt="<?php the_field('slideshowcaptionthree'); ?>">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/fremantle_prison.jpg" style="width:100%" onclick="currentSlide(4)" alt="Fremantle Jail – Built by convicts, the prison operated from 1855 to 1991. Open 9-5 every day.">
+      <img class="demo cursor" src="<?php the_field('slideshowiconfour'); ?>" style="width:100%" onclick="currentSlide(4)" alt="<?php the_field('slideshowcaptionfour'); ?>">
     </div>
       <div class="column">
-      <img class="demo cursor" src="assets/roundhouse.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Round House – The oldest building in Western Australia. Open 10.30am.">
+      <img class="demo cursor" src="<?php the_field('slideshowiconfive'); ?>" style="width:100%" onclick="currentSlide(5)" alt="<?php the_field('slideshowcaptionfive'); ?>">
     </div>
       <div class="column">
-      <img class="demo cursor" src="assets/arts_centre.jpg" style="width:100%" onclick="currentSlide(6)" alt="Fremantle Arts Centre - Explore the WA art and culture. Opens 10am.">
+      <img class="demo cursor" src="<?php the_field('slideshowiconsix'); ?>" style="width:100%" onclick="currentSlide(6)" alt="<?php the_field('slideshowcaptionsix'); ?>">
     </div> 
   </div>
 </div>    
