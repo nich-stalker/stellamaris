@@ -40,7 +40,7 @@ Template Name: Donate Page
             </div>
             <!--ICONS-->
             <div Class="volunteer_btn">
-                <a class="btn btn-default volunteer_btn" href="volunteer.html"><?php the_field('buttonforvolunteer'); ?></a>
+                <a class="btn btn-default volunteer_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=350"><?php the_field('buttonforvolunteer'); ?></a>
             </div>
             <!--VOLUNTEER_BTN-->
             <div class="volunteer_text">
