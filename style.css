@@ -294,7 +294,7 @@ p {
     background: #E6E7E8;
 }
 
-.col-sm-6.supportus-img {
+.supportus-img {
     background: url("assets/support_us.jpg") no-repeat center center;
     background-size: cover;
     height: 350px;
