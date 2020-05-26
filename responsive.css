@@ -112,7 +112,7 @@
     }
 
     .support-us {
-        height: 70vh;
+        height: 80vh;
     }
 
     /**************************** ABOUT US*/
@@ -560,10 +560,6 @@
         padding-left: 50px;
         padding-right: 50px;
 
-    }
-
-    .support-us {
-        height: 65vh;
     }
 
     .biography {
@@ -1265,7 +1261,7 @@
         }
 
         .support-us {
-            height: 90vh;
+            height: 110vh;
         }
 
         /**************************** ABOUT US*/
@@ -1338,11 +1334,12 @@
     .prayer-body {
     padding-left: 50px;
     padding-right: 50px;
-=======
+        }
+        
         .linkbox-slim {
             padding-top: 30px;
         }
->>>>>>> 335e31ba139c05bdc69227ac0e25a0f426ee784b
+
 
         /**************************** CONTACT-US PAGE*/
 
@@ -1359,14 +1356,6 @@
         .feedback {
             padding-top: 20px;
         }
-
-        /**************************** INDEX PAGE*/
-
-        .support-us {
-            height: 100vh;
-        }
-
-    }
 }
 
 /***********************************************************************************CHANGES AT 496px*/
@@ -1624,7 +1613,7 @@
     }
 
     .support-us {
-        height: 90vh;
+        height: 95vh;
     }
 
     .biography {
@@ -1836,10 +1825,6 @@
 
     .support-us-section {
         padding-top: 10px;
-    }
-
-    .support-us {
-        height: 90vh;
     }
 }
 
