@@ -53,7 +53,7 @@
             </div>
             <!--ICONs-->
             <div class="donation_btn">
-                <a class="btn btn-default donation_btn" href="donate.html"><?php the_field('buttonfordonate'); ?></a>
+                <a class="btn btn-default donation_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=371"><?php the_field('buttonfordonate'); ?></a>
             </div>
             <!--DONATION_BTN-->
             <div class="donation_text">
