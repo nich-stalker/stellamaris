@@ -1,11 +1,13 @@
 <footer class="footer">
         <div class="container-fluid footer">
             <ul class="footer-list" id="horizontal-list">
-                <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=234">Stella Maris</a></li>
-                <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=166">Our Services</a></li>
-                <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=167">Directions</a></li>
-                <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=168">Rights</a></li>
-                <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=170">Health</a></li>
+<?php wp_nav_menu(array(
+        'menu' => 'Bottom menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
                 <li><a class="footer-text footer-logo" href="Index.html"> <img class="footer-logo-center" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a></li>
                 <li><a class="footer-text" href="http://206.189.45.97/~mesh21/sub/?page_id=167">16 Queen Victoria Street, Fremantle WA 6160</a></li>
                 <li><a class="footer-text facebook-logo" href="https://www.facebook.com/stellamarisfremantle"> <img class="facebook-logo-footer" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/facebook_logo.png" alt="Facebook Logo"> </a></li>
