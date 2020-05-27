@@ -1,5 +1,5 @@
-<footer class="container-fluid">
-        <div class="footer">
+<footer class="footer">
+        <div class="container-fluid footer">
             <ul class="footer-list" id="horizontal-list">
                 <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=234">Stella Maris</a></li>
                 <li><a class="footer-text left" href="http://206.189.45.97/~mesh21/sub/?page_id=166">Our Services</a></li>
