@@ -5,8 +5,8 @@
         'menu' => 'Bottom menu',
         'items_wrap'=>'%3$s',
         'container' => false,
-        'list_item_class' => "nav-item",
-        'link_class' => "nav-link",
+        'list_item_class' => "footer-item",
+        'link_class' => "footer-link",
         )); ?>
                 <li><a class="footer-text footer-logo" href="Index.html"> <img class="footer-logo-center" src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a></li>
                 <li><a class="footer-text" href="http://206.189.45.97/~mesh21/sub/?page_id=167">16 Queen Victoria Street, Fremantle WA 6160</a></li>
