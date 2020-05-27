@@ -71,7 +71,7 @@ Template Name: Religious Resources
         <div class="feedback">
             <div class="row">
                 <div class="feedback-content">
-                    <h3 class="feedback-header">Feedback</h3>
+                    <h3 class="feedback-header"><?php the_field('titleforfeedback'); ?></h3>
                     <div class="feedback-text">
                         <p> Should you have any feedback about your interactions with Stella Maris Seafarers' Centre Fremantle, please feel free to leave some feedback below. We greatly appreciate your time and endeavour to keep improving our services.</p>
                     </div>
