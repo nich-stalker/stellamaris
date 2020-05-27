@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Religious Resources
+Template Name: Contact
 */
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
