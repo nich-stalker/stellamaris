@@ -17,8 +17,7 @@ Template Name: Health
             <!--HEALTH-HEADER-->
             <div class="row">
                  <div class="health-text">
-                    <p>Life at sea is very stressful.  All seafarers have a responsibility to both care for themselves but also to be mindful of their crewmates wellbeing.</p>
-                    <p>Here are links to some resources that might be especially helpful during the coronavirus Covid-19 outbreak including managing stress and mental health and wellbeing.</p>
+                    <p><?php the_field('descriptionforhealth'); ?></p>
                 </div>
                 <!--HEALTH-TEXT-->
             </div>
@@ -40,12 +39,12 @@ Template Name: Health
                     </div>
                     <!-- HEALTH-LINK-IMG-->
                     <div class="health-links-text">
-                        <h2> Covid 19: Seafarer Wellbeing </h2>
-                        <p>CHIRP Maritime Focus on seafarer wellbeing during Covid-19 pandemic.</p>
+                        <h2><?php the_field('titleforlinkboxone'); ?></h2>
+                        <p><?php the_field('descriptionforlinkboxone'); ?></p>
                     </div>
                     <!--HEALTH-LINKS-TEXT-->
                     <div class="health-btn">
-                        <a class="btn btn-default" href="https://www.chirpmaritime.org/wp-content/uploads/2020/04/Covid-19-psycology-and-welfare-paper-April-2020-Final.pdf">See details</a>
+                        <a class="btn btn-default" href="<?php the_field('buttonforlinkboxone'); ?>">See details</a>
                         <!--        <link href="#" rel="#"/><a href="#" class="btn btn-default" role="button">Text</a>
                         -->
                     </div>
@@ -59,12 +58,12 @@ Template Name: Health
                     </div>
                     <!-- HEALTH-LINK-IMG-->
                     <div class="health-links-text">
-                        <h2> Covid-19: General Advice </h2>
-                        <p>CHIRP Maritime Covid-19 general advice to Masters and crew.</p>
+                        <h2><?php the_field('titleforlinkboxtwo'); ?></h2>
+                        <p><?php the_field('descriptionforlinkboxtwo'); ?></p>
                     </div>
                     <!--HEALTH-LINKS-TEXT-->
                     <div class="health-btn">
-                        <a class="btn btn-default" href="https://www.chirpmaritime.org/wp-content/uploads/2020/04/CHIRP-Maritime-COVID19-General-Medical-Advice.pdf">See details</a>
+                        <a class="btn btn-default" href="<?php the_field('buttonforlinkboxtwo'); ?>">See details</a>
                     </div>
                     <!--HEALTH-BTN-->
                 </div>
@@ -79,12 +78,12 @@ Template Name: Health
                     </div>
                     <!-- HEALTH-LINK-IMG-->
                     <div class="health-links-text">
-                        <h2> Fatigue </h2>
-                        <p> Fatigue Guidelines: Managing and reducing the risk of fatigue at sea.</p>
+                        <h2><?php the_field('titleforlinkboxthree'); ?></h2>
+                        <p><?php the_field('descriptionforlinkboxthree'); ?></p>
                     </div>
                     <!--HEALTH-LINKS-TEXT-->
                     <div class="health-btn">
-                        <a class="btn btn-default" href="https://www.chirpmaritime.org/wp-content/uploads/2020/03/amsa-fatigue-guidelines-web.pdf">See details</a>
+                        <a class="btn btn-default" href="<?php the_field('buttonforlinkboxthree'); ?>">See details</a>
                     </div>
                     <!--HEALTH-BTN-->
                 </div>
