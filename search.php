@@ -18,10 +18,9 @@ get_header();
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title">
-					<?php _e( 'Search results for: ', 'twentynineteen' ); ?>
-					<span class="page-description"><?php echo get_search_query(); ?></span>
-				</h1>
+<h1 class="search-title">
+<?php echo $wp_query->found_posts; ?> <?php _e( 'Search Results Found For', 'locale' ); ?>: "<?php the_search_query(); ?>"
+</h1>
 			</header><!-- .page-header -->
 
 			<?php
