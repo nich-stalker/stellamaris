@@ -1,54 +1,24 @@
 <?php
-/**
- * The template for displaying search results pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since 1.0.0
- */
+    /*
+    Template Name: Search Page
+    */
+    ?>
+<?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
+<div class="container-fluid main-content">
+	<section class="container">
+        <div class="row">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-get_header();
-?>
+          <p>This is the search page</p>
+          <h4> <?php the_title(); ?></h4>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+        <?php the_content(); ?>
 
-		<?php if ( have_posts() ) : ?>
+        <?php endwhile; else : ?>
+	         <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif; ?>
 
-			<header class="page-header">
-<h1 class="search-title">
-<?php echo $wp_query->found_posts; ?> <?php _e( 'Search Results Found For', 'locale' ); ?>: "<?php the_search_query(); ?>"
-</h1>
-			</header><!-- .page-header -->
-
-			<?php
-			// Start the Loop.
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content/content', 'excerpt' );
-
-				// End the loop.
-			endwhile;
-
-			// Previous/next page navigation.
-			twentynineteen_the_posts_navigation();
-
-			// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'template-parts/content/content', 'none' );
-
-		endif;
-		?>
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_footer();
+        </div>
+            </section>
+        </div>
+<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
