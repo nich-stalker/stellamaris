@@ -8,6 +8,12 @@ Template Name: Directions
 <section class="container-fluid">
         <div class="directions">
             <h3 class="directions-title"><?php the_field('titlefordirections'); ?></h3>
+            
+            <a href="https://goo.gl/maps/RjFrMSoMTA6SMydt7">
+                <img class="google-map" alt="Qries" src="<?php the_field('directionsmap'); ?>"
+                 width="600">
+            </a>
+            
             <p class="pickup text-center"><?php the_field('textfordirectionsintro'); ?></p>
         </div>
     </section>.
@@ -93,7 +99,7 @@ Template Name: Directions
                     <br>
                     
                     <div class="ourservices-btn">
-                <a class="btn btn-default ourservices_btn" href="tourist-attractions.html"><?php the_field('buttonfordirectionstourist'); ?></a>
+                <a class="btn btn-default ourservices_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=547"><?php the_field('buttonfordirectionstourist'); ?></a>
             </div>
                     
                 </div>
