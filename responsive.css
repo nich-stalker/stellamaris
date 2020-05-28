@@ -73,6 +73,11 @@
     .navbar-nav > li > a {
         font-size: 0.9em;
     }
+    
+            .menu-item {
+    font-size: 0.9em;
+  
+}
 
     .navbar-right {
         padding-left: 8px;
@@ -215,6 +220,13 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    
+               .menu-item {
+        font-size: 0.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+  
+}
 
     .btn.btn-default.header {
         margin-right: 10px;
@@ -506,6 +518,13 @@
         padding-right: 8px;
     }
 
+                   .menu-item {
+        font-size: 0.75em;
+        padding-left: 8px;
+        padding-right: 8px;
+  
+}
+    
     /**************************** INDEX PAGE*/
 
     .herobg {
@@ -733,6 +752,10 @@
     .footer-text {
         font-size: 0.7em;
     }
+    
+    .menu-item {
+        font-size: 0.7em;
+ }
 
     /**************************** INDEX PAGE*/
 
@@ -884,6 +907,7 @@
             font-size: 0.9em;
         }
         
+        
         .btn.btn-default.footer {
         display: none;
         }
@@ -896,6 +920,18 @@
             display: block;
         }
 
+        .menu-item {
+    font-size: 0em;
+    padding: 0px;
+    margin: 0px;
+}
+        
+        ul#horizontal-list.footer-list{
+            padding-left: 0px;
+            padding-right: 25px;
+            margin-left: -10px;
+        }
+        
         /**************************** ABOUT US*/
 
         .container-fluid.about-us {
