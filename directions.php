@@ -93,7 +93,7 @@ Template Name: Directions
                     <br>
                     
                     <div class="ourservices-btn">
-                <a class="btn btn-default ourservices_btn" href="tourist-attractions.html"><?php the_field('buttonfordirectionstourist'); ?></a>
+                <a class="btn btn-default ourservices_btn" href="http://206.189.45.97/~mesh21/sub/?page_id=547"><?php the_field('buttonfordirectionstourist'); ?></a>
             </div>
                     
                 </div>
