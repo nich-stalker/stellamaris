@@ -19,13 +19,6 @@ Version: 1
     padding: 0px;
 }
 
-label {
-    display: none;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 700;
-}
-
 
 /*-----------------------------------------------------NAVBAR START-----------------------------------------------------------------*/
 .navbar .navbar-brand {
