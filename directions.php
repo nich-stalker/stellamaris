@@ -8,6 +8,12 @@ Template Name: Directions
 <section class="container-fluid">
         <div class="directions">
             <h3 class="directions-title"><?php the_field('titlefordirections'); ?></h3>
+            
+            <a href="https://goo.gl/maps/RjFrMSoMTA6SMydt7">
+                <img class="google-map" alt="Qries" src="<?php the_field('directionsmap'); ?>"
+                 width="600">
+            </a>
+            
             <p class="pickup text-center"><?php the_field('textfordirectionsintro'); ?></p>
         </div>
     </section>.
