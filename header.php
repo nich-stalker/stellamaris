@@ -77,9 +77,7 @@
                             <form class="navbar-form navbar-left" action="/action_page.php">
                                 <a class="btn btn-default header" href="http://206.189.45.97/~mesh21/sub/?page_id=158">Support Us</a>
                                 <div class="form-group">
-                                    <ivory-search id="619" title="Default Search Form">
-                                    <input type="text" class="form-control search-bar" placeholder="Search">
-                                  </ivory-search>
+                                   <?php get_search_form( true ); ?>
                                 </div>
 
                             </form>
