@@ -18,44 +18,44 @@ Template Name: Contact
         <div class="row contact-content">
                 <div class="row contact-row">
                     <div class="col-md-6 contact-left-text">
-                        <p>Location:</p>
+                        <p><?php the_field('contextforcontactrowone'); ?></p>
                     </div>
                     <!--CONTACT-LEFT-TEXT-->
                     <div class="col-md-6 contact-right-text">
-                        <p>16 Queen Victoria Street, Fremantle, WA 6160</p>
+                        <p><?php the_field('infoforcontactrowone'); ?></p>
                     </div>
                     <!--CONTACT-RIGHT-TEXT-->
                 </div>
                 <!--CONTACT-ROW-->
                 <div class="row contact-row">
                     <div class="col-md-6 contact-left-text">
-                        <p>Opening Hours:</p>
+                        <p><?php the_field('contextforcontactrowtwo'); ?></p>
                     </div>
                     <!--CONTACT-LEFT-TEXT-->
                     <div class="col-md-6 contact-right-text">
-                        <p>Mon to Sat 10:00am - 10:00pm</p>
+                        <p><?php the_field('infoforcontactrowtwo'); ?></p>
                     </div>
                     <!--CONTACT-RIGHT-TEXT-->
                 </div>
                 <!--CONTACT-ROW-->
                 <div class="row contact-row">
                     <div class="col-md-6 contact-left-text">
-                        <p>Email:</p>
+                        <p><?php the_field('contextforcontactrowthree'); ?></p>
                     </div>
                     <!--CONTACT-LEFT-TEXT-->
                     <div class="col-md-6 contact-right-text">
-                        <p>stella.maris@perthcatholic.org.au</p>
+                        <p><?php the_field('infoforcontactrowthree'); ?></p>
                     </div>
                     <!--CONTACT-RIGHT-TEXT-->
                 </div>
                 <!--CONTACT-ROW-->
                 <div class="row contact-row">
                     <div class="col-md-6 contact-left-text">
-                        <p>Phone:</p>
+                        <p><?php the_field('contextforcontactrowfour'); ?></p>
                     </div>
                     <!--CONTACT-LEFT-TEXT-->
                     <div class="col-md-6 contact-right-text">
-                        <p>+61 894 308 488</p>
+                        <p><?php the_field('infoforcontactrowfour'); ?></p>
                     </div>
                     <!--CONTACT-RIGHT-TEXT-->
                 </div> 
@@ -73,7 +73,7 @@ Template Name: Contact
                 <div class="feedback-content">
                     <h3 class="feedback-header"><?php the_field('titleforfeedback'); ?></h3>
                     <div class="feedback-text">
-                        <p> Should you have any feedback about your interactions with Stella Maris Seafarers' Centre Fremantle, please feel free to leave some feedback below. We greatly appreciate your time and endeavour to keep improving our services.</p>
+                        <p><?php the_field('descriptionforfeedback'); ?></p>
                     </div>
                     <!--FEEDBACK-TEXT-->
                     <div class="feedback-input">

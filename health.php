@@ -12,7 +12,7 @@ Template Name: Health
     <section class="container-fluid health">
         <div class="health-section">
             <div class="health-header">
-                <h3><?php the_field('titleforreligiousresources'); ?></h3>
+                <h3><?php the_field('titleforhealth'); ?></h3>
             </div>
             <!--HEALTH-HEADER-->
             <div class="row">
