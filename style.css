@@ -149,8 +149,8 @@ p {
 }
 
 .footer-text.copyright {
-    text-align: left;
-    padding-left: 100px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .btn {
