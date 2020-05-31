@@ -54,7 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://206.189.45.97/~mesh21/sub/?page_id=234"> <img src="http://206.189.45.97/~mesh21/sub/wp-content/themes/stellamaris/assets/logo_stellamaris.png" alt="Stella Maris Logo"> </a>
+                    <a class="navbar-brand" href="<?php echo get_permalink(234); ?>"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo_stellamaris.png"></a>
                 </div>
                 <!--NAVBAR-HEADER-->
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -75,11 +75,9 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <form class="navbar-form navbar-left" action="/action_page.php">
-                                <a class="btn btn-default header" href="http://206.189.45.97/~mesh21/sub/?page_id=158">Support Us</a>
+                                <a class="btn btn-default header" href="<?php echo get_permalink(158); ?>">Support Us</a>
                                 <div class="form-group">
-                                    <ivory-search id="619" title="Default Search Form">
-                                    <input type="text" class="form-control search-bar" placeholder="Search">
-                                  </ivory-search>
+                                    <a href="index.php?page_id=717" title="Search Page">Search Page</a>
                                 </div>
 
                             </form>
