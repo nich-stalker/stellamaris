@@ -100,7 +100,7 @@
     }
 
     .footer-text {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     /**************************** SUPPORT US PAGE*/
@@ -211,7 +211,7 @@
     }
 
     .footer-text {
-        font-size: 0.8em;
+        font-size: 0.9em;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -469,10 +469,7 @@
         padding-left: 15%;
         padding-right: 15%;
     }
-    
-=======
 
->>>>>>> 335e31ba139c05bdc69227ac0e25a0f426ee784b
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -502,7 +499,7 @@
     }
 
     .footer-text {
-        font-size: 0.75em;
+        font-size: 0.85em;
         padding-left: 8px;
         padding-right: 8px;
     }
@@ -732,7 +729,7 @@
     }
 
     .footer-text {
-        font-size: 0.7em;
+        font-size: 0.85em;
     }
 
     /**************************** INDEX PAGE*/
@@ -777,7 +774,12 @@
     .health-links {
         height: 132vh;
     }
-
+    
+            .btn.btn-default.footer {
+        display: none;
+        }
+        
+}
     /***********************************************************************************CHANGES AT 841*/
 
     @media(max-width:841px) {
@@ -785,7 +787,7 @@
         /**************************** NAVBAR AND FOOTER*/
 
         .footer-text {
-            font-size: 0.6em;
+            font-size: 0.85em;
             padding-left: 6px;
             padding-right: 6px;
         }
@@ -881,15 +883,10 @@
             display: none;
         }
         
-        .footer-text {
-            font-size: 0.9em;
+        .footer-text.right {
+            font-size: 1em;
+            text-align: center;
         }
-        
-        
-        .btn.btn-default.footer {
-        display: none;
-        }
-        
         
         footer-text {
             display: block;
@@ -1383,7 +1380,7 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .footer-text {
-        font-size: 0.7em;
+        font-size: 0.85em;
     }
 
     .footer-logo-center {
@@ -1565,8 +1562,12 @@
 
     /**************************** NAVBAR AND FOOTER*/
 
-    .footer-text {
-        font-size: 0.5em;
+    .footer-text.right {
+        font-size: 0.75em;
+    }
+    
+    .footer-text.copyright {
+        font-size: 0.75em;
     }
 
     .footer-logo-center {
