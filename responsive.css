@@ -71,7 +71,7 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .navbar-right {
@@ -176,7 +176,7 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        font-size: 0.8em;
+        font-size: 0.95em;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -482,7 +482,7 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        font-size: 0.75em;
+        font-size: 0.9em;
         padding-left: 8px;
         padding-right: 8px;
     }
@@ -649,7 +649,7 @@
     /**************************** NAVBAR*/
 
     .navbar-nav > li > a {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
 }
@@ -687,7 +687,7 @@
     /**************************** NAVBAR*/
 
     .navbar-nav > li > a {
-        font-size: 0.65em;
+        font-size: 0.9em;
     }
 
     /**************************** CONTACT PAGE*/
@@ -705,7 +705,7 @@
     /**************************** NAVBAR AND FOOTER*/
 
     .navbar-nav > li > a {
-        font-size: 0.6em;
+        font-size: 0.85em;
         padding-left: 6px;
         padding-right: 6px;
     }
@@ -856,7 +856,7 @@
         }
 
         .navbar-nav > li > a {
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
 
         .navbar-right {
@@ -1166,12 +1166,6 @@
 
         /**************************** NAVBAR AND FOOTER*/
 
-        .footer-list {
-            padding-right: 40px;
-            padding-left: 0px;
-
-        }
-
 
         /**************************** VOLUNTEER PAGE*/
         .volunteer-title {
@@ -1394,10 +1388,6 @@
 
     .footer-logo-center {
         max-height: 50px;
-    }
-
-    .footer-list {
-        padding-right: 25px;
     }
 
     /**************************** INDEX PAGE*/
