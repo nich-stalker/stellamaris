@@ -643,7 +643,7 @@
     }
 
     .container-fluid.support-us.subpage {
-        height: 55vh;
+        height: 70vh;
     }
 
     /**************************** NAVBAR*/
@@ -1319,10 +1319,6 @@
         .support_subpage {
             padding-left: 0px;
             padding-right: 0px;
-        }
-
-        .container-fluid.support-us.subpage {
-            height: 40vh;
         }
     }
 
