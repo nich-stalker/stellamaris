@@ -9,7 +9,7 @@ Version: 1
 
 
 
-.row {
+.row {.
     margin: 0px;
     padding: 0px;
 }
@@ -277,7 +277,7 @@ p {
 }
 
 .container-fluid.support-us.subpage {
-    height: 50vh;
+    height: 60vh;
 }
 
 .volunteer_text {
