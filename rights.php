@@ -28,6 +28,7 @@ Template Name: Rights
             <a class="btn btn-default" href="<?php the_field('linkforrightslinkone'); ?>"> See Website </a>
                 </div>
             <h3 class="rights-title rights-margin"><?php the_field('titleforrightslinktwo'); ?></h3>
+            <p class="rights-free rights-margin"><?php the_field('textforrightslinktwo'); ?></p>
                 <div class="health-btn rights-btn">
             <a class="btn btn-default" href="<?php the_field('linkforrightslinktwo'); ?>"> See Website </a>
                 </div>
