@@ -695,6 +695,12 @@
     }
 }
 
+/**************************** RIGHTS PAGE*/
+
+.rights-margin {
+    font-size: 1.5em;
+}
+
 /***********************************************************************************CHANGES AT 899x*/
 
 @media(max-width:899px) {
@@ -1201,6 +1207,13 @@
         }
     }
 
+/**************************** RIGHTS PAGE*/
+
+.rights-margin {
+    font-size: 1.2em;
+}
+
+
     /***********************************************************************************CHANGES AT 660px*/
     @media(max-width:660px) {
 
@@ -1684,6 +1697,13 @@
     .contact-left-text {
         padding-right: 0px;
     }
+    
+/**************************** RIGHTS PAGE*/
+
+.rights-margin {
+    font-size: 0.9em;
+}
+
 
 }
 
