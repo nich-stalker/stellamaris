@@ -22,12 +22,12 @@ Template Name: Rights
             <div class="row p-padded">
                 <!-- may need to make these into rows instead for responsive -->
 
-            <p class="rights-title rights-margin"><?php the_field('titleforrightslinkone'); ?></p>
+            <h3 class="rights-title rights-margin"><?php the_field('titleforrightslinkone'); ?></h3>
             <p class="rights-free rights-margin"><?php the_field('textforrightslinkone'); ?></p>
                 <div class="health-btn">
             <a class="btn btn-default" href="<?php the_field('linkforrightslinkone'); ?>"> See Website </a>
                 </div>
-            <p class="rights-title rights-margin"><?php the_field('titleforrightslinktwo'); ?></p>
+            <h3 class="rights-title rights-margin"><?php the_field('titleforrightslinktwo'); ?></h3>
                 <div class="health-btn">
             <a class="btn btn-default" href="<?php the_field('linkforrightslinktwo'); ?>"> See Website </a>
                 </div>
