@@ -25,11 +25,11 @@ Template Name: Rights
             <p class="rights-title rights-margin"><?php the_field('titleforrightslinkone'); ?></p>
             <p class="rights-free rights-margin"><?php the_field('textforrightslinkone'); ?></p>
 
-            <a class="rights-link rights-margin" href="<?php the_field('linkforrightslinkone'); ?>"> See Website </a>
+            <a class="btn btn-default" href="<?php the_field('linkforrightslinkone'); ?>"> See Website </a>
 
             <p class="rights-title rights-margin"><?php the_field('titleforrightslinktwo'); ?></p>
 
-            <a class="rights-link rights-margin" href="<?php the_field('linkforrightslinktwo'); ?>"> See Website </a>
+            <a class="btn btn-default" href="<?php the_field('linkforrightslinktwo'); ?>"> See Website </a>
 
             </div>
             <!--ROW-->
