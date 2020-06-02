@@ -24,13 +24,13 @@ Template Name: Rights
 
             <p class="rights-title rights-margin"><?php the_field('titleforrightslinkone'); ?></p>
             <p class="rights-free rights-margin"><?php the_field('textforrightslinkone'); ?></p>
-
+                <div class="health-btn">
             <a class="btn btn-default" href="<?php the_field('linkforrightslinkone'); ?>"> See Website </a>
-
+                </div>
             <p class="rights-title rights-margin"><?php the_field('titleforrightslinktwo'); ?></p>
-
+                <div class="health-btn">
             <a class="btn btn-default" href="<?php the_field('linkforrightslinktwo'); ?>"> See Website </a>
-
+                </div>
             </div>
             <!--ROW-->
         </div>
