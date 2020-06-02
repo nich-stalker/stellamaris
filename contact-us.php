@@ -60,6 +60,17 @@ Template Name: Contact
                     <!--CONTACT-RIGHT-TEXT-->
                 </div> 
                 <!--CONTACT-ROW-->
+                <div class="row contact-row">
+                    <div class="col-md-6 contact-left-text">
+                        <p><?php the_field('contextforcontactrowfive'); ?></p>
+                    </div>
+                    <!--CONTACT-LEFT-TEXT-->
+                    <div class="col-md-6 contact-right-text">
+                        <p><?php the_field('infoforcontactrowfive'); ?></p>
+                    </div>
+                    <!--CONTACT-RIGHT-TEXT-->
+                </div> 
+                <!--CONTACT-ROW-->
         </div>
         <!--CONTACT-CONTENT-->
     </section>
