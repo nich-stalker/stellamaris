@@ -77,7 +77,6 @@
                             <form class="navbar-form navbar-left" action="/action_page.php">
                                 <a class="btn btn-default header" href="<?php echo get_permalink(158); ?>">Support Us</a>
                                 <div class="form-group">
-                                    <a href="index.php?page_id=717" title="Search Page">Search Page</a>
                                 </div>
 
                             </form>
