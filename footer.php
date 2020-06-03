@@ -28,7 +28,7 @@
                 </div>
                 </div>
             <div class="footer-text copyright">
-            <small>&copy; Copyright 2020, Stella Maris Seafarers' Centre Fremantle</small>
+            <small>&copy; Copyright <?php echo date("Y"); ?>, Stella Maris Seafarers' Centre Fremantle</small>
         </div> <!--COPYRIGHT-->
         </div>
         <!--footer-->
