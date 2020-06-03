@@ -858,14 +858,14 @@ ul#horizontal-list li {
 .linkbox-slim {
     padding-top: 40px;
 }
-
+/*
 .linkbox-fl {
     float: left;
-}
-
+}*/
+/*
 .linkbox-fr {
     float: right;
-}
+}*/
 
 .health-banner {
     background: url("assets/seafarers2.png") no-repeat center center;
