@@ -789,14 +789,16 @@ ul#horizontal-list li {
     /*color: black;*/
     text-align: center;
     padding-top: 25px;
+    display:block; /* trying to fix the squash */
 }
 
 .health {
     width: 100%;
-    background-size: cover;
+ /*   background-size: cover; */
     height: 18vh;
     padding-left: 20px;
     padding-right: 20px;
+    display:block; /* trying to fix the squash */
 }
 
 .health-links-text {
@@ -810,17 +812,20 @@ ul#horizontal-list li {
 
 .health-links {
     width: 100%;
-    background-size: cover;
+  /*  background-size: cover; */
     height: 91vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    display:block;  /* trying to fix the squash */
 }
 
 .health-linkbox {
     padding: 20px;
     background-size: cover;
+/*    min-height: 10%; <<<<<<<<<<<<< trying to fix the squash */
     height: 29vh;
+    display:block; /* trying to fix the squash */
 }
 
 .health-btn {
