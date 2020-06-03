@@ -62,6 +62,10 @@
     .linkbox-green {
         padding-top: 20px;
     }
+    
+        .jesus_seafarer {
+        height: 475px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 1254px*/
@@ -266,11 +270,7 @@
     }
 
     .jesus_seafarer {
-        text-align: center;
-        padding-top: 90px;
-        height: 500px;
-        padding-right: 100px;
-        padding-left: 75px;
+        height: 400px;
     }
 
     /**************************** DONATION_IMAGE*/
@@ -387,14 +387,17 @@
 
     .about-us-content {
         padding-left: 100px;
+        padding-right: 100px;
     }
 
     .jesus_seafarer {
+        padding: 0px;
+        height: 500px;
+        padding-bottom: 50px;
+    }
+    
+    .col-md-6 {
         text-align: center;
-        padding-top: 150px;
-        height: 450px;
-        padding-right: 100px;
-        padding-left: 75px;
     }
 
     /**************************** VOLUNTEER_PAGE*/
@@ -913,12 +916,7 @@
         }
 
         .jesus_seafarer {
-            text-align: center;
-            padding-top: 0px;
-            height: 500px;
-            padding-right: 0px;
-            padding-left: 0px;
-            padding-bottom: 50px;
+            height: 400px;
         }
 
         /**************************** INDEX PAGE*/
@@ -1283,7 +1281,7 @@
         }
 
         .jesus_seafarer {
-            height: 450px;
+            height: 250px;
         }
 
         /**************************** DONATION PAGE*/
@@ -1565,7 +1563,7 @@
     /**************************** ABOUT US*/
 
     .jesus_seafarer {
-        height: 350px;
+        height: 200px;
     }
 }
 
@@ -1631,10 +1629,6 @@
     }
 
     /**************************** ABOUT US*/
-
-    .jesus_seafarer {
-        height: 250px;
-    }
 
     .rights-link {
         font-size: 1em;
