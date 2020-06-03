@@ -6,7 +6,7 @@ Template Name: About us
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <section class="container-fluid about-us">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="about-us-content">
                     <div class="about-us-title">
                         <h3><?php the_field('titleforaboutus'); ?></h3>
@@ -20,7 +20,7 @@ Template Name: About us
                 <!--ABOUT-US-CONTENT-->
             </div>
             <!--COL-SM-6-->
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img class="jesus_seafarer" alt="Jesus standing over the seafarer" src="<?php the_field('imageforaboutus'); ?>">
             </div>
             <!--COL-SM-6-->
