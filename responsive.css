@@ -520,12 +520,17 @@
         max-width: 140px;
     }
 
-    .footer-text {
-        font-size: 0.85em;
+    .footer-text.left {
+        font-size: 0.8em;
         padding-left: 8px;
         padding-right: 8px;
     }
     
+        .footer-text.right {
+        font-size: 0.8em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
     /**************************** INDEX PAGE*/
 
     .herobg {
@@ -715,12 +720,18 @@
         padding-top: 0px;
         padding-bottom: 40px;
     }
-}
 
 /**************************** RIGHTS PAGE*/
 
 .rights-title {
     font-size: 1.5em;
+}
+    
+    .btn.btn-default.footer {
+        display: none;
+        }
+        
+    
 }
 
 /***********************************************************************************CHANGES AT 899x*/
@@ -803,10 +814,6 @@
         height: 132vh;
     }
     
-            .btn.btn-default.footer {
-        display: none;
-        }
-        
 }
     /***********************************************************************************CHANGES AT 841*/
 
@@ -1426,8 +1433,8 @@
 
     /**************************** NAVBAR AND FOOTER*/
 
-    .footer-text {
-        font-size: 0.85em;
+    .footer-text.right {
+        font-size: 0.8em;
     }
 
     .footer-logo-center {
@@ -1461,7 +1468,6 @@
     }
 
     /**************************** RELIGIOUS PAGE*/
-}
 
 .our-lady-2 {
     font-size: 0.9em;
@@ -1470,8 +1476,6 @@
 .our-lady {
     padding: 1.3em;
 }
-
-<<<<<<< HEAD
     /**************************** DIRECTIONS PAGE*/
     
     .directions-attractions {
@@ -1484,8 +1488,6 @@
 }
 
 }
-=======
->>>>>>> 335e31ba139c05bdc69227ac0e25a0f426ee784b
 
 /***********************************************************************************CHANGES AT 472px*/
 @media(max-width:472px) {
