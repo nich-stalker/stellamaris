@@ -788,13 +788,13 @@ ul#horizontal-list li {
 .health-header {
     /*color: black;*/
     text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .health {
     width: 100%;
     background-size: cover;
-    height: 28vh;
+    height: 18vh;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -820,7 +820,7 @@ ul#horizontal-list li {
 .health-linkbox {
     padding: 20px;
     background-size: cover;
-    height: 40vh;
+    height: 30vh;
 }
 
 .health-btn {
