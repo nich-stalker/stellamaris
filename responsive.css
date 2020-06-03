@@ -338,6 +338,25 @@
 
 }
 
+/***********************************************************************************CHANGES AT 1024px*/
+@media(max-width:1024px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health {
+        height: 26vh;
+    }
+    
+    .health-linkbox{
+        height: 36vh;
+    }
+    
+    .health-links{
+        height: 114vh;
+    }
+
+}
+
 /***********************************************************************************CHANGES AT 991x*/
 
 
@@ -851,7 +870,24 @@
         }
     }
 
-    /***********************************************************************************CHANGES AT 767*/
+   /***********************************************************************************CHANGES AT 768px*/
+@media(max-width:768px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health {
+        height: 34vh;
+    }
+    
+    .health-linkbox{
+        height: 48vh;
+    }
+    
+    .health-links{
+        height: 151vh;
+    }
+
+} /***********************************************************************************CHANGES AT 767*/
 
     @media(max-width:767px) {
 
@@ -1529,6 +1565,40 @@
     }
 }
 
+/***********************************************************************************CHANGES AT 425px*/
+@media(max-width:425px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health {
+        height: 36vh;
+    }
+
+    .health-img-responsive{
+        max-width:20vh;
+    }
+    
+    .health-links{
+        height:157vh;
+    }
+    
+    .linkbox-darkgreen{
+        padding-top:20px;
+    }
+    
+    #linkbox-one{
+        padding-top:45px;
+    }
+    
+    .health-linkbox{
+        height:50vh;
+    }
+    
+    .health-text{
+        height:21vh;
+    }
+}
+
 /***********************************************************************************CHANGES AT 422px*/
 @media(max-width:422px) {
 
@@ -1743,6 +1813,32 @@
     }
 }
 
+/***********************************************************************************CHANGES AT 375px*/
+@media(max-width:375px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health {
+        height: 34vh;
+    }
+    
+    .health-linkbox {
+        height: 46vh;
+    }
+    
+    #linkbox-one{
+        padding-top:35px;
+    }
+    
+    #linkbox-two{
+        padding-top:30px;
+    }
+
+    .health-links{
+        height:145vh;
+    }
+}
+
 /***********************************************************************************CHANGES AT 373px*/
 @media(max-width:373px) {
 
@@ -1908,5 +2004,31 @@
 
     .health-links {
         height: 127vh;
+    }
+}
+
+/***********************************************************************************CHANGES AT 320px*/
+@media(max-width:320px) {
+
+    /**************************** HEALTH PAGE*/
+
+    .health-links{
+        height:133vh;
+    }
+    
+    .health-linkbox{
+        height:42vh;
+    }
+    
+    #linkbox-one{
+        padding-top: 22px;
+    }
+    
+    #linkbox-two{
+        padding-top: 20px;
+    }
+    
+    .health-text{
+        height:24vh;
     }
 }
