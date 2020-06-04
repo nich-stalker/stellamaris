@@ -10,7 +10,7 @@ Template Name: Directions
             <h3 class="directions-title"><?php the_field('titlefordirections'); ?></h3>
             
             <a href="https://goo.gl/maps/RjFrMSoMTA6SMydt7">
-                <img class="google-map" alt="Qries" src="<?php the_field('directionsmap'); ?>"
+                <img class="google-map" alt="Qries" src="<iframe src="<?php the_field('directionsmap'); ?>""
                  width="600">
             </a>
           
@@ -21,7 +21,7 @@ query_posts('cat=750');//look for posts that have the category of 750
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
 ?>
-            <div><iframe class="stella-maris-map"><?php the_content() ?></iframe></div>
+<div><iframe class="stella-maris-map"><?php the_content() ?></iframe></div>
 <?php
 endwhile;
 endif;
