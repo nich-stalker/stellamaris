@@ -9,6 +9,8 @@ wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/
 wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.4.1', true );
 }
  
+add_theme_support( 'align-wide' );
+
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
 add_theme_support( 'post-thumbnails'); 
 ?>
