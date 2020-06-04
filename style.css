@@ -601,6 +601,18 @@ ul#horizontal-list li {
     padding-top: 2%;
 }
 
+/* wp forms button */
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    border: none;
+    padding-right: 12px;
+    background-color: #FDDD00;
+    color: #293279;
+    font-family: 'Raleway 800',
+        sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 30pt;
+}
 
 .feedback {
     width: 100%;
