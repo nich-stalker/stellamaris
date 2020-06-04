@@ -41,7 +41,7 @@ Template Name: About us
                     <h3><?php the_field('titlefordirections'); ?></h3>
                     <p><?php the_field('textfordirections'); ?></p>
                     <div class="aboutusbutton">
-                    <a class="btn btn-default ourservices_btn" href="directions.html"><?php the_field('buttonfordirections'); ?></a>
+                    <a class="btn btn-default ourservices_btn" href="<?php echo get_permalink(167); ?>"><?php the_field('buttonfordirections'); ?></a>
                 </div>
                     </div>
                 <!--DIRECTIONS_TEXT-->
