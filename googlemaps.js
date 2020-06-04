@@ -13,7 +13,7 @@
 *  @return	n/a
 */
  
-function render_map( $el ) {
+function render_map($el) {
  
 	// var
 	var $markers = $el.find('.marker');
