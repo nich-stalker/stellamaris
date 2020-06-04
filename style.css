@@ -614,6 +614,14 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     border-radius: 30pt;
 }
 
+/* contact via Pages */
+.post .single-page{
+    background-colour: #3a54a5;
+    /*background-size: cover;*/
+    width: 100%;
+}
+
+
 .feedback {
     width: 100%;
     background-color: #3a54a5;
