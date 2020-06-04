@@ -10,7 +10,7 @@ Template Name: Directions
             <h3 class="directions-title"><?php the_field('titlefordirections'); ?></h3>
             
             <a href="https://goo.gl/maps/RjFrMSoMTA6SMydt7">
-                <img class="google-map" alt="Qries" src="<iframe src="<?php the_field('directionsmap'); ?>""
+                <img class="google-map" alt="Qries" <?php the_field('directionsmap'); ?>
                  width="600">
             </a>
           
