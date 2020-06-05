@@ -358,7 +358,7 @@
     /**************************** CONTACT PAGE*/
 
     .feedback {
-        height: 50vh;
+        height: 75vh;
     }
 
 
@@ -485,7 +485,6 @@
     .contact-right-text {
         text-align: center;
     }
-<<<<<<< HEAD
     
     /**************************** DIRECTIONS PAGE*/
     
@@ -904,7 +903,7 @@
     /**************************** CONTACT PAGE*/
 
     .feedback {
-        height: 76vh;
+        height: 100vh;
     }
 
 } /***********************************************************************************CHANGES AT 767*/
@@ -1386,7 +1385,6 @@
 
         /**************************** HEALTH PAGE*/
 
-<<<<<<< HEAD
     .go-to {
         padding-bottom: 3em;
         font-size: 0.8em;
