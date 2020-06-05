@@ -45,3 +45,11 @@ function wpb_custom_new_menu() {
 }
 add_action( 'init', 'wpb_custom_new_menu' );
 ?>
+<?php 
+function my_acf_init() {
+	
+	acf_update_setting('google_api_key', 'AIzaSyA_2preUoj3M0g0ory23myLsGvKq3tXoO4');
+}
+
+add_action('acf/init', 'my_acf_init'); 
+?>	
