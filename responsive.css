@@ -354,6 +354,13 @@
     .health-links{
         height: 114vh;
     }
+    
+    /**************************** CONTACT PAGE*/
+
+    .feedback {
+        height: 50vh;
+    }
+
 
 }
 
@@ -893,6 +900,12 @@
     .health-links{
         height: 151vh;
     }
+    
+    /**************************** CONTACT PAGE*/
+
+    .feedback {
+        height: 76vh;
+    }
 
 } /***********************************************************************************CHANGES AT 767*/
 
@@ -1391,21 +1404,21 @@
         }
 
 
-        /**************************** CONTACT-US PAGE*/
+    /**************************** CONTACT-US PAGE*/
 
-        .feedback {
-            height: 80vh;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
+    .feedback {
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
-        .contact-content {
-            padding-bottom: 30px;
-        }
+    .contact-content {
+        padding-bottom: 30px;
+    }
 
-        .feedback {
-            padding-top: 20px;
-        }
+    .feedback {
+        padding-top: 20px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 496px*/
@@ -1789,7 +1802,7 @@
     /**************************** CONTACT PAGE*/
 
     .feedback {
-        height: 78vh;
+        height: 96vh;
     }
 }
 
@@ -1886,7 +1899,7 @@
     /**************************** CONTACT-US PAGE*/
 
     .feedback {
-        height: 78vh;
+        height: 97vh;
     }
 
     /**************************** VOLUNTEER PAGE*/
