@@ -88,8 +88,9 @@ Template Name: Contact
                     </div>
                     <!--FEEDBACK-TEXT-->
                     <div class="feedback-input">
-        <!-- this is where the plug in goes -->
-                    </div>
+<?php echo do_shortcode('[wpforms id="724"]'); ?>
+<!-- this is where the plug in goes -->
+</div>
                     <!--FEEDBACK-INPUT-->
                 </div>
                 <!--FEEDBACK-CONTENT-->
