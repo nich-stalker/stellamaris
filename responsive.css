@@ -354,6 +354,13 @@
     .health-links{
         height: 114vh;
     }
+    
+    /**************************** CONTACT PAGE*/
+
+    .feedback {
+        height: 75vh;
+    }
+
 
 }
 
@@ -478,7 +485,6 @@
     .contact-right-text {
         text-align: center;
     }
-<<<<<<< HEAD
     
     /**************************** DIRECTIONS PAGE*/
     
@@ -892,6 +898,12 @@
     
     .health-links{
         height: 151vh;
+    }
+    
+    /**************************** CONTACT PAGE*/
+
+    .feedback {
+        height: 100vh;
     }
 
 } /***********************************************************************************CHANGES AT 767*/
@@ -1373,7 +1385,6 @@
 
         /**************************** HEALTH PAGE*/
 
-<<<<<<< HEAD
     .go-to {
         padding-bottom: 3em;
         font-size: 0.8em;
@@ -1391,21 +1402,21 @@
         }
 
 
-        /**************************** CONTACT-US PAGE*/
+    /**************************** CONTACT-US PAGE*/
 
-        .feedback {
-            height: 80vh;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
+    .feedback {
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
-        .contact-content {
-            padding-bottom: 30px;
-        }
+    .contact-content {
+        padding-bottom: 30px;
+    }
 
-        .feedback {
-            padding-top: 20px;
-        }
+    .feedback {
+        padding-top: 20px;
+    }
 }
 
 /***********************************************************************************CHANGES AT 496px*/
@@ -1789,7 +1800,7 @@
     /**************************** CONTACT PAGE*/
 
     .feedback {
-        height: 78vh;
+        height: 96vh;
     }
 }
 
@@ -1886,7 +1897,7 @@
     /**************************** CONTACT-US PAGE*/
 
     .feedback {
-        height: 78vh;
+        height: 97vh;
     }
 
     /**************************** VOLUNTEER PAGE*/

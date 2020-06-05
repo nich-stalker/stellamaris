@@ -88,19 +88,9 @@ Template Name: Contact
                     </div>
                     <!--FEEDBACK-TEXT-->
                     <div class="feedback-input">
-                        <div class="form-group">
-                            <label for="usr">Name:</label>
-                            <input type="text" class="form-control" id="usr">
-                        </div>
-                        <div class="form-group">
-                            <label for="usr">Email:</label>
-                            <input type="text" class="form-control" id="usr2">
-                        </div>
-                        <div class="form-group">
-                            <label for="comment">Comment:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                        </div>
-                    </div>
+<?php echo do_shortcode('[wpforms id="724"]'); ?>
+<!-- this is where the plug in goes -->
+</div>
                     <!--FEEDBACK-INPUT-->
                 </div>
                 <!--FEEDBACK-CONTENT-->
