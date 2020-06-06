@@ -12,7 +12,6 @@ Template Name: Health
     <section class="container-fluid">
         <div class="health-banner">
             <img class="health-banner-img" src="<?php the_field('heroimageforhealth'); ?>" alt="Banner of smiling seafarers.">
-         <!-- need this in php heroimageforhealth -->
         </div>
         <!-- HEALTH-BANNER -->
     </section> 
