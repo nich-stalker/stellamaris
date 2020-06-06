@@ -5,42 +5,39 @@ Template Name: Health
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 
+
 <body>
- 
     
 <!-- BANNER -->
-<!-- copy and paste the BANNER class style.css into health-banner -->
-    <section class="container-fluid health-header-container">
+    <section class="container-fluid">
         <div class="health-banner">
             <img class="health-banner-img" src="<?php the_field('heroimageforhealth'); ?>" alt="Banner of smiling seafarers.">
          <!-- need this in php heroimageforhealth -->
         </div>
-    </section>    
-    
+        <!-- HEALTH-BANNER -->
+    </section> 
+    <!--CONTAINER-FLUID-->
+        
     
 <!--HEALTH-->
-
     <section class="container-fluid health">
-        <div class="health-section">
-            <div class="health-header">
-                <h3><?php the_field('titleforhealth'); ?></h3>
-            </div>
-            <!--HEALTH-HEADER-->
-            <div class="row health-text-row">
-                 <div class="health-text">
-                    <p><?php the_field('descriptionforhealth'); ?></p>
-                </div>
-                <!--HEALTH-TEXT-->
-            </div>
-            <!--ROW-->
+        <div class="health-header">
+            <h3><?php the_field('titleforhealth'); ?></h3>
         </div>
-        <!--HEALTH-TEXT-->
+        <!--HEALTH-HEADER-->
+        <div class="row">
+            <div class="health-text">
+                <p><?php the_field('descriptionforhealth'); ?></p>
+            </div>
+            <!--HEALTH-TEXT-->
+        </div>
+        <!--ROW-->
     </section>
     <!--CONTAINER-FLUID HEALTH-->
 
+    
 <!--HEALTH LINKS-->
-
-    <section class="container-fluid health-links-container">
+    <section class="container-fluid">
         <div class="col-lg-12 health-links">
                 <div class="row health-linkbox linkbox-green" id="linkbox-one">
                     <div class="health-link-img">
@@ -99,6 +96,7 @@ Template Name: Health
         <!--HEALTH-LINKS-->
     </section>
     <!--CONTAINER-FLUID-->
+    
     
 </body>
 <?php get_footer();?>
