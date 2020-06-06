@@ -398,6 +398,21 @@
         padding-right: 15%;
     }
 
+
+    /**************************** CONTACT*/
+    .contact-left-text{
+        padding-right:0%;
+    }
+    
+    .feedback{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    
+    .contact-content{
+        padding-right:0%;
+    }    
+    
 }
 
 /***********************************************************************************CHANGES AT 976x*/
@@ -694,24 +709,6 @@
         }
     }
 
-
-/***********************************************************************************CHANGES AT 768*/
-@media(max-width:768px) {
-
-    /**************************** CONTACT*/
-    .contact-left-text{
-        padding-right:0%;
-    }
-    
-    .feedback{
-        padding-left:10%;
-        padding-right:10%;
-    }
-    
-    .contact-content{
-        padding-right:0%;
-    }
-}
 
 
 /***********************************************************************************CHANGES AT 767*/
