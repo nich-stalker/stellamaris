@@ -9,10 +9,11 @@ Template Name: Health
  
     
 <!-- BANNER -->
-
+<!-- copy and paste the BANNER class style.css into health-banner -->
     <section class="container-fluid banner">
         <div class="health-banner">
-            <h1></h1>
+            <img src="<?php the_field('heroimageforhealth'); ?>" alt="Banner of smiling seafarers.">
+         <!-- need this in php heroimageforhealth -->
         </div>
     </section>    
     
