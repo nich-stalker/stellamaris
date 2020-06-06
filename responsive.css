@@ -282,12 +282,6 @@
 /***********************************************************************************CHANGES AT 1024px*/
 @media(max-width:1024px) {
 
-    /**************************** CONTACT PAGE*/
-
-    .feedback {
-        height: 75vh;
-    }
-
     /**************************** HEALTH */
     
     .health.linkbox{
@@ -296,6 +290,13 @@
     
     .health{
         padding:5%;
+    }
+    
+    /**************************** CONTACT */
+    
+    .contact{
+        padding-left:12%;
+        padding-right:12%;
     }
 }
 
@@ -385,25 +386,6 @@
         text-align: center;
     }
 
-    /**************************** CONTACT PAGE*/
-
-    .contact-left-text {
-        padding-left: 0%;
-        text-align: center;
-    }
-
-    .contact-content {
-        padding: 40px 100px 40px 110px;
-    }
-
-    .contact-row {
-        padding-top: 20px;
-    }
-
-    .contact-right-text {
-        text-align: center;
-    }
-    
     /**************************** DIRECTIONS PAGE*/
     
     .ourservices-btn {
@@ -522,25 +504,6 @@
 @media(max-width:974px) {
 
 
-    /**************************** CONTACT-US PAGE*/
-
-    .contact-left-text {
-        padding-left: 0%;
-        text-align: center;
-    }
-
-    .contact-content {
-        padding: 40px 100px 40px 110px;
-    }
-
-    .contact-row {
-        padding-top: 20px;
-    }
-
-    .contact-right-text {
-        text-align: center;
-    }
-
     /**************************** DONATION_PAGE*/
 
     .wooly_hats {
@@ -586,12 +549,7 @@
         width: 100%;
     }
 
-    /**************************** CONTACT PAGE*/
 
-    .contact {
-        padding-top: 40px;
-        padding-bottom: 10px;
-    }
 }
 
 /***********************************************************************************CHANGES AT 922x*/
@@ -604,12 +562,6 @@
         font-size: 0.9em;
     }
 
-    /**************************** CONTACT PAGE*/
-
-    .contact-content {
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
 
 /**************************** RIGHTS PAGE*/
 
@@ -742,16 +694,23 @@
         }
     }
 
-   /***********************************************************************************CHANGES AT 768px*/
+
+/***********************************************************************************CHANGES AT 768*/
 @media(max-width:768px) {
-    
-    /**************************** CONTACT PAGE*/
 
-    .feedback {
-        height: 100vh;
+    /**************************** CONTACT*/
+    .contact-left-text{
+        padding:0%;
     }
+    
+    .feedback{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}
 
-} /***********************************************************************************CHANGES AT 767*/
+
+/***********************************************************************************CHANGES AT 767*/
 
     @media(max-width:767px) {
 
@@ -1010,24 +969,6 @@
 
     }
 
-    /***********************************************************************************CHANGES AT 750px*/
-    @media(max-width:750px) {
-
-        /**************************** CONTACT-US PAGE*/
-
-        .feedback {
-            height: 80vh;
-            padding-top: 40px;
-        }
-
-        .contact-content {
-            padding: 10px 50px 40px 60px;
-        }
-
-        .contact {
-            padding-top: 30px;
-        }
-    }
 
     /***********************************************************************************CHANGES AT 738*/
 
@@ -1042,18 +983,7 @@
         }
     }
 
-    /***********************************************************************************CHANGES AT 700px*/
-    @media(max-width:700px) {
-
-        /**************************** CONTACT-US PAGE*/
-
-        .feedback-input {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-    }
-
-    /***********************************************************************************CHANGES AT 696px*/
+ /***********************************************************************************CHANGES AT 696px*/
     @media(max-width:696px) {
 
         /**************************** VOLUNTEER PAGE*/
@@ -1077,12 +1007,7 @@
     /***********************************************************************************CHANGES AT 660px*/
     @media(max-width:660px) {
 
-        /**************************** CONTACT-US PAGE*/
-
-        .feedback {
-            padding-left: 70px;
-            padding-right: 70px;
-        }
+        /**************************** --- PAGE*/
 
         .mySlides {
             height: 0%;
@@ -1184,22 +1109,6 @@
     padding-right: 50px;
         }
    
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        height: 100vh;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .contact-content {
-        padding-bottom: 30px;
-    }
-
-    .feedback {
-        padding-top: 20px;
-    }
 }
 
 
@@ -1272,29 +1181,6 @@
     }
 }
 
-/***********************************************************************************CHANGES AT 438px*/
-@media(max-width:438px) {
-
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        padding-top: 30px;
-    }
-
-    .feedback-input {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .contact-content {
-        padding: 20px 80px 20px 80px;
-    }
-
-    .contact-left-text {
-        padding-right: 0px;
-    }
-}
-
 
 /***********************************************************************************CHANGES AT 425px*/
 @media(max-width:425px) {
@@ -1325,7 +1211,17 @@
     .health-links-text{
         padding-bottom:6%;
     }
+
+
+    /**************************** CONTACT*/
+    .contact{
+        padding-bottom:10%;
+    }
     
+    .feedback{
+        padding-top:5%;
+        padding-bottom:5%;
+    }
 }
 
 
@@ -1421,31 +1317,7 @@
     .directions-tourist {
         padding-bottom: 6%;
     }
-
-
-    /**************************** CONTACT PAGE*/
-
-    .contact {
-        padding-top: 10px;
-        padding-bottom: 0px;
-    }
-
-    .feedback {
-        padding-top: 20px;
-    }
-
-    .contact-content {
-        padding-top: 0px;
-        padding-left: 50px;
-    }
-
-    .contact-row {
-        padding-top: 10px;
-    }
-
-    .contact-left-text {
-        padding-right: 0px;
-    }
+}
     
 /**************************** RIGHTS PAGE*/
 
@@ -1456,25 +1328,22 @@
 
 }
 
+/***********************************************************************************CHANGES AT 375*/
+@media(max-width:375px) {
 
-/***********************************************************************************CHANGES AT 384px*/
-@media(max-width:384px) {
-
-    /**************************** CONTACT PAGE*/
-
-    .feedback {
-        height: 96vh;
+    /**************************** CONTACT*/
+    .contact{
+        padding-top:5%;
+    }
+    
+    .feedback{
+        padding-top:5%;
     }
 }
 
 /***********************************************************************************CHANGES AT 373px*/
 @media(max-width:373px) {
 
-    /**************************** CONTACT-US PAGE*/
-
-    .feedback {
-        height: 97vh;
-    }
 
     /**************************** VOLUNTEER PAGE*/
 
@@ -1523,5 +1392,14 @@
     .health-linkbox{
         padding:13%;
     }
+    
+    .health-text{
+        
+    }
 
+    /**************************** CONTACT*/
+    .contact{
+        padding-left:8%;
+        padding-right:8%;
+    }
 }
