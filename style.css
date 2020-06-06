@@ -904,13 +904,16 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 }*/
 
 .health-banner {
-    background: no-repeat center center;
-    background-size: cover;
+    /*background: no-repeat center center;
+    background-size: cover;*/
     height: 30vh;
-    color: #ffffff;
-    /*for title*/
-    padding-left: 100px;
-    padding-top: 70px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.health-banner-img{
+    width:100%
+    width:100%
 }
 
 .health-img-responsive {
