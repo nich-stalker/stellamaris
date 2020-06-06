@@ -625,11 +625,11 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     width: 100%;
 }*/
 
+/* contact via Pages */
 .col-sm-7 .maintext {
-    width: 100%
-    padding: none;
+    width: 100%;
+    padding: 0%;
 }
-
 
 .feedback {
     width: 100%;
@@ -904,7 +904,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 }*/
 
 .health-banner {
-    background: url("assets/seafarers2.png") no-repeat center center;
+    background: no-repeat center center;
     background-size: cover;
     height: 30vh;
     color: #ffffff;
