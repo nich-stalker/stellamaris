@@ -7,6 +7,16 @@ Template Name: Health
 
 <body>
  
+    
+<!-- BANNER -->
+
+    <section class="container-fluid banner">
+        <div class="health-banner">
+            <h1></h1>
+        </div>
+    </section>    
+    
+    
 <!--HEALTH-->
 
     <section class="container-fluid health">
@@ -30,9 +40,8 @@ Template Name: Health
     <!--HEALTH LINKS-->
 
     <section class="container-fluid">
-        <div class="health-links">
-            <div class="row">
-                <div class="col-md-6 health-linkbox linkbox-darkgreen linkbox-slim linkbox-fr">
+        <div class="col-lg-12 health-links">
+                <div class="row health-linkbox linkbox-green" id="linkbox-one">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealthone'); ?>" class="health-img-responsive" alt="Covid-19 Seafarer Wellbeing">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -51,7 +60,7 @@ Template Name: Health
                     <!--HEALTH-BTN-->
                 </div>
                 <!-- HEALTH-LINKBOX -->
-                <div class="col-md-6 health-linkbox linkbox-green linkbox-fl">
+                <div class="row health-linkbox linkbox-darkgreen" id="linkbox-two">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealthtwo'); ?>" class="health-img-responsive" alt="Covid-19 General Advice">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -68,10 +77,7 @@ Template Name: Health
                     <!--HEALTH-BTN-->
                 </div>
                 <!-- HEALTH-LINKBOX -->
-            </div>
-            <!--ROW-->
-            <div class="row">
-                <div class="col-md-6 health-linkbox linkbox-darkgreen">
+            <div class="row health-linkbox linkbox-green" id="linkbox-three">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealththree'); ?>" class="health-img-responsive" alt="Fatigue">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -86,10 +92,8 @@ Template Name: Health
                         <a class="btn btn-default" href="<?php the_field('buttonforlinkboxthree'); ?>">See details</a>
                     </div>
                     <!--HEALTH-BTN-->
-                </div>
-                <!-- HEALTH-LINKBOX -->
             </div>
-            <!--ROW-->
+            <!-- HEALTH-LINKBOX -->
         </div>
         <!--HEALTH-LINKS-->
     </section>
