@@ -546,63 +546,69 @@ ul#horizontal-list li {
     float: right;
 }
 
+
+
 /* No longer using this? Keeping just in case til Thurs 21 */
-.secondary-banner {
+/*.secondary-banner {
     background: url("assets/placeholder.png") no-repeat center center;
     background-size: cover;
     height: 30vh;
     color: #ffffff;
     padding-left: 100px;
     padding-top: 70px;
+}*/
+
+.contact {
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left:15%;
+    padding-right:15%;
 }
 
 .contact-header {
-    /*color: black;*/
     text-align: center;
 }
 
-.contact-left-text {
-    padding-left: 30%;
-    /*color: black;*/
-    font-weight: 800;
-    text-align: left;
-}
-
-.contact-right-text {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    text-align: left;
-    /*color: black;*/
-}
-
 .contact-content {
-    padding: 40px 100px 40px 100px;
-}
-
-.contact-content-directions {
-    padding: 20px;
+    padding-top:1%;
+    padding-right:13%;
 }
 
 .contact-row {
-    padding-top: 10px;
-}
-
-.contact {
-    width: 100%;
-    background-size: cover;
-    /*color: black;*/
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
-.contact-directions {
-    width: 100%;
-    background-size: cover;
-    /*color: black;*/
     padding-top: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+}
+
+.contact-left-text {
+    padding-right: 5%;
+    font-weight: 800;
+    text-align: right;
+}
+
+.contact-right-text {
+    text-align: left;
+}
+
+.feedback {
+    background-color: #3a54a5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.feedback-content {
+    color: #ffffff;
+}
+
+.feedback-text {
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.feedback-input {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* wp forms button */
@@ -618,45 +624,38 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     border-radius: 30pt;
 }
 
-/* contact via Pages */
-/*.post .single-page{
-    background-colour: #3a54a5;
-    background-size: cover;
-    width: 100%;
-}*/
+div.wpforms-container-full .wpforms-form .wpforms-field-label{
+    font-size:0.9em;
+}
+
+/* wp forms button */
+/*
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    background-color: #FDDD00;
+    border: none;
+}
+*/
 
 /* contact via Pages */
+/*
 .col-sm-7 maintext {
     width: 100%;
     padding: 0%;
 }
+*/
 
-.feedback {
+
+.contact-content-directions {
+    padding: 20px;
+}
+
+.contact-directions {
     width: 100%;
-    background-color: #3a54a5;
     background-size: cover;
-    height: 54vh;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-right: 100px;
-}
-
-.feedback-content {
-    color: #ffffff;
-}
-
-.feedback-text {}
-
-.feedback-header {
-    padding-bottom: 10px;
-}
-
-.feedback-input {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-top: 10px;
-    font-family: 'Raleway', sans-serif;
+        color: black;
+    padding-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .rights-section {
