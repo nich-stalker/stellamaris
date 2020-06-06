@@ -10,7 +10,7 @@ Template Name: Health
     
 <!-- BANNER -->
 <!-- copy and paste the BANNER class style.css into health-banner -->
-    <section class="container-fluid">
+    <section class="container-fluid health-header-container">
         <div class="health-banner">
             <img class="health-banner-img" src="<?php the_field('heroimageforhealth'); ?>" alt="Banner of smiling seafarers.">
          <!-- need this in php heroimageforhealth -->
@@ -26,7 +26,7 @@ Template Name: Health
                 <h3><?php the_field('titleforhealth'); ?></h3>
             </div>
             <!--HEALTH-HEADER-->
-            <div class="row">
+            <div class="row health-text-row">
                  <div class="health-text">
                     <p><?php the_field('descriptionforhealth'); ?></p>
                 </div>
@@ -38,9 +38,9 @@ Template Name: Health
     </section>
     <!--CONTAINER-FLUID HEALTH-->
 
-    <!--HEALTH LINKS-->
+<!--HEALTH LINKS-->
 
-    <section class="container-fluid">
+    <section class="container-fluid health-links-container">
         <div class="col-lg-12 health-links">
                 <div class="row health-linkbox linkbox-green" id="linkbox-one">
                     <div class="health-link-img">
