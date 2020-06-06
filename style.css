@@ -626,7 +626,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 }*/
 
 /* contact via Pages */
-.col-sm-7 .maintext {
+.col-sm-7 maintext {
     width: 100%;
     padding: 0%;
 }
@@ -804,11 +804,13 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     font-size: 0.9em;
 }
 
+
+
 .health-text {
     width: 100%;
     background-color: #ffffff;
     background-size: cover;
-    height: 6vh;
+    height: 6%;
     padding-left: 10%;
     padding-top: 15px;
     padding-right: 10%;
@@ -824,10 +826,18 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 .health {
     width: 100%;
  /*   background-size: cover; */
-    height: 18vh;
+    height: 18%;
     padding-left: 20px;
     padding-right: 20px;
     display:block; /* trying to fix the squash */
+}
+
+.health-section{
+    height:18%;
+}
+
+.health-text-row{
+    height:18%;
 }
 
 .health-links-text {
@@ -842,18 +852,30 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 .health-links {
     width: 100%;
   /*  background-size: cover; */
-    height: 91vh;
+    height: 91%;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
     display:block;  /* trying to fix the squash */
 }
 
+.health-header-container{
+    height:90%;
+}
+
+.health-links-container{
+    height: 91%;
+}
+
+.health-banner{
+    height:inherit;
+}
+
 .health-linkbox {
     padding: 20px;
     background-size: cover;
 /*    min-height: 10%; <<<<<<<<<<<<< trying to fix the squash */
-    height: 29vh;
+    height: 29%;
     display:block; /* trying to fix the squash */
 }
 
@@ -907,13 +929,12 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     /*background: no-repeat center center;
     background-size: cover;*/
     height: 30vh;
-    padding-left: 0px;
-    padding-top: 0px;
+    overflow:hidden;
 }
 
 .health-banner-img{
-    width:100%
-    width:100%
+    width:100%;
+    height:auto;
 }
 
 .health-img-responsive {
