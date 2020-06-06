@@ -11,7 +11,6 @@ Template Name: Contact
     <!-- CONTACT -->
     <section class="container-fluid contact">
         <div class="contact-header">
-            <!--need new classes for text-->
             <h3><?php the_field('titleforcontact'); ?></h3>
         </div>
         <!--CONTACT-HEADER-->
