@@ -1096,6 +1096,27 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 }
 
 .directions-titles {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
+}
+
+.tourist-text {
+    font-size: 1em;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.tourist-image {
+    max-width: 35%;
+    margin-bottom: 2%;
+}
+
+.b-btn {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.t-btn {
+    margin-bottom: 5%;
 }
