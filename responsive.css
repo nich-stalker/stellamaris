@@ -1009,6 +1009,13 @@
             padding-left: 50px;
             padding-right: 50px;
         }
+        
+        /**************************** DIRECTIONS PAGE*/
+        
+        .sm-map {
+        width: 400px;
+        height: 300px;
+        
     }
 
 /**************************** RIGHTS PAGE*/
@@ -1122,6 +1129,10 @@
     padding-left: 50px;
     padding-right: 50px;
         }
+    
+    .tourist-text {
+    font-size: 0.8em;
+        }
    
 }
 
@@ -1175,6 +1186,10 @@
     .directions-info-text {
     padding-bottom: 0px;
 }
+    .sm-map {
+        width: 250px;
+        height: 180px;
+    }
 
 }
 
