@@ -349,7 +349,7 @@ p {
 
 .directions-info {
     color: #ffffff;
-    background-color: #3a54a5;
+    background-color: red;
     padding-bottom: 1%;
 }
 
@@ -567,6 +567,7 @@ ul#horizontal-list li {
 
 .contact-header {
     text-align: center;
+    color: #ffffff;
 }
 
 .contact-content {
@@ -647,6 +648,7 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 
 .contact-content-directions {
     padding: 20px;
+    color: #ffffff;
 }
 
 .contact-directions {
@@ -1051,4 +1053,8 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 .directions-titles {
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.tourist-image {
+    width: 35%;
 }
