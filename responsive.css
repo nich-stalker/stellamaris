@@ -761,6 +761,19 @@
             display: block;
         }
         
+        .privacy-policy-title {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.privacy-policy-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+        
         /**************************** ABOUT US*/
 
         .container-fluid.about-us {
