@@ -5,34 +5,40 @@ Template Name: Health
 ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 
-<body>
- 
-<!--HEALTH-->
 
-    <section class="container-fluid health">
-        <div class="health-section">
-            <div class="health-header">
-                <h3><?php the_field('titleforhealth'); ?></h3>
-            </div>
-            <!--HEALTH-HEADER-->
-            <div class="row">
-                 <div class="health-text">
-                    <p><?php the_field('descriptionforhealth'); ?></p>
-                </div>
-                <!--HEALTH-TEXT-->
-            </div>
-            <!--ROW-->
+<body>
+    
+<!-- BANNER -->
+    <section class="container-fluid">
+        <div class="health-banner">
+            <img class="health-banner-img" src="<?php the_field('heroimageforhealth'); ?>" alt="Banner of smiling seafarers.">
         </div>
-        <!--HEALTH-TEXT-->
+        <!-- HEALTH-BANNER -->
+    </section> 
+    <!--CONTAINER-FLUID-->
+        
+    
+<!--HEALTH-->
+    <section class="container-fluid health">
+        <div class="health-header">
+            <h3><?php the_field('titleforhealth'); ?></h3>
+        </div>
+        <!--HEALTH-HEADER-->
+        <div class="row">
+            <div class="health-text">
+                <p><?php the_field('descriptionforhealth'); ?></p>
+            </div>
+            <!--HEALTH-TEXT-->
+        </div>
+        <!--ROW-->
     </section>
     <!--CONTAINER-FLUID HEALTH-->
 
-    <!--HEALTH LINKS-->
-
+    
+<!--HEALTH LINKS-->
     <section class="container-fluid">
-        <div class="health-links">
-            <div class="row">
-                <div class="col-md-6 health-linkbox linkbox-darkgreen linkbox-slim linkbox-fr">
+        <div class="col-lg-12 health-links">
+                <div class="row health-linkbox linkbox-green" id="linkbox-one">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealthone'); ?>" class="health-img-responsive" alt="Covid-19 Seafarer Wellbeing">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -51,7 +57,7 @@ Template Name: Health
                     <!--HEALTH-BTN-->
                 </div>
                 <!-- HEALTH-LINKBOX -->
-                <div class="col-md-6 health-linkbox linkbox-green linkbox-fl">
+                <div class="row health-linkbox linkbox-darkgreen" id="linkbox-two">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealthtwo'); ?>" class="health-img-responsive" alt="Covid-19 General Advice">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -68,10 +74,7 @@ Template Name: Health
                     <!--HEALTH-BTN-->
                 </div>
                 <!-- HEALTH-LINKBOX -->
-            </div>
-            <!--ROW-->
-            <div class="row">
-                <div class="col-md-6 health-linkbox linkbox-darkgreen">
+            <div class="row health-linkbox linkbox-green" id="linkbox-three">
                     <div class="health-link-img">
                         <img src="<?php the_field('imageforhealththree'); ?>" class="health-img-responsive" alt="Fatigue">
                         <!--Add this: class="img-circle", if we want circle-->
@@ -86,14 +89,13 @@ Template Name: Health
                         <a class="btn btn-default" href="<?php the_field('buttonforlinkboxthree'); ?>">See details</a>
                     </div>
                     <!--HEALTH-BTN-->
-                </div>
-                <!-- HEALTH-LINKBOX -->
             </div>
-            <!--ROW-->
+            <!-- HEALTH-LINKBOX -->
         </div>
         <!--HEALTH-LINKS-->
     </section>
     <!--CONTAINER-FLUID-->
+    
     
 </body>
 <?php get_footer();?>
