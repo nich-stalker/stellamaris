@@ -20,6 +20,19 @@ Version: 1
     padding: 0px;
 }
 
+.privacy-policy-title {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.privacy-policy-body {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
 
 /*-----------------------------------------------------NAVBAR START-----------------------------------------------------------------*/
 .navbar .navbar-brand {

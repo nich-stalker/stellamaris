@@ -9,7 +9,7 @@ Template Name: Home Page
    <h1><?php the_field('titleforourservices'); ?></h1>
              <h2 class="herobg-subhead"><?php the_field('subheadingforourservices'); ?></h2>
             <div class="ourservices-btn">
-                <a class="btn btn-default ourservices_btn" href="<?php echo get_permalink(166); ?>"><?php the_field('buttonforourservices'); ?></a>
+                <a class="btn btn-default ourservices_btn" href="<?php the_field('linkforourservices'); ?>"><?php the_field('buttonforourservices'); ?></a>
             </div>
 
 </div>
@@ -31,7 +31,7 @@ Template Name: Home Page
 <h3><?php the_field('titlefordirections'); ?></h3>
                     <p><?php the_field('textfordirections'); ?></p>
                     <div class="getdirections-btn">
-                        <a class="btn btn-default ourservices_btn" href="<?php echo get_permalink(167); ?>"><?php the_field('buttonfordirections'); ?></a>
+                        <a class="btn btn-default ourservices_btn" href="<?php the_field('linkfordirections'); ?>"><?php the_field('buttonfordirections'); ?></a>
                     </div>
                     <!--GETDIRECTIONS-BTN-->
                     
@@ -63,7 +63,7 @@ Template Name: Home Page
                     </div>
                     <!--ICONs-->
                     <div class="donation_btn">
-                        <a class="btn btn-default donation_btn" href="<?php echo get_permalink(371); ?>"><?php the_field('buttonfordonation'); ?></a>
+                        <a class="btn btn-default donation_btn" href="<?php the_field('linkfordonatenow'); ?>"><?php the_field('buttonfordonation'); ?></a>
                     </div>
                     <!--DONATION_BTN-->
                     <div class="donation_text">
@@ -78,7 +78,7 @@ Template Name: Home Page
                     </div>
                     <!--ICONS-->
                     <div Class="volunteer_btn">
-                        <a class="btn btn-default volunteer_btn" href="<?php echo get_permalink(350); ?>"><?php the_field('buttonforvolunteer'); ?></a>
+                        <a class="btn btn-default volunteer_btn" href="<?php the_field('linkforvolunteernow'); ?>"><?php the_field('buttonforvolunteer'); ?></a>
                     </div>
                     <!--VOLUNTEER_BTN-->
                     <div class="volunteer_text">
@@ -113,7 +113,7 @@ Template Name: Home Page
        <h3><?php the_field('titleforseafarerrights'); ?></h3>
                             <p class="seafarers-rights-home"><?php the_field('textforseafarersrights'); ?></p>
                             <div class="seafarers-rights_btn">
-                                <a class="btn btn-default seafarers-rights_btn" href="<?php echo get_permalink(168); ?>"><?php the_field('buttonforseafarersrights'); ?></a>
+                                <a class="btn btn-default seafarers-rights_btn" href="<?php the_field('linkforrights'); ?>"><?php the_field('buttonforseafarersrights'); ?></a>
                             </div>
                         </div>
                        
