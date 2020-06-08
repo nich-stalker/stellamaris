@@ -546,63 +546,69 @@ ul#horizontal-list li {
     float: right;
 }
 
+
+
 /* No longer using this? Keeping just in case til Thurs 21 */
-.secondary-banner {
+/*.secondary-banner {
     background: url("assets/placeholder.png") no-repeat center center;
     background-size: cover;
     height: 30vh;
     color: #ffffff;
     padding-left: 100px;
     padding-top: 70px;
+}*/
+
+.contact {
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left:15%;
+    padding-right:15%;
 }
 
 .contact-header {
-    /*color: black;*/
     text-align: center;
 }
 
-.contact-left-text {
-    padding-left: 30%;
-    /*color: black;*/
-    font-weight: 800;
-    text-align: left;
-}
-
-.contact-right-text {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    text-align: left;
-    /*color: black;*/
-}
-
 .contact-content {
-    padding: 40px 100px 40px 100px;
-}
-
-.contact-content-directions {
-    padding: 20px;
+    padding-top:1%;
+    padding-right:13%;
 }
 
 .contact-row {
-    padding-top: 10px;
-}
-
-.contact {
-    width: 100%;
-    background-size: cover;
-    /*color: black;*/
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
-.contact-directions {
-    width: 100%;
-    background-size: cover;
-    /*color: black;*/
     padding-top: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+}
+
+.contact-left-text {
+    padding-right: 5%;
+    font-weight: 800;
+    text-align: right;
+}
+
+.contact-right-text {
+    text-align: left;
+}
+
+.feedback {
+    background-color: #3a54a5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.feedback-content {
+    color: #ffffff;
+}
+
+.feedback-text {
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.feedback-input {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* wp forms button */
@@ -618,45 +624,38 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     border-radius: 30pt;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-field-label{
+    font-size:0.9em;
+}
+
+/* wp forms button */
+/*
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    background-color: #FDDD00;
+    border: none;
+}
+*/
+
 /* contact via Pages */
-/*.post .single-page{
-    background-colour: #3a54a5;
-    background-size: cover;
+/*
+.col-sm-7 maintext {
     width: 100%;
-}*/
+    padding: 0%;
+}
+*/
 
-.col-sm-7 .maintext {
-    width: 100%
-    padding: none;
+
+.contact-content-directions {
+    padding: 20px;
 }
 
-
-.feedback {
+.contact-directions {
     width: 100%;
-    background-color: #3a54a5;
     background-size: cover;
-    height: 54vh;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-right: 100px;
-}
-
-.feedback-content {
-    color: #ffffff;
-}
-
-.feedback-text {}
-
-.feedback-header {
-    padding-bottom: 10px;
-}
-
-.feedback-input {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-top: 10px;
-    font-family: 'Raleway', sans-serif;
+        color: black;
+    padding-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .rights-section {
@@ -737,8 +736,6 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     padding-right: 100px;
 }
 
-
-
 .donate-title {
     padding-bottom: 10px;
 }
@@ -804,123 +801,79 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     font-size: 0.9em;
 }
 
-.health-text {
-    width: 100%;
-    background-color: #ffffff;
-    background-size: cover;
-    height: 6vh;
-    padding-left: 10%;
-    padding-top: 15px;
-    padding-right: 10%;
+
+
+.health-banner{
+    height: 30%;
+    overflow:hidden;
 }
 
-.health-header {
-    /*color: black;*/
-    text-align: center;
-    padding-top: 25px;
-    display:block; /* trying to fix the squash */
+.health-banner-img{
+    width:100%;
+    height:auto;
 }
 
 .health {
     width: 100%;
- /*   background-size: cover; */
-    height: 18vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    display:block; /* trying to fix the squash */
+    padding: 3%;
 }
 
-.health-links-text {
+.health-header {
     text-align: center;
-    font-size: 1.1em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    color: #ffffff;
+}
+
+.health-text {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
 }
 
 .health-links {
-    width: 100%;
-  /*  background-size: cover; */
-    height: 91vh;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    display:block;  /* trying to fix the squash */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .health-linkbox {
-    padding: 20px;
-    background-size: cover;
-/*    min-height: 10%; <<<<<<<<<<<<< trying to fix the squash */
-    height: 29vh;
-    display:block; /* trying to fix the squash */
-}
-
-.health-btn {
-    text-align: center;
-}
-
-.health-link-img {
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    /* Aim for <494x255px. Eg. 200x150px */
-}
-
-.health-links-text h2 {
-    padding-bottom: 10px;
-}
-
-.health-links-text p {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 3%;
+    /*height: 29%;*/
 }
 
 .linkbox-green {
     background-color: #6ac74e;
-    /*CHANGED HERE*/
 }
 
 .linkbox-darkgreen {
     background-color: #60bb57;
 }
 
-#linkbox-one{
-    padding-top: 40px;
-}
-/*
-.linkbox-slim {
-    padding-top: 40px;
-}*/
-/*
-.linkbox-fl {
-    float: left;
-}*/
-/*
-.linkbox-fr {
-    float: right;
-}*/
-
-.health-banner {
-    background: url("assets/seafarers2.png") no-repeat center center;
-    background-size: cover;
-    height: 30vh;
-    color: #ffffff;
-    /*for title*/
-    padding-left: 100px;
-    padding-top: 70px;
+.health-link-img {
+    text-align: center;
+    padding-bottom: 1%;
+    /* Aim for <494x255px. Eg. 200x150px */
 }
 
 .health-img-responsive {
     width: auto;
     height: auto;
 }
-/*
-.row health-linkbox{
-    margin-right:100px;
-}*/
+
+.health-links-text {
+    text-align: center;
+    padding-bottom: 2%;
+    color: #ffffff;
+}
+
+.health-links-text p {
+    padding-top: 0.5%;
+}
+
+.health-btn {
+    text-align: center;
+}
+
+
 
 * {
     box-sizing: border-box;
