@@ -349,7 +349,7 @@ p {
 
 .directions-info {
     color: #ffffff;
-    background-color: red;
+    background-color: #3a54a5;
     padding-bottom: 1%;
 }
 
@@ -1051,10 +1051,26 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 }
 
 .directions-titles {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 .t-btn {
     margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.wp-block-image img {
+    max-width: 35%;
+    margin-bottom: 3%;
+}
+
+.tourist-image {
+    width: 100%;
+    text-align: center;
+}
+
+.tourist-text {
+    margin-left: 10%;
+    margin-right 10%;
 }
