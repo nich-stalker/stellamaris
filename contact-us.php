@@ -7,11 +7,10 @@ Template Name: Contact
 
 <body>
 
+    
     <!-- CONTACT -->
-
     <section class="container-fluid contact">
         <div class="contact-header">
-            <!--need new classes for text-->
             <h3><?php the_field('titleforcontact'); ?></h3>
         </div>
         <!--CONTACT-HEADER-->
@@ -76,8 +75,8 @@ Template Name: Contact
     </section>
     <!--CONTAINER-FLUID CONTACT-->
 
+    
     <!-- FEEDBACK -->
-
     <section class="container-fluid">
         <div class="feedback">
             <div class="row">
@@ -101,5 +100,6 @@ Template Name: Contact
     </section>
     <!--CONTAINER-FLUID-->
 
+    
 </body>
 <?php get_footer();?>
